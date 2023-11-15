@@ -213,3 +213,5 @@ write_zero_regs: bool = False
 write_count: int = 0
 zero_sram: bool = False
 zero_unused: bool = False
+############
+save_input_samples: bool = False

@@ -13,6 +13,7 @@ from . import camera, state
 from .devices import device
 from .eprint import wprint
 from .tornadocnn import MAX_MAX_LAYERS
+from .tornadocnn import DevAI85
 
 
 def get_parser() -> argparse.Namespace:
@@ -465,6 +466,15 @@ def get_parser() -> argparse.Namespace:
     group.add_argument('--yamllint', metavar='S', default='yamllint',
                        help='name of linter for YAML files (default: yamllint)')
 
+
+    # Various
+    group = parser.add_argument_group('Synergy')
+    group.add_argument('--save_input_samples', action='store_true', default=False,
+                       help='save input samples for full models only and then terminate')
+
+
+
+
     args = parser.parse_args()
 
     if args.rtl_preload:
@@ -715,3 +725,7 @@ def set_state(args: argparse.Namespace) -> None:
     state.write_zero_regs = args.write_zero_registers
     state.zero_sram = args.zero_sram
     state.zero_unused = args.zero_unused
+
+    ##################
+    state.save_input_samples = args.save_input_samples
+    DevAI85.MAX_LAYERS = MAX_MAX_LAYERS # ignore maximum layers temporarily

@@ -686,6 +686,25 @@ def main():
     if state.fast_fifo:
         state.fifo = True
 
+
+
+    # save_input_samples
+    if state.save_input_samples:
+        out_dir = os.path.join(state.base_directory, state.prefix, "sample_inputs")
+        os.makedirs(out_dir, exist_ok=True)
+        # calculate cnn_num_outputs
+        for i in range(len(input_channels)):
+            shape = (input_channels[i], input_dim[i][0], input_dim[i][1])
+            sample_input = np.zeros(shape, dtype=int)
+            layer_name = "LAYER" + str(i) + ".npy"
+            np.save(os.path.join(out_dir, layer_name), sample_input)  # Save the file
+            print(f"Shape:{shape}\tSaved in {out_dir}", layer_name, end='\n')
+        print("save input samples done")
+        sys.exit()
+
+
+
+
     # Instantiate backend
     module = locate('izer.backend.' + tc.dev.backend)
     assert module is not None
