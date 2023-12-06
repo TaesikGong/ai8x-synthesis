@@ -1,6 +1,11 @@
 *.map
 *.mem
 *.prof
+/demos/
+/raw_logs/
+/exp/
+.idea
+*.DS_Store
 /.mypy_cache/
 /.python-version/
 /.vscode
