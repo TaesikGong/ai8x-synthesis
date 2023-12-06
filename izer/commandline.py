@@ -728,4 +728,5 @@ def set_state(args: argparse.Namespace) -> None:
 
     ##################
     state.save_input_samples = args.save_input_samples
-    DevAI85.MAX_LAYERS = MAX_MAX_LAYERS # ignore maximum layers temporarily
+    if state.save_input_samples:
+        DevAI85.MAX_LAYERS = MAX_MAX_LAYERS # ignore maximum layers temporarily
