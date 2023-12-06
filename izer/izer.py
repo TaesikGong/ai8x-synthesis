@@ -68,6 +68,30 @@ def main():
     # Change global state based on command line
     commandline.set_state(args)
 
+    # handler for mismatch between yaml_layers and cp_layers
+    # assumption is that --skip-yaml-layers == --skip-checkpoint-layers
+    if args.skip_yaml_layers == args.skip_checkpoint_layers:
+        # Load configuration file "0 ~ skip-yaml-layers"
+        from .tornadocnn import DevAI85, MAX_MAX_LAYERS
+        original_max_layers = DevAI85.MAX_LAYERS
+        DevAI85.MAX_LAYERS = MAX_MAX_LAYERS # ignore maximum layers temporarily
+        _, cfg_layers_skipped, params_skipped = yamlcfg.parse(args.config_file, 0, args.yamllint, args.skip_yaml_layers)
+        state.layer_name = params_skipped['layer_name']
+        num_layers_not_to_skip = 0
+        for ll in range(cfg_layers_skipped):
+            operator = params_skipped['operator'][ll]
+
+            if operator == op.NONE or op.eltwise(operator) or params_skipped['bypass'][ll]:
+                num_layers_not_to_skip += 1
+            else:
+                val = params_skipped['weight_source'][ll]
+                if val is not None:
+                    num_layers_not_to_skip += 1
+
+        DevAI85.MAX_LAYERS = original_max_layers # set back to original
+    args.skip_checkpoint_layers = args.skip_checkpoint_layers - num_layers_not_to_skip
+
+
     # Load configuration file
     cfg, cfg_layers, params = yamlcfg.parse(args.config_file, args.skip_yaml_layers, args.yamllint, args.stop_after)
     state.layer_name = params['layer_name']
