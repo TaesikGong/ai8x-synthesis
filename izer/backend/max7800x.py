@@ -3475,6 +3475,14 @@ class Backend(backend.Backend):
             if verbose:
                 print('                 ==========\n'
                       f'Total{total_str}\n')
+                i=0
+                for layer_lat, _, _ in latency_data:
+                    if i == 0:
+                        print(f'Startup\t{abs(layer_lat):18,}')
+                    else:
+                        print(f'LAYER{i-1}\t{abs(layer_lat):18,}')
+                    i+=1
+                print()
 
             if not (embedded_code or block_mode or any(streaming)):
                 rtlsim.write_latency(
