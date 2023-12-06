@@ -57,6 +57,8 @@ def load(
     bias_max = []
     bias_size = []
 
+    debug_weight_size = []
+    debug_bias_size = []
     checkpoint = torch.load(checkpoint_file, map_location='cpu')
     print(f'Reading {checkpoint_file} to configure network weights...')
 
@@ -83,10 +85,17 @@ def load(
     error_exit = False
     seq = 0
 
+    debug_filtered = []
+    debug_unfiltered = []
+
     for k in checkpoint_state.keys():
         # Skip over non-weight and duplicated weight layers
         while seq < len(operator) and (operator[seq] == op.NONE or bypass[seq]
                                        or weight_source[seq] is not None):
+            print('case0')
+            debug_weight_size.append(0)
+            debug_bias_size.append(0)
+            debug_filtered.append(k)
             seq += 1
 
         param_levels = k.rsplit(sep='.', maxsplit=2)
@@ -95,13 +104,25 @@ def load(
         elif len(param_levels) == 2:
             layer, this_op, parameter = param_levels[0], None, param_levels[1]
         else:
+            print('case1')
+            debug_weight_size.append(0)
+            debug_bias_size.append(0)
+            debug_filtered.append(k)
             continue
 
         if parameter in ['weight']:
             if layers >= num_conv_layers or seq >= num_conv_layers:
+                print('case2')
+                debug_weight_size.append(0)
+                debug_bias_size.append(0)
+                debug_filtered.append(k)
                 continue
             if skip_layers > 0:
                 skip_layers -= 1
+                print('case3')
+                debug_weight_size.append(0)
+                debug_bias_size.append(0)
+                debug_filtered.append(k)
                 continue
 
             w = checkpoint_state[k].numpy().astype(np.int64)
@@ -116,6 +137,10 @@ def load(
                            f'`{layer}.{this_op}.{parameter}` with dimensions {w.shape}. '
                            'Ensure the BatchNorm layers have been folded.',
                            error=not state.ignore_bn)
+                    print('case4')
+                    debug_weight_size.append(0)
+                    debug_bias_size.append(0)
+                    debug_filtered.append(k)
                     continue
                 eprint('The checkpoint file contains 1-dimensional weights for '
                        f'`{layer}.{this_op}.{parameter}` with dimensions {w.shape}.')
@@ -183,6 +208,7 @@ def load(
             param_count += w_count
             w_size = (w_count * abs(quantization[seq]) + 7) // 8
             weight_size.append(w_size)
+            debug_weight_size.append(w_size)
             param_size += w_size
 
             if w.ndim == 2:  # linear - add dummy 'channel'
@@ -227,6 +253,7 @@ def load(
                     w_count * 8 + (bias_quantization[seq]-1)
                 ) // bias_quantization[seq]
                 bias_size.append(w_size)
+                debug_bias_size.append(w_size)
                 param_size += w_size
             else:
                 bias.append(None)
@@ -235,6 +262,7 @@ def load(
                 bias_keys.append('N/A')
                 bias_quant.append(0)
                 bias_size.append(0)
+                debug_bias_size.append(0)
 
             # Not overriding output_shift?
             if output_shift[seq] is None:
@@ -251,8 +279,17 @@ def load(
             # Add implicit shift based on quantization
             output_shift[seq] += 8 - abs(quantization[seq])
 
+            debug_unfiltered.append(k)
+
             layers += 1
             seq += 1
+
+    if verbose:
+        print("=====WEIGHT SIZE==== // ====BIAS SIZE====")
+
+        for i, d in enumerate(zip(debug_weight_size, debug_bias_size)):
+            print(f'Layer{i}\t{d[0]}\t{d[1]}')
+
 
     if verbose:
         weight_key_len = max(41, max(len(weight_keys[ll]) for ll in range(layers)))

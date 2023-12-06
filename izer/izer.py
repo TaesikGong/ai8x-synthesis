@@ -606,8 +606,19 @@ def main():
         if ll == -1:
             break
 
-    if args.riscv and not args.riscv_cache and args.embedded_code:
+    if args.riscv and not args.riscv_cache and args.embedded_code: #Taesik: this is when `output_dim` and `output_channels` are available.
         eprint('Embedded code on RISC-V requires --riscv-cache.')
+
+    # calculate cnn_num_outputs
+
+    if state.verbose:
+        debug_output_nums = []
+        print("=====NUM OUTPUTS====")
+        for i in range(len(output_channels)):
+            num_output = output_channels[i]*output_dim[i][0]*output_dim[i][1]
+            debug_output_nums.append(num_output)
+            print(f"Layer{i}\t{num_output}")
+
 
     # Modify global state based on locally calculated variables
     state.activation = activation
