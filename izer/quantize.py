@@ -136,8 +136,8 @@ def convert_checkpoint(input_file, output_file, arguments):
             # Determine how many bits we have for the weights in this layer
             clamp_bits = None
 
-            # First priority: Override via YAML specification
-            if params is not None and 'quantization' in params:
+            # First priority: Override via YAML specification -> only if 'quantization' operation is used in YAML
+            if params is not None and 'quantization' in params and len(params['quantization']) > 0: # this last condition is required. I verified that this results in the same models.
                 clamp_bits = params['quantization'][layers]
 
             # Second priority: Saved in checkpoint file
