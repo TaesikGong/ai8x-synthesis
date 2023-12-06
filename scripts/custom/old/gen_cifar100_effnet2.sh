@@ -1,0 +1,1 @@
+python ai8xize.py --verbose --test-dir exp --prefix ai87-cifar100-effnet2-q --checkpoint-file trained/ai87-cifar100-effnet2-qat8-q.pth.tar --config-file networks/ai87-cifar100-effnet2.yaml --device MAX78002 --compact-data --input-offset 0x0000 --overwrite --debug-latency --timer 0

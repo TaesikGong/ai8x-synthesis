@@ -1,0 +1,1 @@
+python ai8xize.py --verbose --test-dir exp --prefix ai87-cifar100-mobilenet-v2-075-q --checkpoint-file trained/ai87-cifar100-mobilenet-v2-0.75-qat8-q.pth.tar --config-file networks/ai87-cifar100-mobilenet-v2-0.75.yaml --device MAX78002 --compact-data --weight-start 0 --input-offset 0x0000 --overwrite --mlator

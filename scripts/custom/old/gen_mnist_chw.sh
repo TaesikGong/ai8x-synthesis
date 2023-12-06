@@ -1,0 +1,2 @@
+python ai8xize.py \
+--verbose --log --test-dir exp --prefix ai85-mnist-chw-q --checkpoint-file trained/ai85-mnist-qat8-q.pth.tar --config-file networks/mnist-chw-ai85.yaml --device MAX78000 --compact-data --timer 0 --display-checkpoint --overwrite --debug-latency
