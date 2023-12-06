@@ -57,6 +57,7 @@ def parse(
         config_file,
         skip_layers=0,
         linter=None,
+        stop_after=0,
 ):  # pylint: disable=too-many-branches
     """
     Configure network parameters from the YAML configuration file `config_file`.
@@ -173,6 +174,8 @@ def parse(
     for ll in cfg['layers']:
         if skip > 0:
             skip -= 1
+            continue
+        if stop_after is not None and sequence >= stop_after-skip_layers:
             continue
 
         cfg_set = set(ll) - set(['max_pool', 'avg_pool', 'convolution', 'conv_groups', 'dilation',
