@@ -199,11 +199,15 @@ def main():
         sampledata_file = os.path.join('tests', f'sample_{cfg["dataset"].lower()}.npy')
     else:
         sampledata_file = args.sample_input
-    data = sampledata.get(
-        sampledata_file,
-        synthesize_input=args.synthesize_input,
-        synthesize_words=args.synthesize_words,
-    )
+    if all(c.isdigit() or c == 'x' for c in sampledata_file): #added for investigating datafolding. format ex: 64x64x64..
+        shape = tuple(map(int, args.sample_input.split('x')))
+        data = np.random.randint(-128, 128, size=shape, dtype=np.int64)
+    else:
+        data = sampledata.get(
+            sampledata_file,
+            synthesize_input=args.synthesize_input,
+            synthesize_words=args.synthesize_words,
+        )
     if np.max(data) > 127 or np.min(data) < -128:
         eprint(f'Input data {sampledata_file} contains values that are outside the limits of '
                f'signed 8-bit (data min={np.min(data)}, max={np.max(data)})!')

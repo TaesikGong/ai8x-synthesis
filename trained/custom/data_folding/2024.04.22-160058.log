@@ -1,0 +1,1535 @@
+2024-04-22 16:00:58,399 - Log file for this run: /home/taesik/git/ai8x-training/logs/2024.04.22-160058/2024.04.22-160058.log
+2024-04-22 16:00:58,852 - Log file for this run: /home/taesik/git/ai8x-training/logs/2024.04.22-160058/2024.04.22-160058.log
+2024-04-22 16:01:02,873 - Optimizer Type: <class 'torch.optim.sgd.SGD'>
+2024-04-22 16:01:02,873 - Optimizer Args: {'lr': 0.1, 'momentum': 0.9, 'dampening': 0, 'weight_decay': 0.0001, 'nesterov': False}
+2024-04-22 16:01:03,037 - Dataset sizes:
+	training=8523
+	validation=946
+	test=3925
+2024-04-22 16:01:03,037 - Reading compression schedule from: policies/schedule.yaml
+2024-04-22 16:01:03,043 - 
+
+2024-04-22 16:01:03,044 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:01:03,070 - Optimizer Type: <class 'torch.optim.adam.Adam'>
+2024-04-22 16:01:03,072 - Optimizer Args: {'lr': 0.001, 'betas': (0.9, 0.999), 'eps': 1e-08, 'weight_decay': 0.0, 'amsgrad': False}
+2024-04-22 16:01:03,384 - Dataset sizes:
+	training=9469
+	validation=3925
+	test=3925
+2024-04-22 16:01:03,384 - Reading compression schedule from: policies/schedule-cifar100.yaml
+2024-04-22 16:01:03,392 - 
+
+2024-04-22 16:01:03,392 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:01:04,509 - Epoch: [0][   10/  267]    Overall Loss 2.336010    Objective Loss 2.336010                                        LR 0.100000    Time 0.146439    
+2024-04-22 16:01:05,079 - Epoch: [0][   20/  267]    Overall Loss 2.305371    Objective Loss 2.305371                                        LR 0.100000    Time 0.101637    
+2024-04-22 16:01:05,716 - Epoch: [0][   30/  267]    Overall Loss 2.302406    Objective Loss 2.302406                                        LR 0.100000    Time 0.088987    
+2024-04-22 16:01:06,245 - Epoch: [0][   40/  267]    Overall Loss 2.292567    Objective Loss 2.292567                                        LR 0.100000    Time 0.079944    
+2024-04-22 16:01:06,904 - Epoch: [0][   50/  267]    Overall Loss 2.282024    Objective Loss 2.282024                                        LR 0.100000    Time 0.077115    
+2024-04-22 16:01:07,386 - Epoch: [0][   60/  267]    Overall Loss 2.269520    Objective Loss 2.269520                                        LR 0.100000    Time 0.072283    
+2024-04-22 16:01:08,093 - Epoch: [0][   70/  267]    Overall Loss 2.252253    Objective Loss 2.252253                                        LR 0.100000    Time 0.072044    
+2024-04-22 16:01:08,756 - Epoch: [0][   80/  267]    Overall Loss 2.239967    Objective Loss 2.239967                                        LR 0.100000    Time 0.071306    
+2024-04-22 16:01:09,581 - Epoch: [0][   90/  267]    Overall Loss 2.231866    Objective Loss 2.231866                                        LR 0.100000    Time 0.072538    
+2024-04-22 16:01:10,273 - Epoch: [0][  100/  267]    Overall Loss 2.226171    Objective Loss 2.226171                                        LR 0.100000    Time 0.072179    
+2024-04-22 16:01:11,175 - Epoch: [0][  110/  267]    Overall Loss 2.220780    Objective Loss 2.220780                                        LR 0.100000    Time 0.073807    
+2024-04-22 16:01:12,251 - Epoch: [0][  120/  267]    Overall Loss 2.215474    Objective Loss 2.215474                                        LR 0.100000    Time 0.076607    
+2024-04-22 16:01:13,087 - Epoch: [0][  130/  267]    Overall Loss 2.207754    Objective Loss 2.207754                                        LR 0.100000    Time 0.077126    
+2024-04-22 16:01:13,524 - Epoch: [0][  100/  296]    Overall Loss 2.192257    Objective Loss 2.192257                                        LR 0.001000    Time 0.101205    
+2024-04-22 16:01:13,964 - Epoch: [0][  140/  267]    Overall Loss 2.209193    Objective Loss 2.209193                                        LR 0.100000    Time 0.077862    
+2024-04-22 16:01:15,351 - Epoch: [0][  150/  267]    Overall Loss 2.209833    Objective Loss 2.209833                                        LR 0.100000    Time 0.081901    
+2024-04-22 16:01:16,510 - Epoch: [0][  160/  267]    Overall Loss 2.209557    Objective Loss 2.209557                                        LR 0.100000    Time 0.083996    
+2024-04-22 16:01:18,221 - Epoch: [0][  170/  267]    Overall Loss 2.209607    Objective Loss 2.209607                                        LR 0.100000    Time 0.089100    
+2024-04-22 16:01:19,344 - Epoch: [0][  180/  267]    Overall Loss 2.209879    Objective Loss 2.209879                                        LR 0.100000    Time 0.090349    
+2024-04-22 16:01:20,835 - Epoch: [0][  190/  267]    Overall Loss 2.208035    Objective Loss 2.208035                                        LR 0.100000    Time 0.093425    
+2024-04-22 16:01:21,980 - Epoch: [0][  200/  267]    Overall Loss 2.203330    Objective Loss 2.203330                                        LR 0.100000    Time 0.094463    
+2024-04-22 16:01:23,402 - Epoch: [0][  210/  267]    Overall Loss 2.201253    Objective Loss 2.201253                                        LR 0.100000    Time 0.096721    
+2024-04-22 16:01:24,787 - Epoch: [0][  220/  267]    Overall Loss 2.201427    Objective Loss 2.201427                                        LR 0.100000    Time 0.098608    
+2024-04-22 16:01:26,353 - Epoch: [0][  230/  267]    Overall Loss 2.202803    Objective Loss 2.202803                                        LR 0.100000    Time 0.101118    
+2024-04-22 16:01:27,960 - Epoch: [0][  240/  267]    Overall Loss 2.200726    Objective Loss 2.200726                                        LR 0.100000    Time 0.103586    
+2024-04-22 16:01:28,266 - Epoch: [0][  200/  296]    Overall Loss 2.156474    Objective Loss 2.156474                                        LR 0.001000    Time 0.124214    
+2024-04-22 16:01:29,341 - Epoch: [0][  250/  267]    Overall Loss 2.197630    Objective Loss 2.197630                                        LR 0.100000    Time 0.104951    
+2024-04-22 16:01:30,929 - Epoch: [0][  260/  267]    Overall Loss 2.197066    Objective Loss 2.197066                                        LR 0.100000    Time 0.107009    
+2024-04-22 16:01:31,394 - Epoch: [0][  267/  267]    Overall Loss 2.194208    Objective Loss 2.194208    Top1 23.255814    Top5 62.790698    LR 0.100000    Time 0.105938    
+2024-04-22 16:01:31,592 - --- validate (epoch=0)-----------
+2024-04-22 16:01:31,594 - 946 samples (32 per mini-batch)
+2024-04-22 16:01:33,930 - Epoch: [0][   10/   30]    Loss 2.156980    Top1 19.687500    Top5 64.687500    
+2024-04-22 16:01:34,940 - Epoch: [0][   20/   30]    Loss 2.121957    Top1 19.843750    Top5 63.906250    
+2024-04-22 16:01:36,353 - Epoch: [0][   30/   30]    Loss 2.149917    Top1 18.498943    Top5 64.693446    
+2024-04-22 16:01:36,662 - ==> Top1: 18.499    Top5: 64.693    Loss: 2.150
+
+2024-04-22 16:01:36,664 - ==> Confusion:
+[[74  3  0  0  8  0  0  0  2  0]
+ [70  9  1  0  2  0  0  0  5 11]
+ [62 13  2  0  7  0  0  0  0 15]
+ [49 12  2  0  1  0  0  0  5 11]
+ [62  3  1  0 19  0  1  0  0  7]
+ [81  6  0  0  2  0  0  0  1  5]
+ [60  5  1  0 26  0  1  0  4  7]
+ [74  8  1  0  2  0  0  0  2  6]
+ [65  4  0  0  7  0  0  0  5 16]
+ [17  3  0  0 12  0  0  0  3 65]]
+
+2024-04-22 16:01:36,668 - ==> Best [Top1: 18.499   Top5: 64.693   Sparsity:0.00   Params: 72228 on epoch: 0]
+2024-04-22 16:01:36,669 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:01:36,683 - 
+
+2024-04-22 16:01:36,684 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:01:39,035 - Epoch: [1][   10/  267]    Overall Loss 2.192833    Objective Loss 2.192833                                        LR 0.100000    Time 0.234776    
+2024-04-22 16:01:40,539 - Epoch: [1][   20/  267]    Overall Loss 2.190000    Objective Loss 2.190000                                        LR 0.100000    Time 0.192385    
+2024-04-22 16:01:42,266 - Epoch: [0][  296/  296]    Overall Loss 2.136405    Objective Loss 2.136405    Top1 18.032787    Top5 63.934426    LR 0.001000    Time 0.131162    
+2024-04-22 16:01:42,534 - --- validate (epoch=0)-----------
+2024-04-22 16:01:42,535 - 3925 samples (32 per mini-batch)
+2024-04-22 16:01:42,543 - Epoch: [1][   30/  267]    Overall Loss 2.193937    Objective Loss 2.193937                                        LR 0.100000    Time 0.194979    
+2024-04-22 16:01:43,788 - Epoch: [1][   40/  267]    Overall Loss 2.179586    Objective Loss 2.179586                                        LR 0.100000    Time 0.177285    
+2024-04-22 16:01:45,629 - Epoch: [1][   50/  267]    Overall Loss 2.176726    Objective Loss 2.176726                                        LR 0.100000    Time 0.178588    
+2024-04-22 16:01:46,965 - Epoch: [1][   60/  267]    Overall Loss 2.177870    Objective Loss 2.177870                                        LR 0.100000    Time 0.171033    
+2024-04-22 16:01:48,704 - Epoch: [1][   70/  267]    Overall Loss 2.182653    Objective Loss 2.182653                                        LR 0.100000    Time 0.171410    
+2024-04-22 16:01:49,844 - Epoch: [1][   80/  267]    Overall Loss 2.182346    Objective Loss 2.182346                                        LR 0.100000    Time 0.164140    
+2024-04-22 16:01:51,384 - Epoch: [1][   90/  267]    Overall Loss 2.179835    Objective Loss 2.179835                                        LR 0.100000    Time 0.162973    
+2024-04-22 16:01:52,629 - Epoch: [1][  100/  267]    Overall Loss 2.177108    Objective Loss 2.177108                                        LR 0.100000    Time 0.159105    
+2024-04-22 16:01:53,793 - Epoch: [1][  110/  267]    Overall Loss 2.177824    Objective Loss 2.177824                                        LR 0.100000    Time 0.155192    
+2024-04-22 16:01:54,639 - Epoch: [1][  120/  267]    Overall Loss 2.179398    Objective Loss 2.179398                                        LR 0.100000    Time 0.149290    
+2024-04-22 16:01:55,900 - Epoch: [1][  130/  267]    Overall Loss 2.184916    Objective Loss 2.184916                                        LR 0.100000    Time 0.147481    
+2024-04-22 16:01:56,791 - Epoch: [1][  140/  267]    Overall Loss 2.187082    Objective Loss 2.187082                                        LR 0.100000    Time 0.143296    
+2024-04-22 16:01:58,217 - Epoch: [1][  150/  267]    Overall Loss 2.187924    Objective Loss 2.187924                                        LR 0.100000    Time 0.143227    
+2024-04-22 16:01:59,023 - Epoch: [1][  160/  267]    Overall Loss 2.187892    Objective Loss 2.187892                                        LR 0.100000    Time 0.139301    
+2024-04-22 16:01:59,937 - Epoch: [0][  100/  123]    Loss 2.173401    Top1 21.750000    Top5 68.406250    
+2024-04-22 16:02:00,434 - Epoch: [1][  170/  267]    Overall Loss 2.185162    Objective Loss 2.185162                                        LR 0.100000    Time 0.139390    
+2024-04-22 16:02:01,371 - Epoch: [1][  180/  267]    Overall Loss 2.182625    Objective Loss 2.182625                                        LR 0.100000    Time 0.136838    
+2024-04-22 16:02:02,781 - Epoch: [1][  190/  267]    Overall Loss 2.178923    Objective Loss 2.178923                                        LR 0.100000    Time 0.137040    
+2024-04-22 16:02:03,756 - Epoch: [1][  200/  267]    Overall Loss 2.175019    Objective Loss 2.175019                                        LR 0.100000    Time 0.135051    
+2024-04-22 16:02:04,103 - Epoch: [0][  123/  123]    Loss 2.157916    Top1 22.343949    Top5 69.146497    
+2024-04-22 16:02:04,371 - ==> Top1: 22.344    Top5: 69.146    Loss: 2.158
+
+2024-04-22 16:02:04,386 - ==> Best [Top1: 22.344   Top5: 69.146   Sparsity:0.00   Params: 4040008 on epoch: 0]
+2024-04-22 16:02:04,387 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:02:04,885 - 
+
+2024-04-22 16:02:04,887 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:02:05,114 - Epoch: [1][  210/  267]    Overall Loss 2.175420    Objective Loss 2.175420                                        LR 0.100000    Time 0.135077    
+2024-04-22 16:02:06,025 - Epoch: [1][  220/  267]    Overall Loss 2.174467    Objective Loss 2.174467                                        LR 0.100000    Time 0.133067    
+2024-04-22 16:02:07,087 - Epoch: [1][  230/  267]    Overall Loss 2.171378    Objective Loss 2.171378                                        LR 0.100000    Time 0.131889    
+2024-04-22 16:02:08,067 - Epoch: [1][  240/  267]    Overall Loss 2.171570    Objective Loss 2.171570                                        LR 0.100000    Time 0.130462    
+2024-04-22 16:02:09,289 - Epoch: [1][  250/  267]    Overall Loss 2.169022    Objective Loss 2.169022                                        LR 0.100000    Time 0.130118    
+2024-04-22 16:02:10,818 - Epoch: [1][  260/  267]    Overall Loss 2.167144    Objective Loss 2.167144                                        LR 0.100000    Time 0.130977    
+2024-04-22 16:02:11,427 - Epoch: [1][  267/  267]    Overall Loss 2.168336    Objective Loss 2.168336    Top1 30.232558    Top5 62.790698    LR 0.100000    Time 0.129812    
+2024-04-22 16:02:11,595 - --- validate (epoch=1)-----------
+2024-04-22 16:02:11,596 - 946 samples (32 per mini-batch)
+2024-04-22 16:02:14,030 - Epoch: [1][   10/   30]    Loss 2.230854    Top1 18.437500    Top5 63.125000    
+2024-04-22 16:02:14,655 - Epoch: [1][   20/   30]    Loss 2.186057    Top1 20.000000    Top5 65.468750    
+2024-04-22 16:02:15,542 - Epoch: [1][   30/   30]    Loss 2.152657    Top1 21.247357    Top5 66.701903    
+2024-04-22 16:02:15,677 - ==> Top1: 21.247    Top5: 66.702    Loss: 2.153
+
+2024-04-22 16:02:15,678 - ==> Confusion:
+[[ 3  0  0  0 29 46  0  2  3  4]
+ [ 1  0 10  0 22 52  0  3  4  6]
+ [ 1  0 17  0 29 37  0  4  1 10]
+ [ 2  2 12  0 19 39  0  2  1  3]
+ [ 2  0  3  0 48 29  0  2  0  9]
+ [ 0  0  1  0 19 70  0  3  0  2]
+ [ 2  1  7  0 44 30  0  6  0 14]
+ [ 2  2  7  0 30 40  0  2  4  6]
+ [ 2  0  8  0 29 33  0  7  2 16]
+ [ 0  0  4  0 30  6  0  1  0 59]]
+
+2024-04-22 16:02:15,681 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:02:15,682 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:02:15,751 - 
+
+2024-04-22 16:02:15,752 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:02:17,728 - Epoch: [2][   10/  267]    Overall Loss 2.096332    Objective Loss 2.096332                                        LR 0.100000    Time 0.197214    
+2024-04-22 16:02:18,811 - Epoch: [2][   20/  267]    Overall Loss 2.096952    Objective Loss 2.096952                                        LR 0.100000    Time 0.152355    
+2024-04-22 16:02:20,274 - Epoch: [2][   30/  267]    Overall Loss 2.156179    Objective Loss 2.156179                                        LR 0.100000    Time 0.150210    
+2024-04-22 16:02:21,264 - Epoch: [2][   40/  267]    Overall Loss 2.182475    Objective Loss 2.182475                                        LR 0.100000    Time 0.137346    
+2024-04-22 16:02:22,627 - Epoch: [2][   50/  267]    Overall Loss 2.199704    Objective Loss 2.199704                                        LR 0.100000    Time 0.137088    
+2024-04-22 16:02:23,597 - Epoch: [2][   60/  267]    Overall Loss 2.203219    Objective Loss 2.203219                                        LR 0.100000    Time 0.130370    
+2024-04-22 16:02:24,553 - Epoch: [1][  100/  296]    Overall Loss 2.088458    Objective Loss 2.088458                                        LR 0.001000    Time 0.196410    
+2024-04-22 16:02:25,010 - Epoch: [2][   70/  267]    Overall Loss 2.222921    Objective Loss 2.222921                                        LR 0.100000    Time 0.131795    
+2024-04-22 16:02:26,059 - Epoch: [2][   80/  267]    Overall Loss 2.220099    Objective Loss 2.220099                                        LR 0.100000    Time 0.128404    
+2024-04-22 16:02:27,574 - Epoch: [2][   90/  267]    Overall Loss 2.223700    Objective Loss 2.223700                                        LR 0.100000    Time 0.130937    
+2024-04-22 16:02:28,734 - Epoch: [2][  100/  267]    Overall Loss 2.230643    Objective Loss 2.230643                                        LR 0.100000    Time 0.129405    
+2024-04-22 16:02:30,513 - Epoch: [2][  110/  267]    Overall Loss 2.231234    Objective Loss 2.231234                                        LR 0.100000    Time 0.133786    
+2024-04-22 16:02:31,839 - Epoch: [2][  120/  267]    Overall Loss 2.228489    Objective Loss 2.228489                                        LR 0.100000    Time 0.133653    
+2024-04-22 16:02:33,589 - Epoch: [2][  130/  267]    Overall Loss 2.218633    Objective Loss 2.218633                                        LR 0.100000    Time 0.136813    
+2024-04-22 16:02:34,946 - Epoch: [2][  140/  267]    Overall Loss 2.221465    Objective Loss 2.221465                                        LR 0.100000    Time 0.136709    
+2024-04-22 16:02:36,356 - Epoch: [2][  150/  267]    Overall Loss 2.218586    Objective Loss 2.218586                                        LR 0.100000    Time 0.136976    
+2024-04-22 16:02:37,342 - Epoch: [2][  160/  267]    Overall Loss 2.218254    Objective Loss 2.218254                                        LR 0.100000    Time 0.134557    
+2024-04-22 16:02:38,466 - Epoch: [1][  200/  296]    Overall Loss 2.066410    Objective Loss 2.066410                                        LR 0.001000    Time 0.167664    
+2024-04-22 16:02:38,781 - Epoch: [2][  170/  267]    Overall Loss 2.222280    Objective Loss 2.222280                                        LR 0.100000    Time 0.135090    
+2024-04-22 16:02:39,670 - Epoch: [2][  180/  267]    Overall Loss 2.227930    Objective Loss 2.227930                                        LR 0.100000    Time 0.132507    
+2024-04-22 16:02:40,983 - Epoch: [2][  190/  267]    Overall Loss 2.227148    Objective Loss 2.227148                                        LR 0.100000    Time 0.132424    
+2024-04-22 16:02:42,097 - Epoch: [2][  200/  267]    Overall Loss 2.227532    Objective Loss 2.227532                                        LR 0.100000    Time 0.131362    
+2024-04-22 16:02:43,366 - Epoch: [2][  210/  267]    Overall Loss 2.227548    Objective Loss 2.227548                                        LR 0.100000    Time 0.131135    
+2024-04-22 16:02:44,302 - Epoch: [2][  220/  267]    Overall Loss 2.228274    Objective Loss 2.228274                                        LR 0.100000    Time 0.129418    
+2024-04-22 16:02:45,721 - Epoch: [2][  230/  267]    Overall Loss 2.227398    Objective Loss 2.227398                                        LR 0.100000    Time 0.129952    
+2024-04-22 16:02:46,829 - Epoch: [2][  240/  267]    Overall Loss 2.225309    Objective Loss 2.225309                                        LR 0.100000    Time 0.129141    
+2024-04-22 16:02:47,902 - Epoch: [2][  250/  267]    Overall Loss 2.224584    Objective Loss 2.224584                                        LR 0.100000    Time 0.128258    
+2024-04-22 16:02:48,880 - Epoch: [2][  260/  267]    Overall Loss 2.224148    Objective Loss 2.224148                                        LR 0.100000    Time 0.127076    
+2024-04-22 16:02:49,691 - Epoch: [2][  267/  267]    Overall Loss 2.225564    Objective Loss 2.225564    Top1 18.604651    Top5 55.813953    LR 0.100000    Time 0.126773    
+2024-04-22 16:02:49,851 - --- validate (epoch=2)-----------
+2024-04-22 16:02:49,852 - 946 samples (32 per mini-batch)
+2024-04-22 16:02:51,842 - Epoch: [2][   10/   30]    Loss 2.249671    Top1 19.375000    Top5 63.750000    
+2024-04-22 16:02:52,842 - Epoch: [2][   20/   30]    Loss 2.298364    Top1 17.500000    Top5 60.312500    
+2024-04-22 16:02:53,832 - Epoch: [1][  296/  296]    Overall Loss 2.059386    Objective Loss 2.059386    Top1 22.950820    Top5 81.967213    LR 0.001000    Time 0.165134    
+2024-04-22 16:02:53,943 - Epoch: [2][   30/   30]    Loss 2.290564    Top1 18.498943    Top5 61.099366    
+2024-04-22 16:02:54,064 - --- validate (epoch=1)-----------
+2024-04-22 16:02:54,066 - 3925 samples (32 per mini-batch)
+2024-04-22 16:02:54,103 - ==> Top1: 18.499    Top5: 61.099    Loss: 2.291
+
+2024-04-22 16:02:54,105 - ==> Confusion:
+[[ 1  0  0  0  1  0  0 79  6  0]
+ [ 1  0  0  0  0  0  1 83  3 10]
+ [ 0  0  0  0  0  0  1 78  1 19]
+ [ 0  0  0  0  0  0  2 64  1 13]
+ [ 0  0  0  0 14  0  5 60  3 11]
+ [ 0  0  0  0  0  0  1 92  1  1]
+ [ 1  0  0  0  5  0  2 77  8 11]
+ [ 0  0  0  0  1  0  2 82  1  7]
+ [ 0  0  0  0  2  0  2 70  7 16]
+ [ 0  0  0  0  4  0  3 18  6 69]]
+
+2024-04-22 16:02:54,108 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:02:54,109 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:02:54,120 - 
+
+2024-04-22 16:02:54,121 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:02:56,333 - Epoch: [3][   10/  267]    Overall Loss 2.281079    Objective Loss 2.281079                                        LR 0.100000    Time 0.220889    
+2024-04-22 16:02:57,743 - Epoch: [3][   20/  267]    Overall Loss 2.298965    Objective Loss 2.298965                                        LR 0.100000    Time 0.180818    
+2024-04-22 16:02:59,128 - Epoch: [3][   30/  267]    Overall Loss 2.280371    Objective Loss 2.280371                                        LR 0.100000    Time 0.166610    
+2024-04-22 16:03:00,060 - Epoch: [3][   40/  267]    Overall Loss 2.261236    Objective Loss 2.261236                                        LR 0.100000    Time 0.148210    
+2024-04-22 16:03:01,048 - Epoch: [3][   50/  267]    Overall Loss 2.257314    Objective Loss 2.257314                                        LR 0.100000    Time 0.138286    
+2024-04-22 16:03:02,172 - Epoch: [3][   60/  267]    Overall Loss 2.249128    Objective Loss 2.249128                                        LR 0.100000    Time 0.133932    
+2024-04-22 16:03:03,487 - Epoch: [3][   70/  267]    Overall Loss 2.242043    Objective Loss 2.242043                                        LR 0.100000    Time 0.133539    
+2024-04-22 16:03:04,694 - Epoch: [3][   80/  267]    Overall Loss 2.238106    Objective Loss 2.238106                                        LR 0.100000    Time 0.131903    
+2024-04-22 16:03:05,731 - Epoch: [3][   90/  267]    Overall Loss 2.239524    Objective Loss 2.239524                                        LR 0.100000    Time 0.128730    
+2024-04-22 16:03:07,413 - Epoch: [3][  100/  267]    Overall Loss 2.237732    Objective Loss 2.237732                                        LR 0.100000    Time 0.132639    
+2024-04-22 16:03:09,215 - Epoch: [3][  110/  267]    Overall Loss 2.233561    Objective Loss 2.233561                                        LR 0.100000    Time 0.136931    
+2024-04-22 16:03:11,159 - Epoch: [3][  120/  267]    Overall Loss 2.224887    Objective Loss 2.224887                                        LR 0.100000    Time 0.141691    
+2024-04-22 16:03:11,268 - Epoch: [1][  100/  123]    Loss 2.248125    Top1 23.000000    Top5 70.656250    
+2024-04-22 16:03:12,202 - Epoch: [3][  130/  267]    Overall Loss 2.223388    Objective Loss 2.223388                                        LR 0.100000    Time 0.138796    
+2024-04-22 16:03:13,593 - Epoch: [3][  140/  267]    Overall Loss 2.221179    Objective Loss 2.221179                                        LR 0.100000    Time 0.138803    
+2024-04-22 16:03:14,613 - Epoch: [3][  150/  267]    Overall Loss 2.219244    Objective Loss 2.219244                                        LR 0.100000    Time 0.136333    
+2024-04-22 16:03:14,871 - Epoch: [1][  123/  123]    Loss 2.243460    Top1 22.929936    Top5 70.878981    
+2024-04-22 16:03:15,142 - ==> Top1: 22.930    Top5: 70.879    Loss: 2.243
+
+2024-04-22 16:03:15,158 - ==> Best [Top1: 22.930   Top5: 70.879   Sparsity:0.00   Params: 4040008 on epoch: 1]
+2024-04-22 16:03:15,159 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:03:15,619 - 
+
+2024-04-22 16:03:15,620 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:03:16,014 - Epoch: [3][  160/  267]    Overall Loss 2.218331    Objective Loss 2.218331                                        LR 0.100000    Time 0.136554    
+2024-04-22 16:03:17,148 - Epoch: [3][  170/  267]    Overall Loss 2.216355    Objective Loss 2.216355                                        LR 0.100000    Time 0.135171    
+2024-04-22 16:03:18,952 - Epoch: [3][  180/  267]    Overall Loss 2.212757    Objective Loss 2.212757                                        LR 0.100000    Time 0.137664    
+2024-04-22 16:03:20,067 - Epoch: [3][  190/  267]    Overall Loss 2.214462    Objective Loss 2.214462                                        LR 0.100000    Time 0.136271    
+2024-04-22 16:03:21,718 - Epoch: [3][  200/  267]    Overall Loss 2.219042    Objective Loss 2.219042                                        LR 0.100000    Time 0.137696    
+2024-04-22 16:03:22,997 - Epoch: [3][  210/  267]    Overall Loss 2.219181    Objective Loss 2.219181                                        LR 0.100000    Time 0.137218    
+2024-04-22 16:03:24,393 - Epoch: [3][  220/  267]    Overall Loss 2.221088    Objective Loss 2.221088                                        LR 0.100000    Time 0.137311    
+2024-04-22 16:03:25,952 - Epoch: [3][  230/  267]    Overall Loss 2.222456    Objective Loss 2.222456                                        LR 0.100000    Time 0.138105    
+2024-04-22 16:03:27,017 - Epoch: [3][  240/  267]    Overall Loss 2.226120    Objective Loss 2.226120                                        LR 0.100000    Time 0.136780    
+2024-04-22 16:03:28,702 - Epoch: [3][  250/  267]    Overall Loss 2.229135    Objective Loss 2.229135                                        LR 0.100000    Time 0.138036    
+2024-04-22 16:03:29,611 - Epoch: [3][  260/  267]    Overall Loss 2.226563    Objective Loss 2.226563                                        LR 0.100000    Time 0.136213    
+2024-04-22 16:03:30,312 - Epoch: [3][  267/  267]    Overall Loss 2.227467    Objective Loss 2.227467    Top1 18.604651    Top5 60.465116    LR 0.100000    Time 0.135261    
+2024-04-22 16:03:30,517 - --- validate (epoch=3)-----------
+2024-04-22 16:03:30,518 - 946 samples (32 per mini-batch)
+2024-04-22 16:03:32,795 - Epoch: [2][  100/  296]    Overall Loss 2.030888    Objective Loss 2.030888                                        LR 0.001000    Time 0.171497    
+2024-04-22 16:03:32,830 - Epoch: [3][   10/   30]    Loss 2.196285    Top1 20.937500    Top5 63.750000    
+2024-04-22 16:03:34,010 - Epoch: [3][   20/   30]    Loss 2.206121    Top1 18.750000    Top5 61.093750    
+2024-04-22 16:03:34,923 - Epoch: [3][   30/   30]    Loss 2.214188    Top1 18.287526    Top5 62.050740    
+2024-04-22 16:03:35,153 - ==> Top1: 18.288    Top5: 62.051    Loss: 2.214
+
+2024-04-22 16:03:35,155 - ==> Confusion:
+[[63  0  9  1 12  0  0  1  0  1]
+ [65  0 12  3 11  0  0  3  0  4]
+ [48  0 18  3 20  0  1  1  0  8]
+ [46  0 13  1 12  0  3  3  0  2]
+ [41  0  6  1 38  0  1  0  0  6]
+ [79  0  6  2  7  0  0  0  0  1]
+ [48  0 14  0 37  0  1  2  0  2]
+ [59  0 11  3 17  0  0  2  0  1]
+ [47  0 15  1 22  0  0  3  0  9]
+ [ 9  0  8  1 29  0  3  0  0 50]]
+
+2024-04-22 16:03:35,159 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:03:35,160 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:03:35,187 - 
+
+2024-04-22 16:03:35,188 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:03:37,386 - Epoch: [4][   10/  267]    Overall Loss 2.221933    Objective Loss 2.221933                                        LR 0.100000    Time 0.219557    
+2024-04-22 16:03:38,600 - Epoch: [4][   20/  267]    Overall Loss 2.277521    Objective Loss 2.277521                                        LR 0.100000    Time 0.170304    
+2024-04-22 16:03:40,313 - Epoch: [4][   30/  267]    Overall Loss 2.254575    Objective Loss 2.254575                                        LR 0.100000    Time 0.170519    
+2024-04-22 16:03:41,459 - Epoch: [4][   40/  267]    Overall Loss 2.250476    Objective Loss 2.250476                                        LR 0.100000    Time 0.156471    
+2024-04-22 16:03:42,979 - Epoch: [4][   50/  267]    Overall Loss 2.234435    Objective Loss 2.234435                                        LR 0.100000    Time 0.155511    
+2024-04-22 16:03:43,793 - Epoch: [4][   60/  267]    Overall Loss 2.229725    Objective Loss 2.229725                                        LR 0.100000    Time 0.143119    
+2024-04-22 16:03:44,846 - Epoch: [4][   70/  267]    Overall Loss 2.223128    Objective Loss 2.223128                                        LR 0.100000    Time 0.137675    
+2024-04-22 16:03:45,524 - Epoch: [4][   80/  267]    Overall Loss 2.217638    Objective Loss 2.217638                                        LR 0.100000    Time 0.128910    
+2024-04-22 16:03:46,510 - Epoch: [4][   90/  267]    Overall Loss 2.208563    Objective Loss 2.208563                                        LR 0.100000    Time 0.125517    
+2024-04-22 16:03:47,149 - Epoch: [4][  100/  267]    Overall Loss 2.218816    Objective Loss 2.218816                                        LR 0.100000    Time 0.119331    
+2024-04-22 16:03:48,157 - Epoch: [4][  110/  267]    Overall Loss 2.219624    Objective Loss 2.219624                                        LR 0.100000    Time 0.117626    
+2024-04-22 16:03:49,000 - Epoch: [4][  120/  267]    Overall Loss 2.218836    Objective Loss 2.218836                                        LR 0.100000    Time 0.114826    
+2024-04-22 16:03:49,101 - Epoch: [2][  200/  296]    Overall Loss 2.033954    Objective Loss 2.033954                                        LR 0.001000    Time 0.167184    
+2024-04-22 16:03:50,265 - Epoch: [4][  130/  267]    Overall Loss 2.217559    Objective Loss 2.217559                                        LR 0.100000    Time 0.115703    
+2024-04-22 16:03:51,113 - Epoch: [4][  140/  267]    Overall Loss 2.221473    Objective Loss 2.221473                                        LR 0.100000    Time 0.113477    
+2024-04-22 16:03:52,531 - Epoch: [4][  150/  267]    Overall Loss 2.217642    Objective Loss 2.217642                                        LR 0.100000    Time 0.115347    
+2024-04-22 16:03:53,263 - Epoch: [4][  160/  267]    Overall Loss 2.221417    Objective Loss 2.221417                                        LR 0.100000    Time 0.112699    
+2024-04-22 16:03:54,357 - Epoch: [4][  170/  267]    Overall Loss 2.220782    Objective Loss 2.220782                                        LR 0.100000    Time 0.112483    
+2024-04-22 16:03:54,994 - Epoch: [4][  180/  267]    Overall Loss 2.218729    Objective Loss 2.218729                                        LR 0.100000    Time 0.109762    
+2024-04-22 16:03:56,112 - Epoch: [4][  190/  267]    Overall Loss 2.218092    Objective Loss 2.218092                                        LR 0.100000    Time 0.109854    
+2024-04-22 16:03:56,837 - Epoch: [4][  200/  267]    Overall Loss 2.220488    Objective Loss 2.220488                                        LR 0.100000    Time 0.107976    
+2024-04-22 16:03:57,870 - Epoch: [4][  210/  267]    Overall Loss 2.218165    Objective Loss 2.218165                                        LR 0.100000    Time 0.107744    
+2024-04-22 16:03:59,067 - Epoch: [4][  220/  267]    Overall Loss 2.213222    Objective Loss 2.213222                                        LR 0.100000    Time 0.108274    
+2024-04-22 16:04:00,131 - Epoch: [4][  230/  267]    Overall Loss 2.215633    Objective Loss 2.215633                                        LR 0.100000    Time 0.108176    
+2024-04-22 16:04:01,112 - Epoch: [4][  240/  267]    Overall Loss 2.216033    Objective Loss 2.216033                                        LR 0.100000    Time 0.107748    
+2024-04-22 16:04:02,183 - Epoch: [4][  250/  267]    Overall Loss 2.215844    Objective Loss 2.215844                                        LR 0.100000    Time 0.107709    
+2024-04-22 16:04:03,097 - Epoch: [4][  260/  267]    Overall Loss 2.213466    Objective Loss 2.213466                                        LR 0.100000    Time 0.107075    
+2024-04-22 16:04:03,907 - Epoch: [4][  267/  267]    Overall Loss 2.212473    Objective Loss 2.212473    Top1 4.651163    Top5 65.116279    LR 0.100000    Time 0.107291    
+2024-04-22 16:04:04,151 - --- validate (epoch=4)-----------
+2024-04-22 16:04:04,152 - 946 samples (32 per mini-batch)
+2024-04-22 16:04:05,321 - Epoch: [2][  296/  296]    Overall Loss 2.029322    Objective Loss 2.029322    Top1 31.147541    Top5 77.049180    LR 0.001000    Time 0.167702    
+2024-04-22 16:04:05,624 - --- validate (epoch=2)-----------
+2024-04-22 16:04:05,625 - 3925 samples (32 per mini-batch)
+2024-04-22 16:04:05,788 - Epoch: [4][   10/   30]    Loss 2.202121    Top1 17.812500    Top5 68.437500    
+2024-04-22 16:04:06,854 - Epoch: [4][   20/   30]    Loss 2.252191    Top1 15.312500    Top5 64.218750    
+2024-04-22 16:04:07,524 - Epoch: [4][   30/   30]    Loss 2.257066    Top1 14.482030    Top5 63.319239    
+2024-04-22 16:04:07,670 - ==> Top1: 14.482    Top5: 63.319    Loss: 2.257
+
+2024-04-22 16:04:07,671 - ==> Confusion:
+[[ 0  0  0 86  0  0  0  0  0  1]
+ [ 0  0  0 94  1  0  0  0  0  3]
+ [ 0  0  0 95  2  0  0  0  0  2]
+ [ 0  0  0 79  0  0  0  0  0  1]
+ [ 0  0  0 77 10  0  1  0  0  5]
+ [ 0  0  0 94  1  0  0  0  0  0]
+ [ 0  0  0 94  6  0  2  0  0  2]
+ [ 0  0  0 89  3  0  0  0  0  1]
+ [ 0  0  0 92  2  0  0  0  0  3]
+ [ 0  0  0 41 13  0  0  0  0 46]]
+
+2024-04-22 16:04:07,674 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:04:07,675 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:04:07,686 - 
+
+2024-04-22 16:04:07,686 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:04:09,340 - Epoch: [5][   10/  267]    Overall Loss 2.232010    Objective Loss 2.232010                                        LR 0.100000    Time 0.165081    
+2024-04-22 16:04:10,405 - Epoch: [5][   20/  267]    Overall Loss 2.265312    Objective Loss 2.265312                                        LR 0.100000    Time 0.135639    
+2024-04-22 16:04:11,829 - Epoch: [5][   30/  267]    Overall Loss 2.285316    Objective Loss 2.285316                                        LR 0.100000    Time 0.137812    
+2024-04-22 16:04:12,548 - Epoch: [5][   40/  267]    Overall Loss 2.254105    Objective Loss 2.254105                                        LR 0.100000    Time 0.121297    
+2024-04-22 16:04:13,570 - Epoch: [5][   50/  267]    Overall Loss 2.257008    Objective Loss 2.257008                                        LR 0.100000    Time 0.117424    
+2024-04-22 16:04:14,675 - Epoch: [5][   60/  267]    Overall Loss 2.276910    Objective Loss 2.276910                                        LR 0.100000    Time 0.116229    
+2024-04-22 16:04:16,008 - Epoch: [5][   70/  267]    Overall Loss 2.277411    Objective Loss 2.277411                                        LR 0.100000    Time 0.118646    
+2024-04-22 16:04:17,020 - Epoch: [5][   80/  267]    Overall Loss 2.275866    Objective Loss 2.275866                                        LR 0.100000    Time 0.116427    
+2024-04-22 16:04:18,361 - Epoch: [5][   90/  267]    Overall Loss 2.287254    Objective Loss 2.287254                                        LR 0.100000    Time 0.118364    
+2024-04-22 16:04:19,108 - Epoch: [2][  100/  123]    Loss 2.089505    Top1 24.000000    Top5 71.000000    
+2024-04-22 16:04:19,426 - Epoch: [5][  100/  267]    Overall Loss 2.283515    Objective Loss 2.283515                                        LR 0.100000    Time 0.117149    
+2024-04-22 16:04:20,884 - Epoch: [5][  110/  267]    Overall Loss 2.280093    Objective Loss 2.280093                                        LR 0.100000    Time 0.119730    
+2024-04-22 16:04:21,782 - Epoch: [5][  120/  267]    Overall Loss 2.277407    Objective Loss 2.277407                                        LR 0.100000    Time 0.117210    
+2024-04-22 16:04:22,806 - Epoch: [2][  123/  123]    Loss 2.091079    Top1 24.050955    Top5 70.828025    
+2024-04-22 16:04:22,888 - Epoch: [5][  130/  267]    Overall Loss 2.280251    Objective Loss 2.280251                                        LR 0.100000    Time 0.116685    
+2024-04-22 16:04:23,039 - ==> Top1: 24.051    Top5: 70.828    Loss: 2.091
+
+2024-04-22 16:04:23,054 - ==> Best [Top1: 24.051   Top5: 70.828   Sparsity:0.00   Params: 4040008 on epoch: 2]
+2024-04-22 16:04:23,054 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:04:23,415 - 
+
+2024-04-22 16:04:23,416 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:04:23,615 - Epoch: [5][  140/  267]    Overall Loss 2.278147    Objective Loss 2.278147                                        LR 0.100000    Time 0.113533    
+2024-04-22 16:04:24,698 - Epoch: [5][  150/  267]    Overall Loss 2.278323    Objective Loss 2.278323                                        LR 0.100000    Time 0.113162    
+2024-04-22 16:04:25,777 - Epoch: [5][  160/  267]    Overall Loss 2.278703    Objective Loss 2.278703                                        LR 0.100000    Time 0.112818    
+2024-04-22 16:04:27,170 - Epoch: [5][  170/  267]    Overall Loss 2.278399    Objective Loss 2.278399                                        LR 0.100000    Time 0.114361    
+2024-04-22 16:04:28,332 - Epoch: [5][  180/  267]    Overall Loss 2.278306    Objective Loss 2.278306                                        LR 0.100000    Time 0.114445    
+2024-04-22 16:04:29,586 - Epoch: [5][  190/  267]    Overall Loss 2.276700    Objective Loss 2.276700                                        LR 0.100000    Time 0.115007    
+2024-04-22 16:04:30,636 - Epoch: [5][  200/  267]    Overall Loss 2.271134    Objective Loss 2.271134                                        LR 0.100000    Time 0.114495    
+2024-04-22 16:04:32,070 - Epoch: [5][  210/  267]    Overall Loss 2.265852    Objective Loss 2.265852                                        LR 0.100000    Time 0.115858    
+2024-04-22 16:04:33,326 - Epoch: [5][  220/  267]    Overall Loss 2.260782    Objective Loss 2.260782                                        LR 0.100000    Time 0.116289    
+2024-04-22 16:04:34,439 - Epoch: [5][  230/  267]    Overall Loss 2.256484    Objective Loss 2.256484                                        LR 0.100000    Time 0.116056    
+2024-04-22 16:04:35,851 - Epoch: [5][  240/  267]    Overall Loss 2.255853    Objective Loss 2.255853                                        LR 0.100000    Time 0.117096    
+2024-04-22 16:04:37,044 - Epoch: [5][  250/  267]    Overall Loss 2.253965    Objective Loss 2.253965                                        LR 0.100000    Time 0.117170    
+2024-04-22 16:04:38,089 - Epoch: [3][  100/  296]    Overall Loss 2.003541    Objective Loss 2.003541                                        LR 0.001000    Time 0.146511    
+2024-04-22 16:04:38,208 - Epoch: [5][  260/  267]    Overall Loss 2.253880    Objective Loss 2.253880                                        LR 0.100000    Time 0.117131    
+2024-04-22 16:04:38,972 - Epoch: [5][  267/  267]    Overall Loss 2.253857    Objective Loss 2.253857    Top1 23.255814    Top5 58.139535    LR 0.100000    Time 0.116915    
+2024-04-22 16:04:39,153 - --- validate (epoch=5)-----------
+2024-04-22 16:04:39,155 - 946 samples (32 per mini-batch)
+2024-04-22 16:04:41,224 - Epoch: [5][   10/   30]    Loss 2.301530    Top1 16.250000    Top5 61.562500    
+2024-04-22 16:04:42,905 - Epoch: [5][   20/   30]    Loss 2.309569    Top1 14.843750    Top5 61.093750    
+2024-04-22 16:04:43,784 - Epoch: [5][   30/   30]    Loss 2.284334    Top1 15.644820    Top5 62.684989    
+2024-04-22 16:04:43,981 - ==> Top1: 15.645    Top5: 62.685    Loss: 2.284
+
+2024-04-22 16:04:43,983 - ==> Confusion:
+[[ 0  0  0  0  1  0 85  0  1  0]
+ [ 0  7  0  0  2  0 84  0  5  0]
+ [ 0  9  0  0  0  0 74  0 15  1]
+ [ 0  9  0  1  0  0 63  0  7  0]
+ [ 0  1  0  0 12  0 73  0  3  4]
+ [ 0  3  0  2  1  0 84  0  5  0]
+ [ 0  8  0  2  6  0 85  0  3  0]
+ [ 0  2  0  0  1  0 87  0  3  0]
+ [ 0  3  0  1  1  0 75  0 17  0]
+ [ 0  2  0  0 14  0 32  0 26 26]]
+
+2024-04-22 16:04:43,988 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:04:43,988 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:04:44,023 - 
+
+2024-04-22 16:04:44,024 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:04:46,185 - Epoch: [6][   10/  267]    Overall Loss 2.291977    Objective Loss 2.291977                                        LR 0.100000    Time 0.215851    
+2024-04-22 16:04:47,286 - Epoch: [6][   20/  267]    Overall Loss 2.299358    Objective Loss 2.299358                                        LR 0.100000    Time 0.162799    
+2024-04-22 16:04:48,878 - Epoch: [6][   30/  267]    Overall Loss 2.300091    Objective Loss 2.300091                                        LR 0.100000    Time 0.161511    
+2024-04-22 16:04:49,340 - Epoch: [3][  200/  296]    Overall Loss 1.997429    Objective Loss 1.997429                                        LR 0.001000    Time 0.129419    
+2024-04-22 16:04:49,739 - Epoch: [6][   40/  267]    Overall Loss 2.313653    Objective Loss 2.313653                                        LR 0.100000    Time 0.142600    
+2024-04-22 16:04:50,618 - Epoch: [6][   50/  267]    Overall Loss 2.309483    Objective Loss 2.309483                                        LR 0.100000    Time 0.131623    
+2024-04-22 16:04:51,779 - Epoch: [6][   60/  267]    Overall Loss 2.302045    Objective Loss 2.302045                                        LR 0.100000    Time 0.128988    
+2024-04-22 16:04:52,728 - Epoch: [6][   70/  267]    Overall Loss 2.316401    Objective Loss 2.316401                                        LR 0.100000    Time 0.124078    
+2024-04-22 16:04:53,946 - Epoch: [6][   80/  267]    Overall Loss 2.296188    Objective Loss 2.296188                                        LR 0.100000    Time 0.123750    
+2024-04-22 16:04:54,608 - Epoch: [6][   90/  267]    Overall Loss 2.295420    Objective Loss 2.295420                                        LR 0.100000    Time 0.117333    
+2024-04-22 16:04:55,579 - Epoch: [6][  100/  267]    Overall Loss 2.289604    Objective Loss 2.289604                                        LR 0.100000    Time 0.115289    
+2024-04-22 16:04:56,605 - Epoch: [6][  110/  267]    Overall Loss 2.286523    Objective Loss 2.286523                                        LR 0.100000    Time 0.114112    
+2024-04-22 16:04:58,074 - Epoch: [6][  120/  267]    Overall Loss 2.284771    Objective Loss 2.284771                                        LR 0.100000    Time 0.116821    
+2024-04-22 16:04:59,238 - Epoch: [6][  130/  267]    Overall Loss 2.274432    Objective Loss 2.274432                                        LR 0.100000    Time 0.116768    
+2024-04-22 16:04:59,787 - Epoch: [3][  296/  296]    Overall Loss 2.001122    Objective Loss 2.001122    Top1 22.950820    Top5 68.852459    LR 0.001000    Time 0.122674    
+2024-04-22 16:05:00,052 - --- validate (epoch=3)-----------
+2024-04-22 16:05:00,054 - 3925 samples (32 per mini-batch)
+2024-04-22 16:05:00,267 - Epoch: [6][  140/  267]    Overall Loss 2.276761    Objective Loss 2.276761                                        LR 0.100000    Time 0.115761    
+2024-04-22 16:05:01,043 - Epoch: [6][  150/  267]    Overall Loss 2.273150    Objective Loss 2.273150                                        LR 0.100000    Time 0.113205    
+2024-04-22 16:05:02,730 - Epoch: [6][  160/  267]    Overall Loss 2.265005    Objective Loss 2.265005                                        LR 0.100000    Time 0.116657    
+2024-04-22 16:05:03,696 - Epoch: [6][  170/  267]    Overall Loss 2.267490    Objective Loss 2.267490                                        LR 0.100000    Time 0.115454    
+2024-04-22 16:05:05,353 - Epoch: [6][  180/  267]    Overall Loss 2.265549    Objective Loss 2.265549                                        LR 0.100000    Time 0.118231    
+2024-04-22 16:05:06,585 - Epoch: [6][  190/  267]    Overall Loss 2.265548    Objective Loss 2.265548                                        LR 0.100000    Time 0.118483    
+2024-04-22 16:05:08,097 - Epoch: [6][  200/  267]    Overall Loss 2.266465    Objective Loss 2.266465                                        LR 0.100000    Time 0.120105    
+2024-04-22 16:05:09,347 - Epoch: [6][  210/  267]    Overall Loss 2.262368    Objective Loss 2.262368                                        LR 0.100000    Time 0.120325    
+2024-04-22 16:05:11,115 - Epoch: [6][  220/  267]    Overall Loss 2.263783    Objective Loss 2.263783                                        LR 0.100000    Time 0.122878    
+2024-04-22 16:05:12,209 - Epoch: [6][  230/  267]    Overall Loss 2.261131    Objective Loss 2.261131                                        LR 0.100000    Time 0.122278    
+2024-04-22 16:05:13,736 - Epoch: [6][  240/  267]    Overall Loss 2.263125    Objective Loss 2.263125                                        LR 0.100000    Time 0.123536    
+2024-04-22 16:05:15,253 - Epoch: [6][  250/  267]    Overall Loss 2.265766    Objective Loss 2.265766                                        LR 0.100000    Time 0.124651    
+2024-04-22 16:05:16,709 - Epoch: [6][  260/  267]    Overall Loss 2.268659    Objective Loss 2.268659                                        LR 0.100000    Time 0.125449    
+2024-04-22 16:05:16,922 - Epoch: [3][  100/  123]    Loss 1.982145    Top1 28.781250    Top5 74.375000    
+2024-04-22 16:05:17,264 - Epoch: [6][  267/  267]    Overall Loss 2.268402    Objective Loss 2.268402    Top1 23.255814    Top5 69.767442    LR 0.100000    Time 0.124230    
+2024-04-22 16:05:17,467 - --- validate (epoch=6)-----------
+2024-04-22 16:05:17,468 - 946 samples (32 per mini-batch)
+2024-04-22 16:05:19,614 - Epoch: [6][   10/   30]    Loss 2.323616    Top1 14.375000    Top5 58.125000    
+2024-04-22 16:05:19,769 - Epoch: [3][  123/  123]    Loss 1.977597    Top1 28.891720    Top5 74.496815    
+2024-04-22 16:05:19,974 - ==> Top1: 28.892    Top5: 74.497    Loss: 1.978
+
+2024-04-22 16:05:19,983 - ==> Best [Top1: 28.892   Top5: 74.497   Sparsity:0.00   Params: 4040008 on epoch: 3]
+2024-04-22 16:05:19,983 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:05:20,273 - 
+
+2024-04-22 16:05:20,274 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:05:20,295 - Epoch: [6][   20/   30]    Loss 2.345586    Top1 15.000000    Top5 58.281250    
+2024-04-22 16:05:20,937 - Epoch: [6][   30/   30]    Loss 2.318344    Top1 15.644820    Top5 59.619450    
+2024-04-22 16:05:21,076 - ==> Top1: 15.645    Top5: 59.619    Loss: 2.318
+
+2024-04-22 16:05:21,078 - ==> Confusion:
+[[ 0  0 19  0 68  0  0  0  0  0]
+ [ 0  0 42  0 56  0  0  0  0  0]
+ [ 0  0 38  0 59  0  0  0  0  2]
+ [ 0  0 27  0 53  0  0  0  0  0]
+ [ 0  0 13  0 79  0  0  0  0  1]
+ [ 0  0 27  0 68  0  0  0  0  0]
+ [ 0  0 27  0 77  0  0  0  0  0]
+ [ 0  0 38  0 54  0  0  0  0  1]
+ [ 0  0 30  0 62  0  0  0  0  5]
+ [ 0  0 34  0 34  0  0  0  1 31]]
+
+2024-04-22 16:05:21,080 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:05:21,080 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:05:21,110 - 
+
+2024-04-22 16:05:21,110 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:05:23,345 - Epoch: [7][   10/  267]    Overall Loss 2.294519    Objective Loss 2.294519                                        LR 0.100000    Time 0.223207    
+2024-04-22 16:05:24,421 - Epoch: [7][   20/  267]    Overall Loss 2.278727    Objective Loss 2.278727                                        LR 0.100000    Time 0.165240    
+2024-04-22 16:05:25,965 - Epoch: [7][   30/  267]    Overall Loss 2.312294    Objective Loss 2.312294                                        LR 0.100000    Time 0.161509    
+2024-04-22 16:05:26,972 - Epoch: [7][   40/  267]    Overall Loss 2.290796    Objective Loss 2.290796                                        LR 0.100000    Time 0.146219    
+2024-04-22 16:05:28,256 - Epoch: [7][   50/  267]    Overall Loss 2.295242    Objective Loss 2.295242                                        LR 0.100000    Time 0.142616    
+2024-04-22 16:05:29,412 - Epoch: [7][   60/  267]    Overall Loss 2.291435    Objective Loss 2.291435                                        LR 0.100000    Time 0.138070    
+2024-04-22 16:05:31,182 - Epoch: [7][   70/  267]    Overall Loss 2.276764    Objective Loss 2.276764                                        LR 0.100000    Time 0.143583    
+2024-04-22 16:05:32,291 - Epoch: [7][   80/  267]    Overall Loss 2.274105    Objective Loss 2.274105                                        LR 0.100000    Time 0.139447    
+2024-04-22 16:05:33,704 - Epoch: [7][   90/  267]    Overall Loss 2.275967    Objective Loss 2.275967                                        LR 0.100000    Time 0.139621    
+2024-04-22 16:05:34,493 - Epoch: [4][  100/  296]    Overall Loss 1.980489    Objective Loss 1.980489                                        LR 0.001000    Time 0.141970    
+2024-04-22 16:05:34,941 - Epoch: [7][  100/  267]    Overall Loss 2.277650    Objective Loss 2.277650                                        LR 0.100000    Time 0.138004    
+2024-04-22 16:05:35,918 - Epoch: [7][  110/  267]    Overall Loss 2.281203    Objective Loss 2.281203                                        LR 0.100000    Time 0.134318    
+2024-04-22 16:05:36,893 - Epoch: [7][  120/  267]    Overall Loss 2.280745    Objective Loss 2.280745                                        LR 0.100000    Time 0.131232    
+2024-04-22 16:05:38,195 - Epoch: [7][  130/  267]    Overall Loss 2.273696    Objective Loss 2.273696                                        LR 0.100000    Time 0.131137    
+2024-04-22 16:05:39,363 - Epoch: [7][  140/  267]    Overall Loss 2.267400    Objective Loss 2.267400                                        LR 0.100000    Time 0.130087    
+2024-04-22 16:05:40,536 - Epoch: [7][  150/  267]    Overall Loss 2.261635    Objective Loss 2.261635                                        LR 0.100000    Time 0.129218    
+2024-04-22 16:05:41,196 - Epoch: [7][  160/  267]    Overall Loss 2.267309    Objective Loss 2.267309                                        LR 0.100000    Time 0.125258    
+2024-04-22 16:05:41,942 - Epoch: [7][  170/  267]    Overall Loss 2.269813    Objective Loss 2.269813                                        LR 0.100000    Time 0.122273    
+2024-04-22 16:05:43,295 - Epoch: [7][  180/  267]    Overall Loss 2.266678    Objective Loss 2.266678                                        LR 0.100000    Time 0.122982    
+2024-04-22 16:05:44,304 - Epoch: [7][  190/  267]    Overall Loss 2.266181    Objective Loss 2.266181                                        LR 0.100000    Time 0.121811    
+2024-04-22 16:05:44,981 - Epoch: [4][  200/  296]    Overall Loss 1.975679    Objective Loss 1.975679                                        LR 0.001000    Time 0.123329    
+2024-04-22 16:05:45,358 - Epoch: [7][  200/  267]    Overall Loss 2.265601    Objective Loss 2.265601                                        LR 0.100000    Time 0.120978    
+2024-04-22 16:05:46,115 - Epoch: [7][  210/  267]    Overall Loss 2.263896    Objective Loss 2.263896                                        LR 0.100000    Time 0.118812    
+2024-04-22 16:05:47,098 - Epoch: [7][  220/  267]    Overall Loss 2.261240    Objective Loss 2.261240                                        LR 0.100000    Time 0.117871    
+2024-04-22 16:05:48,352 - Epoch: [7][  230/  267]    Overall Loss 2.260853    Objective Loss 2.260853                                        LR 0.100000    Time 0.118189    
+2024-04-22 16:05:49,255 - Epoch: [7][  240/  267]    Overall Loss 2.256627    Objective Loss 2.256627                                        LR 0.100000    Time 0.117020    
+2024-04-22 16:05:50,544 - Epoch: [7][  250/  267]    Overall Loss 2.255194    Objective Loss 2.255194                                        LR 0.100000    Time 0.117482    
+2024-04-22 16:05:51,652 - Epoch: [7][  260/  267]    Overall Loss 2.260137    Objective Loss 2.260137                                        LR 0.100000    Time 0.117217    
+2024-04-22 16:05:52,370 - Epoch: [7][  267/  267]    Overall Loss 2.259284    Objective Loss 2.259284    Top1 18.604651    Top5 53.488372    LR 0.100000    Time 0.116828    
+2024-04-22 16:05:52,509 - --- validate (epoch=7)-----------
+2024-04-22 16:05:52,510 - 946 samples (32 per mini-batch)
+2024-04-22 16:05:54,306 - Epoch: [7][   10/   30]    Loss 2.328579    Top1 15.625000    Top5 57.812500    
+2024-04-22 16:05:54,373 - Epoch: [4][  296/  296]    Overall Loss 1.971305    Objective Loss 1.971305    Top1 34.426230    Top5 83.606557    LR 0.001000    Time 0.115005    
+2024-04-22 16:05:54,659 - --- validate (epoch=4)-----------
+2024-04-22 16:05:54,660 - 3925 samples (32 per mini-batch)
+2024-04-22 16:05:55,086 - Epoch: [7][   20/   30]    Loss 2.277429    Top1 16.562500    Top5 58.437500    
+2024-04-22 16:05:55,900 - Epoch: [7][   30/   30]    Loss 2.238889    Top1 17.758985    Top5 60.147992    
+2024-04-22 16:05:56,045 - ==> Top1: 17.759    Top5: 60.148    Loss: 2.239
+
+2024-04-22 16:05:56,047 - ==> Confusion:
+[[ 0  0  0  0  0 72  0 15  0  0]
+ [ 0  0  1  0  1 78  0 16  0  2]
+ [ 0  0  0  0  4 65  0 24  0  6]
+ [ 0  0  0  1  0 61  0 16  0  2]
+ [ 0  0  0  0 14 47  0 24  0  8]
+ [ 0  0  0  0  0 77  0 17  0  1]
+ [ 1  0  0  0  5 51  1 40  0  6]
+ [ 1  0  0  1  1 70  0 16  0  4]
+ [ 1  0  0  0  1 53  0 35  0  7]
+ [ 0  0  0  0  7 12  0 22  0 59]]
+
+2024-04-22 16:05:56,050 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:05:56,051 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:05:56,063 - 
+
+2024-04-22 16:05:56,064 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:05:58,017 - Epoch: [8][   10/  267]    Overall Loss 2.177332    Objective Loss 2.177332                                        LR 0.100000    Time 0.194993    
+2024-04-22 16:05:58,967 - Epoch: [8][   20/  267]    Overall Loss 2.181803    Objective Loss 2.181803                                        LR 0.100000    Time 0.144848    
+2024-04-22 16:06:00,489 - Epoch: [8][   30/  267]    Overall Loss 2.200620    Objective Loss 2.200620                                        LR 0.100000    Time 0.147219    
+2024-04-22 16:06:01,825 - Epoch: [8][   40/  267]    Overall Loss 2.178917    Objective Loss 2.178917                                        LR 0.100000    Time 0.143735    
+2024-04-22 16:06:03,004 - Epoch: [8][   50/  267]    Overall Loss 2.175640    Objective Loss 2.175640                                        LR 0.100000    Time 0.138519    
+2024-04-22 16:06:03,989 - Epoch: [8][   60/  267]    Overall Loss 2.181233    Objective Loss 2.181233                                        LR 0.100000    Time 0.131802    
+2024-04-22 16:06:05,161 - Epoch: [8][   70/  267]    Overall Loss 2.189511    Objective Loss 2.189511                                        LR 0.100000    Time 0.129679    
+2024-04-22 16:06:06,337 - Epoch: [8][   80/  267]    Overall Loss 2.195089    Objective Loss 2.195089                                        LR 0.100000    Time 0.128143    
+2024-04-22 16:06:07,442 - Epoch: [8][   90/  267]    Overall Loss 2.194335    Objective Loss 2.194335                                        LR 0.100000    Time 0.126152    
+2024-04-22 16:06:08,384 - Epoch: [4][  100/  123]    Loss 2.016608    Top1 26.218750    Top5 76.062500    
+2024-04-22 16:06:08,893 - Epoch: [8][  100/  267]    Overall Loss 2.189444    Objective Loss 2.189444                                        LR 0.100000    Time 0.128028    
+2024-04-22 16:06:09,883 - Epoch: [8][  110/  267]    Overall Loss 2.184939    Objective Loss 2.184939                                        LR 0.100000    Time 0.125359    
+2024-04-22 16:06:11,132 - Epoch: [4][  123/  123]    Loss 2.025804    Top1 25.987261    Top5 75.617834    
+2024-04-22 16:06:11,271 - Epoch: [8][  120/  267]    Overall Loss 2.183005    Objective Loss 2.183005                                        LR 0.100000    Time 0.126466    
+2024-04-22 16:06:11,339 - ==> Top1: 25.987    Top5: 75.618    Loss: 2.026
+
+2024-04-22 16:06:11,349 - ==> Best [Top1: 28.892   Top5: 74.497   Sparsity:0.00   Params: 4040008 on epoch: 3]
+2024-04-22 16:06:11,350 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:06:11,559 - 
+
+2024-04-22 16:06:11,560 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:06:11,988 - Epoch: [8][  130/  267]    Overall Loss 2.186465    Objective Loss 2.186465                                        LR 0.100000    Time 0.122238    
+2024-04-22 16:06:12,883 - Epoch: [8][  140/  267]    Overall Loss 2.189980    Objective Loss 2.189980                                        LR 0.100000    Time 0.119892    
+2024-04-22 16:06:13,941 - Epoch: [8][  150/  267]    Overall Loss 2.187822    Objective Loss 2.187822                                        LR 0.100000    Time 0.118936    
+2024-04-22 16:06:15,222 - Epoch: [8][  160/  267]    Overall Loss 2.186363    Objective Loss 2.186363                                        LR 0.100000    Time 0.119494    
+2024-04-22 16:06:16,374 - Epoch: [8][  170/  267]    Overall Loss 2.181090    Objective Loss 2.181090                                        LR 0.100000    Time 0.119226    
+2024-04-22 16:06:17,739 - Epoch: [8][  180/  267]    Overall Loss 2.178054    Objective Loss 2.178054                                        LR 0.100000    Time 0.120171    
+2024-04-22 16:06:18,473 - Epoch: [8][  190/  267]    Overall Loss 2.180312    Objective Loss 2.180312                                        LR 0.100000    Time 0.117701    
+2024-04-22 16:06:19,413 - Epoch: [8][  200/  267]    Overall Loss 2.183858    Objective Loss 2.183858                                        LR 0.100000    Time 0.116476    
+2024-04-22 16:06:20,283 - Epoch: [8][  210/  267]    Overall Loss 2.184820    Objective Loss 2.184820                                        LR 0.100000    Time 0.115064    
+2024-04-22 16:06:21,486 - Epoch: [8][  220/  267]    Overall Loss 2.181091    Objective Loss 2.181091                                        LR 0.100000    Time 0.115290    
+2024-04-22 16:06:22,548 - Epoch: [8][  230/  267]    Overall Loss 2.178853    Objective Loss 2.178853                                        LR 0.100000    Time 0.114882    
+2024-04-22 16:06:23,422 - Epoch: [8][  240/  267]    Overall Loss 2.177014    Objective Loss 2.177014                                        LR 0.100000    Time 0.113727    
+2024-04-22 16:06:24,785 - Epoch: [5][  100/  296]    Overall Loss 1.927193    Objective Loss 1.927193                                        LR 0.001000    Time 0.132046    
+2024-04-22 16:06:24,868 - Epoch: [8][  250/  267]    Overall Loss 2.176448    Objective Loss 2.176448                                        LR 0.100000    Time 0.114955    
+2024-04-22 16:06:25,877 - Epoch: [8][  260/  267]    Overall Loss 2.176054    Objective Loss 2.176054                                        LR 0.100000    Time 0.114402    
+2024-04-22 16:06:26,479 - Epoch: [8][  267/  267]    Overall Loss 2.175487    Objective Loss 2.175487    Top1 20.930233    Top5 67.441860    LR 0.100000    Time 0.113650    
+2024-04-22 16:06:26,667 - --- validate (epoch=8)-----------
+2024-04-22 16:06:26,668 - 946 samples (32 per mini-batch)
+2024-04-22 16:06:28,679 - Epoch: [8][   10/   30]    Loss 2.145518    Top1 23.125000    Top5 67.500000    
+2024-04-22 16:06:29,676 - Epoch: [8][   20/   30]    Loss 2.145466    Top1 21.875000    Top5 68.593750    
+2024-04-22 16:06:30,877 - Epoch: [8][   30/   30]    Loss 2.176239    Top1 20.401691    Top5 65.116279    
+2024-04-22 16:06:31,125 - ==> Top1: 20.402    Top5: 65.116    Loss: 2.176
+
+2024-04-22 16:06:31,126 - ==> Confusion:
+[[ 0  0  0  0  0 76 10  1  0  0]
+ [ 0  2  3  1  1 80  4  1  2  4]
+ [ 0  1  4  1  0 69 15  0  0  9]
+ [ 0  3  4  3  0 61  7  0  0  2]
+ [ 0  1  0  0  6 60 17  0  2  7]
+ [ 0  2  3  0  0 88  1  0  1  0]
+ [ 0  2  8  1  4 56 25  1  2  5]
+ [ 0  1  2  1  1 75  9  0  1  3]
+ [ 0  0  5  1  0 61 11  1  6 12]
+ [ 0  1  3  0  2 23 11  0  1 59]]
+
+2024-04-22 16:06:31,128 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:06:31,129 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:06:31,150 - 
+
+2024-04-22 16:06:31,151 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:06:33,404 - Epoch: [9][   10/  267]    Overall Loss 2.165761    Objective Loss 2.165761                                        LR 0.100000    Time 0.225005    
+2024-04-22 16:06:34,667 - Epoch: [9][   20/  267]    Overall Loss 2.145677    Objective Loss 2.145677                                        LR 0.100000    Time 0.175484    
+2024-04-22 16:06:36,239 - Epoch: [9][   30/  267]    Overall Loss 2.169968    Objective Loss 2.169968                                        LR 0.100000    Time 0.169110    
+2024-04-22 16:06:36,447 - Epoch: [5][  200/  296]    Overall Loss 1.945159    Objective Loss 1.945159                                        LR 0.001000    Time 0.124243    
+2024-04-22 16:06:37,391 - Epoch: [9][   40/  267]    Overall Loss 2.169035    Objective Loss 2.169035                                        LR 0.100000    Time 0.155557    
+2024-04-22 16:06:38,710 - Epoch: [9][   50/  267]    Overall Loss 2.169337    Objective Loss 2.169337                                        LR 0.100000    Time 0.150786    
+2024-04-22 16:06:40,059 - Epoch: [9][   60/  267]    Overall Loss 2.169265    Objective Loss 2.169265                                        LR 0.100000    Time 0.148098    
+2024-04-22 16:06:41,096 - Epoch: [9][   70/  267]    Overall Loss 2.160792    Objective Loss 2.160792                                        LR 0.100000    Time 0.141708    
+2024-04-22 16:06:42,363 - Epoch: [9][   80/  267]    Overall Loss 2.162549    Objective Loss 2.162549                                        LR 0.100000    Time 0.139799    
+2024-04-22 16:06:43,593 - Epoch: [9][   90/  267]    Overall Loss 2.159523    Objective Loss 2.159523                                        LR 0.100000    Time 0.137895    
+2024-04-22 16:06:44,641 - Epoch: [9][  100/  267]    Overall Loss 2.159544    Objective Loss 2.159544                                        LR 0.100000    Time 0.134556    
+2024-04-22 16:06:46,108 - Epoch: [9][  110/  267]    Overall Loss 2.167559    Objective Loss 2.167559                                        LR 0.100000    Time 0.135641    
+2024-04-22 16:06:47,249 - Epoch: [9][  120/  267]    Overall Loss 2.165551    Objective Loss 2.165551                                        LR 0.100000    Time 0.133825    
+2024-04-22 16:06:47,964 - Epoch: [5][  296/  296]    Overall Loss 1.942818    Objective Loss 1.942818    Top1 27.868852    Top5 70.491803    LR 0.001000    Time 0.122791    
+2024-04-22 16:06:48,248 - --- validate (epoch=5)-----------
+2024-04-22 16:06:48,249 - 3925 samples (32 per mini-batch)
+2024-04-22 16:06:48,344 - Epoch: [9][  130/  267]    Overall Loss 2.165325    Objective Loss 2.165325                                        LR 0.100000    Time 0.131930    
+2024-04-22 16:06:49,085 - Epoch: [9][  140/  267]    Overall Loss 2.166095    Objective Loss 2.166095                                        LR 0.100000    Time 0.127786    
+2024-04-22 16:06:50,530 - Epoch: [9][  150/  267]    Overall Loss 2.170763    Objective Loss 2.170763                                        LR 0.100000    Time 0.128884    
+2024-04-22 16:06:52,029 - Epoch: [9][  160/  267]    Overall Loss 2.169897    Objective Loss 2.169897                                        LR 0.100000    Time 0.130178    
+2024-04-22 16:06:53,410 - Epoch: [9][  170/  267]    Overall Loss 2.168157    Objective Loss 2.168157                                        LR 0.100000    Time 0.130626    
+2024-04-22 16:06:54,820 - Epoch: [9][  180/  267]    Overall Loss 2.170527    Objective Loss 2.170527                                        LR 0.100000    Time 0.131185    
+2024-04-22 16:06:56,356 - Epoch: [9][  190/  267]    Overall Loss 2.172492    Objective Loss 2.172492                                        LR 0.100000    Time 0.132350    
+2024-04-22 16:06:57,932 - Epoch: [9][  200/  267]    Overall Loss 2.171362    Objective Loss 2.171362                                        LR 0.100000    Time 0.133600    
+2024-04-22 16:06:59,958 - Epoch: [9][  210/  267]    Overall Loss 2.175424    Objective Loss 2.175424                                        LR 0.100000    Time 0.136836    
+2024-04-22 16:07:01,278 - Epoch: [9][  220/  267]    Overall Loss 2.171926    Objective Loss 2.171926                                        LR 0.100000    Time 0.136612    
+2024-04-22 16:07:03,037 - Epoch: [9][  230/  267]    Overall Loss 2.171806    Objective Loss 2.171806                                        LR 0.100000    Time 0.138307    
+2024-04-22 16:07:03,293 - Epoch: [5][  100/  123]    Loss 1.864422    Top1 34.750000    Top5 82.968750    
+2024-04-22 16:07:04,246 - Epoch: [9][  240/  267]    Overall Loss 2.173089    Objective Loss 2.173089                                        LR 0.100000    Time 0.137569    
+2024-04-22 16:07:05,829 - Epoch: [5][  123/  123]    Loss 1.869008    Top1 34.726115    Top5 82.420382    
+2024-04-22 16:07:06,051 - ==> Top1: 34.726    Top5: 82.420    Loss: 1.869
+
+2024-04-22 16:07:06,059 - ==> Best [Top1: 34.726   Top5: 82.420   Sparsity:0.00   Params: 4040008 on epoch: 5]
+2024-04-22 16:07:06,060 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:07:06,128 - Epoch: [9][  250/  267]    Overall Loss 2.174506    Objective Loss 2.174506                                        LR 0.100000    Time 0.139587    
+2024-04-22 16:07:06,324 - 
+
+2024-04-22 16:07:06,325 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:07:07,225 - Epoch: [9][  260/  267]    Overall Loss 2.173630    Objective Loss 2.173630                                        LR 0.100000    Time 0.138430    
+2024-04-22 16:07:08,089 - Epoch: [9][  267/  267]    Overall Loss 2.173865    Objective Loss 2.173865    Top1 18.604651    Top5 65.116279    LR 0.100000    Time 0.138032    
+2024-04-22 16:07:08,232 - --- validate (epoch=9)-----------
+2024-04-22 16:07:08,233 - 946 samples (32 per mini-batch)
+2024-04-22 16:07:10,197 - Epoch: [9][   10/   30]    Loss 2.207306    Top1 19.375000    Top5 68.125000    
+2024-04-22 16:07:11,536 - Epoch: [9][   20/   30]    Loss 2.236395    Top1 19.062500    Top5 65.312500    
+2024-04-22 16:07:12,601 - Epoch: [9][   30/   30]    Loss 2.214238    Top1 19.450317    Top5 64.587738    
+2024-04-22 16:07:12,778 - ==> Top1: 19.450    Top5: 64.588    Loss: 2.214
+
+2024-04-22 16:07:12,779 - ==> Confusion:
+[[ 5  0  5  6  7 61  0  0  1  2]
+ [ 4  1  9 18  5 54  0  0  0  7]
+ [ 5  0  8 18  7 45  0  0  0 16]
+ [ 4  0  7 12  6 46  0  0  1  4]
+ [ 5  0  4  8 31 37  0  0  0  8]
+ [ 6  0  6 11  4 67  0  0  0  1]
+ [ 6  0  8 14 30 40  0  0  0  6]
+ [ 3  0 12 14  6 49  0  0  0  9]
+ [11  0  4  8 16 43  0  0  0 15]
+ [ 1  0  2  4 20 13  0  0  0 60]]
+
+2024-04-22 16:07:12,782 - ==> Best [Top1: 21.247   Top5: 66.702   Sparsity:0.00   Params: 72228 on epoch: 1]
+2024-04-22 16:07:12,783 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:07:12,808 - 
+
+2024-04-22 16:07:12,808 - Initiating quantization aware training (QAT)...
+2024-04-22 16:07:12,823 - 
+
+2024-04-22 16:07:12,824 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:07:15,035 - Epoch: [10][   10/  267]    Overall Loss 2.165205    Objective Loss 2.165205                                        LR 0.100000    Time 0.220884    
+2024-04-22 16:07:16,191 - Epoch: [10][   20/  267]    Overall Loss 2.163043    Objective Loss 2.163043                                        LR 0.100000    Time 0.168064    
+2024-04-22 16:07:17,771 - Epoch: [10][   30/  267]    Overall Loss 2.164733    Objective Loss 2.164733                                        LR 0.100000    Time 0.164618    
+2024-04-22 16:07:18,812 - Epoch: [10][   40/  267]    Overall Loss 2.173429    Objective Loss 2.173429                                        LR 0.100000    Time 0.149425    
+2024-04-22 16:07:19,209 - Epoch: [6][  100/  296]    Overall Loss 1.922198    Objective Loss 1.922198                                        LR 0.001000    Time 0.128637    
+2024-04-22 16:07:20,458 - Epoch: [10][   50/  267]    Overall Loss 2.155605    Objective Loss 2.155605                                        LR 0.100000    Time 0.152395    
+2024-04-22 16:07:21,510 - Epoch: [10][   60/  267]    Overall Loss 2.144035    Objective Loss 2.144035                                        LR 0.100000    Time 0.144493    
+2024-04-22 16:07:22,958 - Epoch: [10][   70/  267]    Overall Loss 2.149010    Objective Loss 2.149010                                        LR 0.100000    Time 0.144489    
+2024-04-22 16:07:24,027 - Epoch: [10][   80/  267]    Overall Loss 2.146099    Objective Loss 2.146099                                        LR 0.100000    Time 0.139768    
+2024-04-22 16:07:25,488 - Epoch: [10][   90/  267]    Overall Loss 2.146292    Objective Loss 2.146292                                        LR 0.100000    Time 0.140445    
+2024-04-22 16:07:26,576 - Epoch: [10][  100/  267]    Overall Loss 2.144491    Objective Loss 2.144491                                        LR 0.100000    Time 0.137252    
+2024-04-22 16:07:27,870 - Epoch: [10][  110/  267]    Overall Loss 2.147756    Objective Loss 2.147756                                        LR 0.100000    Time 0.136516    
+2024-04-22 16:07:28,745 - Epoch: [10][  120/  267]    Overall Loss 2.148200    Objective Loss 2.148200                                        LR 0.100000    Time 0.132406    
+2024-04-22 16:07:30,190 - Epoch: [10][  130/  267]    Overall Loss 2.145666    Objective Loss 2.145666                                        LR 0.100000    Time 0.133314    
+2024-04-22 16:07:31,158 - Epoch: [10][  140/  267]    Overall Loss 2.148339    Objective Loss 2.148339                                        LR 0.100000    Time 0.130688    
+2024-04-22 16:07:31,603 - Epoch: [6][  200/  296]    Overall Loss 1.915738    Objective Loss 1.915738                                        LR 0.001000    Time 0.126189    
+2024-04-22 16:07:32,448 - Epoch: [10][  150/  267]    Overall Loss 2.149016    Objective Loss 2.149016                                        LR 0.100000    Time 0.130559    
+2024-04-22 16:07:33,489 - Epoch: [10][  160/  267]    Overall Loss 2.149047    Objective Loss 2.149047                                        LR 0.100000    Time 0.128888    
+2024-04-22 16:07:34,813 - Epoch: [10][  170/  267]    Overall Loss 2.147235    Objective Loss 2.147235                                        LR 0.100000    Time 0.129079    
+2024-04-22 16:07:35,808 - Epoch: [10][  180/  267]    Overall Loss 2.144876    Objective Loss 2.144876                                        LR 0.100000    Time 0.127392    
+2024-04-22 16:07:37,159 - Epoch: [10][  190/  267]    Overall Loss 2.142057    Objective Loss 2.142057                                        LR 0.100000    Time 0.127787    
+2024-04-22 16:07:38,177 - Epoch: [10][  200/  267]    Overall Loss 2.140745    Objective Loss 2.140745                                        LR 0.100000    Time 0.126475    
+2024-04-22 16:07:39,456 - Epoch: [10][  210/  267]    Overall Loss 2.138865    Objective Loss 2.138865                                        LR 0.100000    Time 0.126529    
+2024-04-22 16:07:40,820 - Epoch: [10][  220/  267]    Overall Loss 2.137873    Objective Loss 2.137873                                        LR 0.100000    Time 0.126964    
+2024-04-22 16:07:41,867 - Epoch: [10][  230/  267]    Overall Loss 2.136780    Objective Loss 2.136780                                        LR 0.100000    Time 0.125987    
+2024-04-22 16:07:42,890 - Epoch: [10][  240/  267]    Overall Loss 2.135701    Objective Loss 2.135701                                        LR 0.100000    Time 0.124990    
+2024-04-22 16:07:43,345 - Epoch: [6][  296/  296]    Overall Loss 1.896266    Objective Loss 1.896266    Top1 40.983607    Top5 85.245902    LR 0.001000    Time 0.124867    
+2024-04-22 16:07:43,506 - Epoch: [10][  250/  267]    Overall Loss 2.134897    Objective Loss 2.134897                                        LR 0.100000    Time 0.122449    
+2024-04-22 16:07:43,606 - --- validate (epoch=6)-----------
+2024-04-22 16:07:43,608 - 3925 samples (32 per mini-batch)
+2024-04-22 16:07:44,264 - Epoch: [10][  260/  267]    Overall Loss 2.136885    Objective Loss 2.136885                                        LR 0.100000    Time 0.120649    
+2024-04-22 16:07:44,861 - Epoch: [10][  267/  267]    Overall Loss 2.138872    Objective Loss 2.138872    Top1 18.604651    Top5 67.441860    LR 0.100000    Time 0.119717    
+2024-04-22 16:07:45,015 - --- validate (epoch=10)-----------
+2024-04-22 16:07:45,015 - 946 samples (32 per mini-batch)
+2024-04-22 16:07:46,659 - Epoch: [10][   10/   30]    Loss 2.089023    Top1 20.937500    Top5 69.687500    
+2024-04-22 16:07:48,050 - Epoch: [10][   20/   30]    Loss 2.113283    Top1 20.781250    Top5 68.906250    
+2024-04-22 16:07:49,019 - Epoch: [10][   30/   30]    Loss 2.125480    Top1 21.670190    Top5 66.913319    
+2024-04-22 16:07:49,263 - ==> Top1: 21.670    Top5: 66.913    Loss: 2.125
+
+2024-04-22 16:07:49,265 - ==> Confusion:
+[[75  6  2  0  2  1  0  0  1  0]
+ [65 19  5  0  1  1  0  0  0  7]
+ [56 12 14  0  4  3  1  0  0  9]
+ [53 11  5  0  2  3  0  0  1  5]
+ [49  3  3  0 24  2  0  0  2 10]
+ [75  7  4  0  2  5  0  0  2  0]
+ [51 11 12  0 24  2  0  0  0  4]
+ [63 11  5  0  3  7  0  0  0  4]
+ [63  3  4  0 11  2  0  0  3 11]
+ [14  4  5  0 10  0  0  0  2 65]]
+
+2024-04-22 16:07:49,269 - ==> Best [Top1: 21.670   Top5: 66.913   Sparsity:0.00   Params: 72228 on epoch: 10]
+2024-04-22 16:07:49,270 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:07:49,283 - 
+
+2024-04-22 16:07:49,284 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:07:51,783 - Epoch: [11][   10/  267]    Overall Loss 2.172032    Objective Loss 2.172032                                        LR 0.100000    Time 0.249558    
+2024-04-22 16:07:52,936 - Epoch: [11][   20/  267]    Overall Loss 2.168156    Objective Loss 2.168156                                        LR 0.100000    Time 0.182316    
+2024-04-22 16:07:54,515 - Epoch: [11][   30/  267]    Overall Loss 2.167043    Objective Loss 2.167043                                        LR 0.100000    Time 0.174050    
+2024-04-22 16:07:55,962 - Epoch: [11][   40/  267]    Overall Loss 2.173117    Objective Loss 2.173117                                        LR 0.100000    Time 0.166630    
+2024-04-22 16:07:57,338 - Epoch: [11][   50/  267]    Overall Loss 2.177464    Objective Loss 2.177464                                        LR 0.100000    Time 0.160764    
+2024-04-22 16:07:57,385 - Epoch: [6][  100/  123]    Loss 1.949471    Top1 29.781250    Top5 77.187500    
+2024-04-22 16:07:58,542 - Epoch: [11][   60/  267]    Overall Loss 2.169765    Objective Loss 2.169765                                        LR 0.100000    Time 0.154007    
+2024-04-22 16:07:59,811 - Epoch: [11][   70/  267]    Overall Loss 2.170454    Objective Loss 2.170454                                        LR 0.100000    Time 0.150090    
+2024-04-22 16:08:00,382 - Epoch: [6][  123/  123]    Loss 1.951124    Top1 29.885350    Top5 77.350318    
+2024-04-22 16:08:00,585 - ==> Top1: 29.885    Top5: 77.350    Loss: 1.951
+
+2024-04-22 16:08:00,600 - ==> Best [Top1: 34.726   Top5: 82.420   Sparsity:0.00   Params: 4040008 on epoch: 5]
+2024-04-22 16:08:00,600 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:08:00,645 - Epoch: [11][   80/  267]    Overall Loss 2.177630    Objective Loss 2.177630                                        LR 0.100000    Time 0.141733    
+2024-04-22 16:08:00,782 - 
+
+2024-04-22 16:08:00,783 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:08:01,660 - Epoch: [11][   90/  267]    Overall Loss 2.177580    Objective Loss 2.177580                                        LR 0.100000    Time 0.137247    
+2024-04-22 16:08:02,747 - Epoch: [11][  100/  267]    Overall Loss 2.179658    Objective Loss 2.179658                                        LR 0.100000    Time 0.134364    
+2024-04-22 16:08:04,214 - Epoch: [11][  110/  267]    Overall Loss 2.174790    Objective Loss 2.174790                                        LR 0.100000    Time 0.135455    
+2024-04-22 16:08:05,503 - Epoch: [11][  120/  267]    Overall Loss 2.171498    Objective Loss 2.171498                                        LR 0.100000    Time 0.134889    
+2024-04-22 16:08:06,778 - Epoch: [11][  130/  267]    Overall Loss 2.171978    Objective Loss 2.171978                                        LR 0.100000    Time 0.134301    
+2024-04-22 16:08:08,064 - Epoch: [11][  140/  267]    Overall Loss 2.170344    Objective Loss 2.170344                                        LR 0.100000    Time 0.133871    
+2024-04-22 16:08:09,382 - Epoch: [11][  150/  267]    Overall Loss 2.164599    Objective Loss 2.164599                                        LR 0.100000    Time 0.133707    
+2024-04-22 16:08:10,925 - Epoch: [11][  160/  267]    Overall Loss 2.159758    Objective Loss 2.159758                                        LR 0.100000    Time 0.134973    
+2024-04-22 16:08:11,961 - Epoch: [11][  170/  267]    Overall Loss 2.158207    Objective Loss 2.158207                                        LR 0.100000    Time 0.133114    
+2024-04-22 16:08:13,348 - Epoch: [11][  180/  267]    Overall Loss 2.153649    Objective Loss 2.153649                                        LR 0.100000    Time 0.133415    
+2024-04-22 16:08:14,427 - Epoch: [11][  190/  267]    Overall Loss 2.146933    Objective Loss 2.146933                                        LR 0.100000    Time 0.132057    
+2024-04-22 16:08:15,857 - Epoch: [11][  200/  267]    Overall Loss 2.145805    Objective Loss 2.145805                                        LR 0.100000    Time 0.132592    
+2024-04-22 16:08:16,119 - Epoch: [7][  100/  296]    Overall Loss 1.882847    Objective Loss 1.882847                                        LR 0.001000    Time 0.153146    
+2024-04-22 16:08:16,814 - Epoch: [11][  210/  267]    Overall Loss 2.148241    Objective Loss 2.148241                                        LR 0.100000    Time 0.130824    
+2024-04-22 16:08:17,947 - Epoch: [11][  220/  267]    Overall Loss 2.148994    Objective Loss 2.148994                                        LR 0.100000    Time 0.130017    
+2024-04-22 16:08:18,849 - Epoch: [11][  230/  267]    Overall Loss 2.151260    Objective Loss 2.151260                                        LR 0.100000    Time 0.128271    
+2024-04-22 16:08:20,011 - Epoch: [11][  240/  267]    Overall Loss 2.151192    Objective Loss 2.151192                                        LR 0.100000    Time 0.127760    
+2024-04-22 16:08:21,336 - Epoch: [11][  250/  267]    Overall Loss 2.152650    Objective Loss 2.152650                                        LR 0.100000    Time 0.127939    
+2024-04-22 16:08:22,809 - Epoch: [11][  260/  267]    Overall Loss 2.151346    Objective Loss 2.151346                                        LR 0.100000    Time 0.128675    
+2024-04-22 16:08:23,232 - Epoch: [11][  267/  267]    Overall Loss 2.149699    Objective Loss 2.149699    Top1 27.906977    Top5 76.744186    LR 0.100000    Time 0.126882    
+2024-04-22 16:08:23,371 - --- validate (epoch=11)-----------
+2024-04-22 16:08:23,371 - 946 samples (32 per mini-batch)
+2024-04-22 16:08:25,122 - Epoch: [11][   10/   30]    Loss 2.168748    Top1 22.812500    Top5 67.187500    
+2024-04-22 16:08:25,958 - Epoch: [11][   20/   30]    Loss 2.153006    Top1 21.562500    Top5 68.750000    
+2024-04-22 16:08:26,953 - Epoch: [7][  200/  296]    Overall Loss 1.864494    Objective Loss 1.864494                                        LR 0.001000    Time 0.130660    
+2024-04-22 16:08:27,082 - Epoch: [11][   30/   30]    Loss 2.155954    Top1 21.353066    Top5 67.758985    
+2024-04-22 16:08:27,180 - ==> Top1: 21.353    Top5: 67.759    Loss: 2.156
+
+2024-04-22 16:08:27,181 - ==> Confusion:
+[[25  1 11  0  1 43  1  0  5  0]
+ [19  7 12  0  3 46  0  1  4  6]
+ [16  8 29  0  0 35  0  0  5  6]
+ [13  2 22  0  2 33  0  2  2  4]
+ [12  0 24  0 13 30  2  1  1 10]
+ [18  4 11  0  1 57  0  1  2  1]
+ [18  3 29  0 15 28  4  1  2  4]
+ [25  6 19  0  2 36  0  1  2  2]
+ [26  5 13  0  4 31  1  2  7  8]
+ [ 9  1 12  0  7  6  3  0  3 59]]
+
+2024-04-22 16:08:27,182 - ==> Best [Top1: 21.670   Top5: 66.913   Sparsity:0.00   Params: 72228 on epoch: 10]
+2024-04-22 16:08:27,182 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:08:27,190 - 
+
+2024-04-22 16:08:27,190 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:08:28,870 - Epoch: [12][   10/  267]    Overall Loss 2.140884    Objective Loss 2.140884                                        LR 0.100000    Time 0.167722    
+2024-04-22 16:08:29,924 - Epoch: [12][   20/  267]    Overall Loss 2.145961    Objective Loss 2.145961                                        LR 0.100000    Time 0.136474    
+2024-04-22 16:08:31,293 - Epoch: [12][   30/  267]    Overall Loss 2.151753    Objective Loss 2.151753                                        LR 0.100000    Time 0.136526    
+2024-04-22 16:08:32,421 - Epoch: [12][   40/  267]    Overall Loss 2.153800    Objective Loss 2.153800                                        LR 0.100000    Time 0.130524    
+2024-04-22 16:08:33,795 - Epoch: [12][   50/  267]    Overall Loss 2.150285    Objective Loss 2.150285                                        LR 0.100000    Time 0.131861    
+2024-04-22 16:08:34,855 - Epoch: [12][   60/  267]    Overall Loss 2.154004    Objective Loss 2.154004                                        LR 0.100000    Time 0.127496    
+2024-04-22 16:08:36,433 - Epoch: [12][   70/  267]    Overall Loss 2.151606    Objective Loss 2.151606                                        LR 0.100000    Time 0.131793    
+2024-04-22 16:08:37,437 - Epoch: [12][   80/  267]    Overall Loss 2.153064    Objective Loss 2.153064                                        LR 0.100000    Time 0.127834    
+2024-04-22 16:08:37,901 - Epoch: [7][  296/  296]    Overall Loss 1.850419    Objective Loss 1.850419    Top1 32.786885    Top5 80.327869    LR 0.001000    Time 0.125210    
+2024-04-22 16:08:38,209 - --- validate (epoch=7)-----------
+2024-04-22 16:08:38,211 - 3925 samples (32 per mini-batch)
+2024-04-22 16:08:38,397 - Epoch: [12][   90/  267]    Overall Loss 2.148532    Objective Loss 2.148532                                        LR 0.100000    Time 0.124279    
+2024-04-22 16:08:39,165 - Epoch: [12][  100/  267]    Overall Loss 2.144892    Objective Loss 2.144892                                        LR 0.100000    Time 0.119508    
+2024-04-22 16:08:40,573 - Epoch: [12][  110/  267]    Overall Loss 2.147653    Objective Loss 2.147653                                        LR 0.100000    Time 0.121419    
+2024-04-22 16:08:41,845 - Epoch: [12][  120/  267]    Overall Loss 2.143751    Objective Loss 2.143751                                        LR 0.100000    Time 0.121883    
+2024-04-22 16:08:43,468 - Epoch: [12][  130/  267]    Overall Loss 2.142908    Objective Loss 2.142908                                        LR 0.100000    Time 0.124970    
+2024-04-22 16:08:44,549 - Epoch: [12][  140/  267]    Overall Loss 2.140461    Objective Loss 2.140461                                        LR 0.100000    Time 0.123740    
+2024-04-22 16:08:45,939 - Epoch: [12][  150/  267]    Overall Loss 2.141813    Objective Loss 2.141813                                        LR 0.100000    Time 0.124741    
+2024-04-22 16:08:46,982 - Epoch: [12][  160/  267]    Overall Loss 2.135955    Objective Loss 2.135955                                        LR 0.100000    Time 0.123445    
+2024-04-22 16:08:48,411 - Epoch: [12][  170/  267]    Overall Loss 2.132584    Objective Loss 2.132584                                        LR 0.100000    Time 0.124575    
+2024-04-22 16:08:49,837 - Epoch: [12][  180/  267]    Overall Loss 2.133045    Objective Loss 2.133045                                        LR 0.100000    Time 0.125559    
+2024-04-22 16:08:51,233 - Epoch: [12][  190/  267]    Overall Loss 2.133194    Objective Loss 2.133194                                        LR 0.100000    Time 0.126283    
+2024-04-22 16:08:52,306 - Epoch: [12][  200/  267]    Overall Loss 2.133758    Objective Loss 2.133758                                        LR 0.100000    Time 0.125323    
+2024-04-22 16:08:53,440 - Epoch: [7][  100/  123]    Loss 1.740028    Top1 38.000000    Top5 86.218750    
+2024-04-22 16:08:53,580 - Epoch: [12][  210/  267]    Overall Loss 2.132606    Objective Loss 2.132606                                        LR 0.100000    Time 0.125409    
+2024-04-22 16:08:54,922 - Epoch: [12][  220/  267]    Overall Loss 2.130768    Objective Loss 2.130768                                        LR 0.100000    Time 0.125796    
+2024-04-22 16:08:56,781 - Epoch: [12][  230/  267]    Overall Loss 2.129116    Objective Loss 2.129116                                        LR 0.100000    Time 0.128388    
+2024-04-22 16:08:57,433 - Epoch: [7][  123/  123]    Loss 1.727389    Top1 38.318471    Top5 86.318471    
+2024-04-22 16:08:57,681 - ==> Top1: 38.318    Top5: 86.318    Loss: 1.727
+
+2024-04-22 16:08:57,693 - ==> Best [Top1: 38.318   Top5: 86.318   Sparsity:0.00   Params: 4040008 on epoch: 7]
+2024-04-22 16:08:57,693 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:08:57,820 - Epoch: [12][  240/  267]    Overall Loss 2.127965    Objective Loss 2.127965                                        LR 0.100000    Time 0.127357    
+2024-04-22 16:08:58,156 - 
+
+2024-04-22 16:08:58,158 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:08:59,232 - Epoch: [12][  250/  267]    Overall Loss 2.127310    Objective Loss 2.127310                                        LR 0.100000    Time 0.127901    
+2024-04-22 16:09:00,448 - Epoch: [12][  260/  267]    Overall Loss 2.128007    Objective Loss 2.128007                                        LR 0.100000    Time 0.127644    
+2024-04-22 16:09:01,509 - Epoch: [12][  267/  267]    Overall Loss 2.126729    Objective Loss 2.126729    Top1 16.279070    Top5 51.162791    LR 0.100000    Time 0.128262    
+2024-04-22 16:09:01,697 - --- validate (epoch=12)-----------
+2024-04-22 16:09:01,698 - 946 samples (32 per mini-batch)
+2024-04-22 16:09:04,000 - Epoch: [12][   10/   30]    Loss 2.132919    Top1 21.562500    Top5 69.687500    
+2024-04-22 16:09:05,348 - Epoch: [12][   20/   30]    Loss 2.140528    Top1 19.531250    Top5 67.500000    
+2024-04-22 16:09:06,319 - Epoch: [12][   30/   30]    Loss 2.137195    Top1 19.767442    Top5 67.124736    
+2024-04-22 16:09:06,440 - ==> Top1: 19.767    Top5: 67.125    Loss: 2.137
+
+2024-04-22 16:09:06,441 - ==> Confusion:
+[[49  6  2  0  7  0 16  1  4  2]
+ [58 15  2  0  4  0  9  1  1  8]
+ [38 14  8  0  6  0 18  1  5  9]
+ [34 11  2  0  3  0 15  1  7  7]
+ [32  4  1  0 21  0 19  2  3 11]
+ [61 13  2  0  3  0 10  1  4  1]
+ [35 14  2  0 23  0 20  1  2  7]
+ [37 14  9  0  4  0 18  1  7  3]
+ [40  8  0  0 10  1 13  2  9 14]
+ [ 7  4  1  0  9  0  9  0  6 64]]
+
+2024-04-22 16:09:06,444 - ==> Best [Top1: 21.670   Top5: 66.913   Sparsity:0.00   Params: 72228 on epoch: 10]
+2024-04-22 16:09:06,445 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:09:06,457 - 
+
+2024-04-22 16:09:06,458 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:09:09,086 - Epoch: [13][   10/  267]    Overall Loss 2.099590    Objective Loss 2.099590                                        LR 0.100000    Time 0.262562    
+2024-04-22 16:09:10,430 - Epoch: [13][   20/  267]    Overall Loss 2.115394    Objective Loss 2.115394                                        LR 0.100000    Time 0.198343    
+2024-04-22 16:09:11,110 - Epoch: [8][  100/  296]    Overall Loss 1.841271    Objective Loss 1.841271                                        LR 0.001000    Time 0.129313    
+2024-04-22 16:09:11,478 - Epoch: [13][   30/  267]    Overall Loss 2.119437    Objective Loss 2.119437                                        LR 0.100000    Time 0.167111    
+2024-04-22 16:09:12,554 - Epoch: [13][   40/  267]    Overall Loss 2.129163    Objective Loss 2.129163                                        LR 0.100000    Time 0.152172    
+2024-04-22 16:09:13,934 - Epoch: [13][   50/  267]    Overall Loss 2.134829    Objective Loss 2.134829                                        LR 0.100000    Time 0.149291    
+2024-04-22 16:09:15,180 - Epoch: [13][   60/  267]    Overall Loss 2.123562    Objective Loss 2.123562                                        LR 0.100000    Time 0.145138    
+2024-04-22 16:09:16,523 - Epoch: [13][   70/  267]    Overall Loss 2.132864    Objective Loss 2.132864                                        LR 0.100000    Time 0.143541    
+2024-04-22 16:09:17,449 - Epoch: [13][   80/  267]    Overall Loss 2.124414    Objective Loss 2.124414                                        LR 0.100000    Time 0.137142    
+2024-04-22 16:09:18,892 - Epoch: [13][   90/  267]    Overall Loss 2.119818    Objective Loss 2.119818                                        LR 0.100000    Time 0.137915    
+2024-04-22 16:09:20,204 - Epoch: [13][  100/  267]    Overall Loss 2.118529    Objective Loss 2.118529                                        LR 0.100000    Time 0.137212    
+2024-04-22 16:09:21,531 - Epoch: [13][  110/  267]    Overall Loss 2.121426    Objective Loss 2.121426                                        LR 0.100000    Time 0.136778    
+2024-04-22 16:09:22,834 - Epoch: [13][  120/  267]    Overall Loss 2.123271    Objective Loss 2.123271                                        LR 0.100000    Time 0.136212    
+2024-04-22 16:09:24,193 - Epoch: [13][  130/  267]    Overall Loss 2.120889    Objective Loss 2.120889                                        LR 0.100000    Time 0.136170    
+2024-04-22 16:09:24,196 - Epoch: [8][  200/  296]    Overall Loss 1.832139    Objective Loss 1.832139                                        LR 0.001000    Time 0.129994    
+2024-04-22 16:09:25,393 - Epoch: [13][  140/  267]    Overall Loss 2.122123    Objective Loss 2.122123                                        LR 0.100000    Time 0.135001    
+2024-04-22 16:09:26,722 - Epoch: [13][  150/  267]    Overall Loss 2.122791    Objective Loss 2.122791                                        LR 0.100000    Time 0.134838    
+2024-04-22 16:09:27,808 - Epoch: [13][  160/  267]    Overall Loss 2.119546    Objective Loss 2.119546                                        LR 0.100000    Time 0.133184    
+2024-04-22 16:09:29,189 - Epoch: [13][  170/  267]    Overall Loss 2.119026    Objective Loss 2.119026                                        LR 0.100000    Time 0.133456    
+2024-04-22 16:09:30,293 - Epoch: [13][  180/  267]    Overall Loss 2.119574    Objective Loss 2.119574                                        LR 0.100000    Time 0.132158    
+2024-04-22 16:09:31,757 - Epoch: [13][  190/  267]    Overall Loss 2.121585    Objective Loss 2.121585                                        LR 0.100000    Time 0.132896    
+2024-04-22 16:09:32,976 - Epoch: [13][  200/  267]    Overall Loss 2.121750    Objective Loss 2.121750                                        LR 0.100000    Time 0.132331    
+2024-04-22 16:09:34,260 - Epoch: [13][  210/  267]    Overall Loss 2.120759    Objective Loss 2.120759                                        LR 0.100000    Time 0.132131    
+2024-04-22 16:09:35,512 - Epoch: [13][  220/  267]    Overall Loss 2.120808    Objective Loss 2.120808                                        LR 0.100000    Time 0.131802    
+2024-04-22 16:09:36,552 - Epoch: [13][  230/  267]    Overall Loss 2.119334    Objective Loss 2.119334                                        LR 0.100000    Time 0.130580    
+2024-04-22 16:09:36,578 - Epoch: [8][  296/  296]    Overall Loss 1.821998    Objective Loss 1.821998    Top1 34.426230    Top5 81.967213    LR 0.001000    Time 0.129599    
+2024-04-22 16:09:36,862 - --- validate (epoch=8)-----------
+2024-04-22 16:09:36,863 - 3925 samples (32 per mini-batch)
+2024-04-22 16:09:37,451 - Epoch: [13][  240/  267]    Overall Loss 2.119242    Objective Loss 2.119242                                        LR 0.100000    Time 0.128879    
+2024-04-22 16:09:38,562 - Epoch: [13][  250/  267]    Overall Loss 2.119080    Objective Loss 2.119080                                        LR 0.100000    Time 0.128158    
+2024-04-22 16:09:40,052 - Epoch: [13][  260/  267]    Overall Loss 2.121565    Objective Loss 2.121565                                        LR 0.100000    Time 0.128950    
+2024-04-22 16:09:40,597 - Epoch: [13][  267/  267]    Overall Loss 2.118502    Objective Loss 2.118502    Top1 32.558140    Top5 72.093023    LR 0.100000    Time 0.127602    
+2024-04-22 16:09:40,745 - --- validate (epoch=13)-----------
+2024-04-22 16:09:40,746 - 946 samples (32 per mini-batch)
+2024-04-22 16:09:42,863 - Epoch: [13][   10/   30]    Loss 2.118491    Top1 24.062500    Top5 69.062500    
+2024-04-22 16:09:43,911 - Epoch: [13][   20/   30]    Loss 2.109825    Top1 22.968750    Top5 68.125000    
+2024-04-22 16:09:45,123 - Epoch: [13][   30/   30]    Loss 2.094522    Top1 23.467230    Top5 67.547569    
+2024-04-22 16:09:45,285 - ==> Top1: 23.467    Top5: 67.548    Loss: 2.095
+
+2024-04-22 16:09:45,286 - ==> Confusion:
+[[68  0  1  0  2  0  9  3  2  2]
+ [55  3 15  0  1  0  7  8  6  3]
+ [49  2 20  0  1  0  8 11  3  5]
+ [40  1 15  0  0  1  8 10  1  4]
+ [33  0  5  0 25  0 20  1  2  7]
+ [66  2 14  0  1  0  4  6  2  0]
+ [34  1 13  1 11  0 30  4  5  5]
+ [47  3 11  0  4  1 14  6  3  4]
+ [50  0 12  1  5  0 12  3  7  7]
+ [ 7  1  8  0  9  0  4  1  7 63]]
+
+2024-04-22 16:09:45,289 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:09:45,289 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:09:45,302 - 
+
+2024-04-22 16:09:45,302 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:09:47,578 - Epoch: [14][   10/  267]    Overall Loss 2.101862    Objective Loss 2.101862                                        LR 0.100000    Time 0.227215    
+2024-04-22 16:09:48,543 - Epoch: [14][   20/  267]    Overall Loss 2.114929    Objective Loss 2.114929                                        LR 0.100000    Time 0.161740    
+2024-04-22 16:09:50,085 - Epoch: [14][   30/  267]    Overall Loss 2.106062    Objective Loss 2.106062                                        LR 0.100000    Time 0.159144    
+2024-04-22 16:09:51,134 - Epoch: [14][   40/  267]    Overall Loss 2.111465    Objective Loss 2.111465                                        LR 0.100000    Time 0.145528    
+2024-04-22 16:09:51,412 - Epoch: [8][  100/  123]    Loss 1.670471    Top1 39.656250    Top5 87.500000    
+2024-04-22 16:09:51,864 - Epoch: [14][   50/  267]    Overall Loss 2.109845    Objective Loss 2.109845                                        LR 0.100000    Time 0.130988    
+2024-04-22 16:09:53,266 - Epoch: [14][   60/  267]    Overall Loss 2.106266    Objective Loss 2.106266                                        LR 0.100000    Time 0.132481    
+2024-04-22 16:09:54,359 - Epoch: [14][   70/  267]    Overall Loss 2.108692    Objective Loss 2.108692                                        LR 0.100000    Time 0.129141    
+2024-04-22 16:09:54,533 - Epoch: [8][  123/  123]    Loss 1.682693    Top1 39.312102    Top5 87.261146    
+2024-04-22 16:09:54,762 - ==> Top1: 39.312    Top5: 87.261    Loss: 1.683
+
+2024-04-22 16:09:54,772 - ==> Best [Top1: 39.312   Top5: 87.261   Sparsity:0.00   Params: 4040008 on epoch: 8]
+2024-04-22 16:09:54,773 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:09:55,206 - 
+
+2024-04-22 16:09:55,207 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:09:55,820 - Epoch: [14][   80/  267]    Overall Loss 2.108164    Objective Loss 2.108164                                        LR 0.100000    Time 0.131239    
+2024-04-22 16:09:56,741 - Epoch: [14][   90/  267]    Overall Loss 2.124289    Objective Loss 2.124289                                        LR 0.100000    Time 0.126858    
+2024-04-22 16:09:58,085 - Epoch: [14][  100/  267]    Overall Loss 2.131558    Objective Loss 2.131558                                        LR 0.100000    Time 0.127593    
+2024-04-22 16:09:59,212 - Epoch: [14][  110/  267]    Overall Loss 2.130944    Objective Loss 2.130944                                        LR 0.100000    Time 0.126215    
+2024-04-22 16:10:01,061 - Epoch: [14][  120/  267]    Overall Loss 2.129047    Objective Loss 2.129047                                        LR 0.100000    Time 0.131088    
+2024-04-22 16:10:02,110 - Epoch: [14][  130/  267]    Overall Loss 2.128684    Objective Loss 2.128684                                        LR 0.100000    Time 0.129051    
+2024-04-22 16:10:03,907 - Epoch: [14][  140/  267]    Overall Loss 2.131092    Objective Loss 2.131092                                        LR 0.100000    Time 0.132647    
+2024-04-22 16:10:05,193 - Epoch: [14][  150/  267]    Overall Loss 2.130328    Objective Loss 2.130328                                        LR 0.100000    Time 0.132361    
+2024-04-22 16:10:06,906 - Epoch: [14][  160/  267]    Overall Loss 2.129913    Objective Loss 2.129913                                        LR 0.100000    Time 0.134778    
+2024-04-22 16:10:08,027 - Epoch: [14][  170/  267]    Overall Loss 2.130670    Objective Loss 2.130670                                        LR 0.100000    Time 0.133428    
+2024-04-22 16:10:09,685 - Epoch: [14][  180/  267]    Overall Loss 2.132569    Objective Loss 2.132569                                        LR 0.100000    Time 0.135211    
+2024-04-22 16:10:10,552 - Epoch: [9][  100/  296]    Overall Loss 1.777548    Objective Loss 1.777548                                        LR 0.001000    Time 0.153219    
+2024-04-22 16:10:11,112 - Epoch: [14][  190/  267]    Overall Loss 2.130046    Objective Loss 2.130046                                        LR 0.100000    Time 0.135592    
+2024-04-22 16:10:12,948 - Epoch: [14][  200/  267]    Overall Loss 2.127506    Objective Loss 2.127506                                        LR 0.100000    Time 0.137975    
+2024-04-22 16:10:14,239 - Epoch: [14][  210/  267]    Overall Loss 2.126236    Objective Loss 2.126236                                        LR 0.100000    Time 0.137542    
+2024-04-22 16:10:15,896 - Epoch: [14][  220/  267]    Overall Loss 2.126708    Objective Loss 2.126708                                        LR 0.100000    Time 0.138808    
+2024-04-22 16:10:17,079 - Epoch: [14][  230/  267]    Overall Loss 2.126783    Objective Loss 2.126783                                        LR 0.100000    Time 0.137904    
+2024-04-22 16:10:18,679 - Epoch: [14][  240/  267]    Overall Loss 2.127912    Objective Loss 2.127912                                        LR 0.100000    Time 0.138816    
+2024-04-22 16:10:19,892 - Epoch: [14][  250/  267]    Overall Loss 2.127278    Objective Loss 2.127278                                        LR 0.100000    Time 0.138102    
+2024-04-22 16:10:21,505 - Epoch: [14][  260/  267]    Overall Loss 2.123912    Objective Loss 2.123912                                        LR 0.100000    Time 0.138983    
+2024-04-22 16:10:22,077 - Epoch: [14][  267/  267]    Overall Loss 2.123406    Objective Loss 2.123406    Top1 23.255814    Top5 67.441860    LR 0.100000    Time 0.137476    
+2024-04-22 16:10:22,278 - --- validate (epoch=14)-----------
+2024-04-22 16:10:22,280 - 946 samples (32 per mini-batch)
+2024-04-22 16:10:24,958 - Epoch: [14][   10/   30]    Loss 2.113653    Top1 18.750000    Top5 68.125000    
+2024-04-22 16:10:25,188 - Epoch: [9][  200/  296]    Overall Loss 1.782224    Objective Loss 1.782224                                        LR 0.001000    Time 0.149683    
+2024-04-22 16:10:26,145 - Epoch: [14][   20/   30]    Loss 2.102137    Top1 19.843750    Top5 68.593750    
+2024-04-22 16:10:27,575 - Epoch: [14][   30/   30]    Loss 2.118169    Top1 19.344609    Top5 67.653277    
+2024-04-22 16:10:27,853 - ==> Top1: 19.345    Top5: 67.653    Loss: 2.118
+
+2024-04-22 16:10:27,856 - ==> Confusion:
+[[ 0 67  0  0 10  0  5  2  2  1]
+ [ 0 71  3  0  4  0  6  0  1 13]
+ [ 0 58  4  0  9  0  4  4  2 18]
+ [ 0 50  4  0  7  0  4  2  4  9]
+ [ 0 35  2  0 25  0  9  1  7 14]
+ [ 0 69  3  0  3  0  8  3  4  5]
+ [ 0 42  7  0 33  0  4  2  5 11]
+ [ 0 56  2  0 10  0  8  2  3 12]
+ [ 0 48  1  0 11  0  6  3  7 21]
+ [ 0 12  3  0  9  0  2  0  4 70]]
+
+2024-04-22 16:10:27,860 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:10:27,861 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:10:27,877 - 
+
+2024-04-22 16:10:27,878 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:10:30,781 - Epoch: [15][   10/  267]    Overall Loss 2.156564    Objective Loss 2.156564                                        LR 0.100000    Time 0.290003    
+2024-04-22 16:10:31,875 - Epoch: [15][   20/  267]    Overall Loss 2.148466    Objective Loss 2.148466                                        LR 0.100000    Time 0.199524    
+2024-04-22 16:10:33,513 - Epoch: [15][   30/  267]    Overall Loss 2.126674    Objective Loss 2.126674                                        LR 0.100000    Time 0.187513    
+2024-04-22 16:10:34,882 - Epoch: [15][   40/  267]    Overall Loss 2.108682    Objective Loss 2.108682                                        LR 0.100000    Time 0.174797    
+2024-04-22 16:10:36,425 - Epoch: [15][   50/  267]    Overall Loss 2.112417    Objective Loss 2.112417                                        LR 0.100000    Time 0.170639    
+2024-04-22 16:10:37,634 - Epoch: [15][   60/  267]    Overall Loss 2.107452    Objective Loss 2.107452                                        LR 0.100000    Time 0.162318    
+2024-04-22 16:10:38,062 - Epoch: [9][  296/  296]    Overall Loss 1.768548    Objective Loss 1.768548    Top1 40.983607    Top5 93.442623    LR 0.001000    Time 0.144562    
+2024-04-22 16:10:38,411 - --- validate (epoch=9)-----------
+2024-04-22 16:10:38,412 - 3925 samples (32 per mini-batch)
+2024-04-22 16:10:38,525 - Epoch: [15][   70/  267]    Overall Loss 2.114800    Objective Loss 2.114800                                        LR 0.100000    Time 0.151822    
+2024-04-22 16:10:39,642 - Epoch: [15][   80/  267]    Overall Loss 2.111962    Objective Loss 2.111962                                        LR 0.100000    Time 0.146776    
+2024-04-22 16:10:40,724 - Epoch: [15][   90/  267]    Overall Loss 2.118095    Objective Loss 2.118095                                        LR 0.100000    Time 0.142470    
+2024-04-22 16:10:42,146 - Epoch: [15][  100/  267]    Overall Loss 2.119128    Objective Loss 2.119128                                        LR 0.100000    Time 0.142411    
+2024-04-22 16:10:43,275 - Epoch: [15][  110/  267]    Overall Loss 2.120687    Objective Loss 2.120687                                        LR 0.100000    Time 0.139709    
+2024-04-22 16:10:44,507 - Epoch: [15][  120/  267]    Overall Loss 2.119809    Objective Loss 2.119809                                        LR 0.100000    Time 0.138306    
+2024-04-22 16:10:46,124 - Epoch: [15][  130/  267]    Overall Loss 2.122326    Objective Loss 2.122326                                        LR 0.100000    Time 0.140083    
+2024-04-22 16:10:47,428 - Epoch: [15][  140/  267]    Overall Loss 2.122807    Objective Loss 2.122807                                        LR 0.100000    Time 0.139373    
+2024-04-22 16:10:48,715 - Epoch: [15][  150/  267]    Overall Loss 2.123865    Objective Loss 2.123865                                        LR 0.100000    Time 0.138646    
+2024-04-22 16:10:49,474 - Epoch: [15][  160/  267]    Overall Loss 2.121418    Objective Loss 2.121418                                        LR 0.100000    Time 0.134713    
+2024-04-22 16:10:50,761 - Epoch: [15][  170/  267]    Overall Loss 2.119761    Objective Loss 2.119761                                        LR 0.100000    Time 0.134344    
+2024-04-22 16:10:51,947 - Epoch: [15][  180/  267]    Overall Loss 2.119871    Objective Loss 2.119871                                        LR 0.100000    Time 0.133451    
+2024-04-22 16:10:53,356 - Epoch: [15][  190/  267]    Overall Loss 2.120360    Objective Loss 2.120360                                        LR 0.100000    Time 0.133827    
+2024-04-22 16:10:53,760 - Epoch: [9][  100/  123]    Loss 2.060445    Top1 30.500000    Top5 78.812500    
+2024-04-22 16:10:54,715 - Epoch: [15][  200/  267]    Overall Loss 2.120195    Objective Loss 2.120195                                        LR 0.100000    Time 0.133919    
+2024-04-22 16:10:55,969 - Epoch: [15][  210/  267]    Overall Loss 2.120486    Objective Loss 2.120486                                        LR 0.100000    Time 0.133499    
+2024-04-22 16:10:56,840 - Epoch: [15][  220/  267]    Overall Loss 2.120423    Objective Loss 2.120423                                        LR 0.100000    Time 0.131382    
+2024-04-22 16:10:57,072 - Epoch: [9][  123/  123]    Loss 2.080785    Top1 30.140127    Top5 77.783439    
+2024-04-22 16:10:57,285 - ==> Top1: 30.140    Top5: 77.783    Loss: 2.081
+
+2024-04-22 16:10:57,300 - ==> Best [Top1: 39.312   Top5: 87.261   Sparsity:0.00   Params: 4040008 on epoch: 8]
+2024-04-22 16:10:57,301 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:10:57,525 - 
+
+2024-04-22 16:10:57,526 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:10:57,557 - Epoch: [15][  230/  267]    Overall Loss 2.120307    Objective Loss 2.120307                                        LR 0.100000    Time 0.128781    
+2024-04-22 16:10:58,389 - Epoch: [15][  240/  267]    Overall Loss 2.119065    Objective Loss 2.119065                                        LR 0.100000    Time 0.126875    
+2024-04-22 16:10:59,393 - Epoch: [15][  250/  267]    Overall Loss 2.116086    Objective Loss 2.116086                                        LR 0.100000    Time 0.125809    
+2024-04-22 16:11:00,751 - Epoch: [15][  260/  267]    Overall Loss 2.115389    Objective Loss 2.115389                                        LR 0.100000    Time 0.126186    
+2024-04-22 16:11:01,290 - Epoch: [15][  267/  267]    Overall Loss 2.112603    Objective Loss 2.112603    Top1 34.883721    Top5 76.744186    LR 0.100000    Time 0.124890    
+2024-04-22 16:11:01,468 - --- validate (epoch=15)-----------
+2024-04-22 16:11:01,469 - 946 samples (32 per mini-batch)
+2024-04-22 16:11:03,577 - Epoch: [15][   10/   30]    Loss 2.095424    Top1 24.375000    Top5 73.437500    
+2024-04-22 16:11:04,826 - Epoch: [15][   20/   30]    Loss 2.093784    Top1 23.593750    Top5 69.687500    
+2024-04-22 16:11:05,981 - Epoch: [15][   30/   30]    Loss 2.097939    Top1 23.255814    Top5 69.767442    
+2024-04-22 16:11:06,271 - ==> Top1: 23.256    Top5: 69.767    Loss: 2.098
+
+2024-04-22 16:11:06,274 - ==> Confusion:
+[[28 13  7  0  2 14 10  4  7  2]
+ [17 20 21  0  2  9  5  4 11  9]
+ [11  8 25  0  2 19  5  6 12 11]
+ [13  9 25  0  1 14  1  1  7  9]
+ [20  3 13  0 13 10 14  3  5 12]
+ [29 11 15  0  3 18  4  2 11  2]
+ [15  9 23  0  6  5 15  1 17 13]
+ [16 19 16  0  4  7  9  6  9  7]
+ [17  8 11  0  7 12  7  2 19 14]
+ [ 3  3  8  0  3  2  4  0  1 76]]
+
+2024-04-22 16:11:06,277 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:11:06,278 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:11:06,291 - 
+
+2024-04-22 16:11:06,292 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:11:08,737 - Epoch: [16][   10/  267]    Overall Loss 2.003387    Objective Loss 2.003387                                        LR 0.100000    Time 0.244083    
+2024-04-22 16:11:10,084 - Epoch: [16][   20/  267]    Overall Loss 2.052969    Objective Loss 2.052969                                        LR 0.100000    Time 0.189241    
+2024-04-22 16:11:10,842 - Epoch: [10][  100/  296]    Overall Loss 1.785332    Objective Loss 1.785332                                        LR 0.001000    Time 0.132938    
+2024-04-22 16:11:11,549 - Epoch: [16][   30/  267]    Overall Loss 2.067160    Objective Loss 2.067160                                        LR 0.100000    Time 0.174910    
+2024-04-22 16:11:12,930 - Epoch: [16][   40/  267]    Overall Loss 2.090768    Objective Loss 2.090768                                        LR 0.100000    Time 0.165635    
+2024-04-22 16:11:14,419 - Epoch: [16][   50/  267]    Overall Loss 2.087238    Objective Loss 2.087238                                        LR 0.100000    Time 0.162165    
+2024-04-22 16:11:15,491 - Epoch: [16][   60/  267]    Overall Loss 2.092241    Objective Loss 2.092241                                        LR 0.100000    Time 0.152947    
+2024-04-22 16:11:17,068 - Epoch: [16][   70/  267]    Overall Loss 2.083317    Objective Loss 2.083317                                        LR 0.100000    Time 0.153595    
+2024-04-22 16:11:18,073 - Epoch: [16][   80/  267]    Overall Loss 2.081621    Objective Loss 2.081621                                        LR 0.100000    Time 0.146924    
+2024-04-22 16:11:19,655 - Epoch: [16][   90/  267]    Overall Loss 2.085526    Objective Loss 2.085526                                        LR 0.100000    Time 0.148150    
+2024-04-22 16:11:20,715 - Epoch: [16][  100/  267]    Overall Loss 2.086263    Objective Loss 2.086263                                        LR 0.100000    Time 0.143910    
+2024-04-22 16:11:22,135 - Epoch: [16][  110/  267]    Overall Loss 2.089500    Objective Loss 2.089500                                        LR 0.100000    Time 0.143702    
+2024-04-22 16:11:23,384 - Epoch: [16][  120/  267]    Overall Loss 2.090080    Objective Loss 2.090080                                        LR 0.100000    Time 0.142118    
+2024-04-22 16:11:24,463 - Epoch: [10][  200/  296]    Overall Loss 1.774557    Objective Loss 1.774557                                        LR 0.001000    Time 0.134475    
+2024-04-22 16:11:24,780 - Epoch: [16][  130/  267]    Overall Loss 2.094271    Objective Loss 2.094271                                        LR 0.100000    Time 0.141897    
+2024-04-22 16:11:26,017 - Epoch: [16][  140/  267]    Overall Loss 2.097606    Objective Loss 2.097606                                        LR 0.100000    Time 0.140574    
+2024-04-22 16:11:27,514 - Epoch: [16][  150/  267]    Overall Loss 2.100016    Objective Loss 2.100016                                        LR 0.100000    Time 0.141165    
+2024-04-22 16:11:28,627 - Epoch: [16][  160/  267]    Overall Loss 2.101770    Objective Loss 2.101770                                        LR 0.100000    Time 0.139287    
+2024-04-22 16:11:29,767 - Epoch: [16][  170/  267]    Overall Loss 2.106039    Objective Loss 2.106039                                        LR 0.100000    Time 0.137752    
+2024-04-22 16:11:31,115 - Epoch: [16][  180/  267]    Overall Loss 2.108444    Objective Loss 2.108444                                        LR 0.100000    Time 0.137576    
+2024-04-22 16:11:32,220 - Epoch: [16][  190/  267]    Overall Loss 2.110413    Objective Loss 2.110413                                        LR 0.100000    Time 0.136136    
+2024-04-22 16:11:33,968 - Epoch: [16][  200/  267]    Overall Loss 2.110563    Objective Loss 2.110563                                        LR 0.100000    Time 0.138051    
+2024-04-22 16:11:34,841 - Epoch: [16][  210/  267]    Overall Loss 2.112842    Objective Loss 2.112842                                        LR 0.100000    Time 0.135626    
+2024-04-22 16:11:35,839 - Epoch: [16][  220/  267]    Overall Loss 2.115472    Objective Loss 2.115472                                        LR 0.100000    Time 0.133987    
+2024-04-22 16:11:36,148 - Epoch: [10][  296/  296]    Overall Loss 1.761338    Objective Loss 1.761338    Top1 31.147541    Top5 88.524590    LR 0.001000    Time 0.130273    
+2024-04-22 16:11:36,371 - --- validate (epoch=10)-----------
+2024-04-22 16:11:36,373 - 3925 samples (32 per mini-batch)
+2024-04-22 16:11:36,652 - Epoch: [16][  230/  267]    Overall Loss 2.116961    Objective Loss 2.116961                                        LR 0.100000    Time 0.131689    
+2024-04-22 16:11:37,635 - Epoch: [16][  240/  267]    Overall Loss 2.119262    Objective Loss 2.119262                                        LR 0.100000    Time 0.130289    
+2024-04-22 16:11:38,496 - Epoch: [16][  250/  267]    Overall Loss 2.121591    Objective Loss 2.121591                                        LR 0.100000    Time 0.128510    
+2024-04-22 16:11:39,900 - Epoch: [16][  260/  267]    Overall Loss 2.122156    Objective Loss 2.122156                                        LR 0.100000    Time 0.128957    
+2024-04-22 16:11:40,383 - Epoch: [16][  267/  267]    Overall Loss 2.125138    Objective Loss 2.125138    Top1 18.604651    Top5 67.441860    LR 0.100000    Time 0.127381    
+2024-04-22 16:11:40,880 - --- validate (epoch=16)-----------
+2024-04-22 16:11:40,881 - 946 samples (32 per mini-batch)
+2024-04-22 16:11:43,046 - Epoch: [16][   10/   30]    Loss 2.169374    Top1 16.875000    Top5 64.062500    
+2024-04-22 16:11:44,130 - Epoch: [16][   20/   30]    Loss 2.145353    Top1 19.062500    Top5 66.562500    
+2024-04-22 16:11:45,461 - Epoch: [16][   30/   30]    Loss 2.149034    Top1 19.344609    Top5 65.644820    
+2024-04-22 16:11:45,721 - ==> Top1: 19.345    Top5: 65.645    Loss: 2.149
+
+2024-04-22 16:11:45,723 - ==> Confusion:
+[[ 0 64  0  0  0  0 19  0  3  1]
+ [ 0 70  0  0  2  0  9  0  7 10]
+ [ 0 62  0  0  0  0 17  0  2 18]
+ [ 0 50  0  0  0  0 18  0  2 10]
+ [ 0 40  0  0  4  0 35  0  5  9]
+ [ 0 76  0  0  1  0  9  1  6  2]
+ [ 0 47  0  0  9  0 37  0  1 10]
+ [ 0 62  1  0  0  0 19  0  5  6]
+ [ 0 44  0  0  3  0 22  0 10 18]
+ [ 0 18  0  0  5  0 10  0  5 62]]
+
+2024-04-22 16:11:45,726 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:11:45,727 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:11:45,739 - 
+
+2024-04-22 16:11:45,740 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:11:47,733 - Epoch: [17][   10/  267]    Overall Loss 2.139558    Objective Loss 2.139558                                        LR 0.100000    Time 0.198997    
+2024-04-22 16:11:48,672 - Epoch: [17][   20/  267]    Overall Loss 2.160787    Objective Loss 2.160787                                        LR 0.100000    Time 0.146373    
+2024-04-22 16:11:50,056 - Epoch: [17][   30/  267]    Overall Loss 2.158907    Objective Loss 2.158907                                        LR 0.100000    Time 0.143637    
+2024-04-22 16:11:51,286 - Epoch: [17][   40/  267]    Overall Loss 2.157156    Objective Loss 2.157156                                        LR 0.100000    Time 0.138425    
+2024-04-22 16:11:51,722 - Epoch: [10][  100/  123]    Loss 1.640603    Top1 41.125000    Top5 89.093750    
+2024-04-22 16:11:52,654 - Epoch: [17][   50/  267]    Overall Loss 2.154661    Objective Loss 2.154661                                        LR 0.100000    Time 0.138044    
+2024-04-22 16:11:54,145 - Epoch: [17][   60/  267]    Overall Loss 2.162659    Objective Loss 2.162659                                        LR 0.100000    Time 0.139835    
+2024-04-22 16:11:54,650 - Epoch: [10][  123/  123]    Loss 1.650764    Top1 40.407643    Top5 88.840764    
+2024-04-22 16:11:54,902 - ==> Top1: 40.408    Top5: 88.841    Loss: 1.651
+
+2024-04-22 16:11:54,913 - Epoch: [17][   70/  267]    Overall Loss 2.158653    Objective Loss 2.158653                                        LR 0.100000    Time 0.130804    
+2024-04-22 16:11:54,916 - ==> Best [Top1: 40.408   Top5: 88.841   Sparsity:0.00   Params: 4040008 on epoch: 10]
+2024-04-22 16:11:54,917 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:11:55,279 - 
+
+2024-04-22 16:11:55,280 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:11:55,558 - Epoch: [17][   80/  267]    Overall Loss 2.152911    Objective Loss 2.152911                                        LR 0.100000    Time 0.122501    
+2024-04-22 16:11:56,403 - Epoch: [17][   90/  267]    Overall Loss 2.152789    Objective Loss 2.152789                                        LR 0.100000    Time 0.118249    
+2024-04-22 16:11:57,512 - Epoch: [17][  100/  267]    Overall Loss 2.146827    Objective Loss 2.146827                                        LR 0.100000    Time 0.117492    
+2024-04-22 16:11:59,080 - Epoch: [17][  110/  267]    Overall Loss 2.145022    Objective Loss 2.145022                                        LR 0.100000    Time 0.121040    
+2024-04-22 16:12:00,542 - Epoch: [17][  120/  267]    Overall Loss 2.147333    Objective Loss 2.147333                                        LR 0.100000    Time 0.123112    
+2024-04-22 16:12:01,808 - Epoch: [17][  130/  267]    Overall Loss 2.145921    Objective Loss 2.145921                                        LR 0.100000    Time 0.123362    
+2024-04-22 16:12:03,135 - Epoch: [17][  140/  267]    Overall Loss 2.145994    Objective Loss 2.145994                                        LR 0.100000    Time 0.124013    
+2024-04-22 16:12:04,523 - Epoch: [17][  150/  267]    Overall Loss 2.145372    Objective Loss 2.145372                                        LR 0.100000    Time 0.124983    
+2024-04-22 16:12:05,918 - Epoch: [17][  160/  267]    Overall Loss 2.145623    Objective Loss 2.145623                                        LR 0.100000    Time 0.125868    
+2024-04-22 16:12:07,473 - Epoch: [17][  170/  267]    Overall Loss 2.146256    Objective Loss 2.146256                                        LR 0.100000    Time 0.127597    
+2024-04-22 16:12:08,776 - Epoch: [17][  180/  267]    Overall Loss 2.145819    Objective Loss 2.145819                                        LR 0.100000    Time 0.127729    
+2024-04-22 16:12:10,425 - Epoch: [17][  190/  267]    Overall Loss 2.145735    Objective Loss 2.145735                                        LR 0.100000    Time 0.129671    
+2024-04-22 16:12:11,555 - Epoch: [17][  200/  267]    Overall Loss 2.146061    Objective Loss 2.146061                                        LR 0.100000    Time 0.128826    
+2024-04-22 16:12:12,428 - Epoch: [11][  100/  296]    Overall Loss 1.733123    Objective Loss 1.733123                                        LR 0.001000    Time 0.171259    
+2024-04-22 16:12:13,044 - Epoch: [17][  210/  267]    Overall Loss 2.144155    Objective Loss 2.144155                                        LR 0.100000    Time 0.129771    
+2024-04-22 16:12:14,361 - Epoch: [17][  220/  267]    Overall Loss 2.143363    Objective Loss 2.143363                                        LR 0.100000    Time 0.129843    
+2024-04-22 16:12:15,491 - Epoch: [17][  230/  267]    Overall Loss 2.142177    Objective Loss 2.142177                                        LR 0.100000    Time 0.129100    
+2024-04-22 16:12:16,332 - Epoch: [17][  240/  267]    Overall Loss 2.140484    Objective Loss 2.140484                                        LR 0.100000    Time 0.127218    
+2024-04-22 16:12:17,743 - Epoch: [17][  250/  267]    Overall Loss 2.139723    Objective Loss 2.139723                                        LR 0.100000    Time 0.127763    
+2024-04-22 16:12:18,766 - Epoch: [17][  260/  267]    Overall Loss 2.139499    Objective Loss 2.139499                                        LR 0.100000    Time 0.126773    
+2024-04-22 16:12:19,553 - Epoch: [17][  267/  267]    Overall Loss 2.139040    Objective Loss 2.139040    Top1 16.279070    Top5 60.465116    LR 0.100000    Time 0.126391    
+2024-04-22 16:12:19,720 - --- validate (epoch=17)-----------
+2024-04-22 16:12:19,721 - 946 samples (32 per mini-batch)
+2024-04-22 16:12:21,942 - Epoch: [17][   10/   30]    Loss 2.144572    Top1 19.062500    Top5 68.750000    
+2024-04-22 16:12:23,359 - Epoch: [17][   20/   30]    Loss 2.161338    Top1 18.437500    Top5 67.031250    
+2024-04-22 16:12:25,157 - Epoch: [17][   30/   30]    Loss 2.157963    Top1 19.133192    Top5 66.913319    
+2024-04-22 16:12:25,485 - ==> Top1: 19.133    Top5: 66.913    Loss: 2.158
+
+2024-04-22 16:12:25,488 - ==> Confusion:
+[[76  0  0  0  8  0  0  0  1  2]
+ [68  3  0  0 10  1  0  1  1 14]
+ [63  2  2  0  9  1  0  0  2 20]
+ [54  4  2  0  6  3  0  0  2  9]
+ [49  1  1  0 30  1  0  0  0 11]
+ [81  1  2  0  7  0  0  0  2  2]
+ [47  4  5  0 35  0  0  0  0 13]
+ [68  2  3  0  6  1  0  0  6  7]
+ [51  2  2  0 20  0  0  0  1 21]
+ [14  4  1  0 12  0  0  0  0 69]]
+
+2024-04-22 16:12:25,493 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:12:25,494 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:12:25,506 - 
+
+2024-04-22 16:12:25,507 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:12:28,271 - Epoch: [18][   10/  267]    Overall Loss 2.148168    Objective Loss 2.148168                                        LR 0.100000    Time 0.276052    
+2024-04-22 16:12:28,708 - Epoch: [11][  200/  296]    Overall Loss 1.741824    Objective Loss 1.741824                                        LR 0.001000    Time 0.166936    
+2024-04-22 16:12:29,342 - Epoch: [18][   20/  267]    Overall Loss 2.131701    Objective Loss 2.131701                                        LR 0.100000    Time 0.191450    
+2024-04-22 16:12:30,863 - Epoch: [18][   30/  267]    Overall Loss 2.134579    Objective Loss 2.134579                                        LR 0.100000    Time 0.178231    
+2024-04-22 16:12:31,996 - Epoch: [18][   40/  267]    Overall Loss 2.149757    Objective Loss 2.149757                                        LR 0.100000    Time 0.161949    
+2024-04-22 16:12:33,607 - Epoch: [18][   50/  267]    Overall Loss 2.164438    Objective Loss 2.164438                                        LR 0.100000    Time 0.161711    
+2024-04-22 16:12:34,956 - Epoch: [18][   60/  267]    Overall Loss 2.161660    Objective Loss 2.161660                                        LR 0.100000    Time 0.157214    
+2024-04-22 16:12:36,112 - Epoch: [18][   70/  267]    Overall Loss 2.163893    Objective Loss 2.163893                                        LR 0.100000    Time 0.151226    
+2024-04-22 16:12:37,403 - Epoch: [18][   80/  267]    Overall Loss 2.163179    Objective Loss 2.163179                                        LR 0.100000    Time 0.148428    
+2024-04-22 16:12:38,843 - Epoch: [18][   90/  267]    Overall Loss 2.167258    Objective Loss 2.167258                                        LR 0.100000    Time 0.147915    
+2024-04-22 16:12:40,052 - Epoch: [18][  100/  267]    Overall Loss 2.159311    Objective Loss 2.159311                                        LR 0.100000    Time 0.145180    
+2024-04-22 16:12:41,638 - Epoch: [18][  110/  267]    Overall Loss 2.161267    Objective Loss 2.161267                                        LR 0.100000    Time 0.146379    
+2024-04-22 16:12:42,591 - Epoch: [18][  120/  267]    Overall Loss 2.159363    Objective Loss 2.159363                                        LR 0.100000    Time 0.142102    
+2024-04-22 16:12:43,172 - Epoch: [11][  296/  296]    Overall Loss 1.736835    Objective Loss 1.736835    Top1 31.147541    Top5 78.688525    LR 0.001000    Time 0.161598    
+2024-04-22 16:12:43,484 - --- validate (epoch=11)-----------
+2024-04-22 16:12:43,486 - 3925 samples (32 per mini-batch)
+2024-04-22 16:12:43,586 - Epoch: [18][  130/  267]    Overall Loss 2.154807    Objective Loss 2.154807                                        LR 0.100000    Time 0.138813    
+2024-04-22 16:12:44,742 - Epoch: [18][  140/  267]    Overall Loss 2.155183    Objective Loss 2.155183                                        LR 0.100000    Time 0.137126    
+2024-04-22 16:12:46,418 - Epoch: [18][  150/  267]    Overall Loss 2.154454    Objective Loss 2.154454                                        LR 0.100000    Time 0.139142    
+2024-04-22 16:12:47,762 - Epoch: [18][  160/  267]    Overall Loss 2.151742    Objective Loss 2.151742                                        LR 0.100000    Time 0.138827    
+2024-04-22 16:12:49,097 - Epoch: [18][  170/  267]    Overall Loss 2.151230    Objective Loss 2.151230                                        LR 0.100000    Time 0.138497    
+2024-04-22 16:12:49,942 - Epoch: [18][  180/  267]    Overall Loss 2.151887    Objective Loss 2.151887                                        LR 0.100000    Time 0.135482    
+2024-04-22 16:12:51,526 - Epoch: [18][  190/  267]    Overall Loss 2.151090    Objective Loss 2.151090                                        LR 0.100000    Time 0.136675    
+2024-04-22 16:12:52,674 - Epoch: [18][  200/  267]    Overall Loss 2.148515    Objective Loss 2.148515                                        LR 0.100000    Time 0.135566    
+2024-04-22 16:12:54,151 - Epoch: [18][  210/  267]    Overall Loss 2.148601    Objective Loss 2.148601                                        LR 0.100000    Time 0.136128    
+2024-04-22 16:12:55,803 - Epoch: [18][  220/  267]    Overall Loss 2.148861    Objective Loss 2.148861                                        LR 0.100000    Time 0.137441    
+2024-04-22 16:12:57,190 - Epoch: [18][  230/  267]    Overall Loss 2.149183    Objective Loss 2.149183                                        LR 0.100000    Time 0.137484    
+2024-04-22 16:12:58,941 - Epoch: [18][  240/  267]    Overall Loss 2.147010    Objective Loss 2.147010                                        LR 0.100000    Time 0.139042    
+2024-04-22 16:13:00,396 - Epoch: [18][  250/  267]    Overall Loss 2.143865    Objective Loss 2.143865                                        LR 0.100000    Time 0.139287    
+2024-04-22 16:13:01,859 - Epoch: [18][  260/  267]    Overall Loss 2.144391    Objective Loss 2.144391                                        LR 0.100000    Time 0.139546    
+2024-04-22 16:13:02,524 - Epoch: [18][  267/  267]    Overall Loss 2.143485    Objective Loss 2.143485    Top1 18.604651    Top5 69.767442    LR 0.100000    Time 0.138373    
+2024-04-22 16:13:02,719 - --- validate (epoch=18)-----------
+2024-04-22 16:13:02,720 - 946 samples (32 per mini-batch)
+2024-04-22 16:13:02,944 - Epoch: [11][  100/  123]    Loss 1.743823    Top1 41.187500    Top5 82.281250    
+2024-04-22 16:13:04,737 - Epoch: [18][   10/   30]    Loss 2.152969    Top1 19.375000    Top5 63.750000    
+2024-04-22 16:13:05,737 - Epoch: [18][   20/   30]    Loss 2.126178    Top1 20.468750    Top5 65.625000    
+2024-04-22 16:13:05,967 - Epoch: [11][  123/  123]    Loss 1.733024    Top1 41.554140    Top5 82.496815    
+2024-04-22 16:13:06,237 - ==> Top1: 41.554    Top5: 82.497    Loss: 1.733
+
+2024-04-22 16:13:06,252 - ==> Best [Top1: 41.554   Top5: 82.497   Sparsity:0.00   Params: 4040008 on epoch: 11]
+2024-04-22 16:13:06,253 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:13:06,857 - 
+
+2024-04-22 16:13:06,858 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:13:07,105 - Epoch: [18][   30/   30]    Loss 2.135882    Top1 19.767442    Top5 65.221987    
+2024-04-22 16:13:07,333 - ==> Top1: 19.767    Top5: 65.222    Loss: 2.136
+
+2024-04-22 16:13:07,335 - ==> Confusion:
+[[ 0 74  0  0  1  0 10  1  1  0]
+ [ 0 82  1  0  1  0 10  0  2  2]
+ [ 0 65  2  0  1  0 23  0  2  6]
+ [ 0 58  0  0  1  0 17  0  1  3]
+ [ 0 52  0  0  8  0 25  0  0  8]
+ [ 0 84  0  0  0  0 11  0  0  0]
+ [ 0 56  0  0  8  0 33  1  2  4]
+ [ 0 69  0  0  0  0 17  1  1  5]
+ [ 0 60  0  0  1  0 24  0  4  8]
+ [ 0 13  1  0  7  0 18  0  4 57]]
+
+2024-04-22 16:13:07,340 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:13:07,341 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:13:07,357 - 
+
+2024-04-22 16:13:07,358 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:13:11,294 - Epoch: [19][   10/  267]    Overall Loss 2.127804    Objective Loss 2.127804                                        LR 0.100000    Time 0.393155    
+2024-04-22 16:13:12,469 - Epoch: [19][   20/  267]    Overall Loss 2.143248    Objective Loss 2.143248                                        LR 0.100000    Time 0.255241    
+2024-04-22 16:13:13,935 - Epoch: [19][   30/  267]    Overall Loss 2.160528    Objective Loss 2.160528                                        LR 0.100000    Time 0.218919    
+2024-04-22 16:13:15,222 - Epoch: [19][   40/  267]    Overall Loss 2.147740    Objective Loss 2.147740                                        LR 0.100000    Time 0.196288    
+2024-04-22 16:13:17,009 - Epoch: [19][   50/  267]    Overall Loss 2.136733    Objective Loss 2.136733                                        LR 0.100000    Time 0.192697    
+2024-04-22 16:13:18,417 - Epoch: [19][   60/  267]    Overall Loss 2.146013    Objective Loss 2.146013                                        LR 0.100000    Time 0.183989    
+2024-04-22 16:13:20,510 - Epoch: [19][   70/  267]    Overall Loss 2.141307    Objective Loss 2.141307                                        LR 0.100000    Time 0.187572    
+2024-04-22 16:13:21,761 - Epoch: [19][   80/  267]    Overall Loss 2.144949    Objective Loss 2.144949                                        LR 0.100000    Time 0.179725    
+2024-04-22 16:13:23,518 - Epoch: [19][   90/  267]    Overall Loss 2.146526    Objective Loss 2.146526                                        LR 0.100000    Time 0.179252    
+2024-04-22 16:13:24,450 - Epoch: [12][  100/  296]    Overall Loss 1.745091    Objective Loss 1.745091                                        LR 0.001000    Time 0.175663    
+2024-04-22 16:13:24,802 - Epoch: [19][  100/  267]    Overall Loss 2.144967    Objective Loss 2.144967                                        LR 0.100000    Time 0.174134    
+2024-04-22 16:13:26,552 - Epoch: [19][  110/  267]    Overall Loss 2.146068    Objective Loss 2.146068                                        LR 0.100000    Time 0.174184    
+2024-04-22 16:13:27,976 - Epoch: [19][  120/  267]    Overall Loss 2.147364    Objective Loss 2.147364                                        LR 0.100000    Time 0.171512    
+2024-04-22 16:13:29,603 - Epoch: [19][  130/  267]    Overall Loss 2.149036    Objective Loss 2.149036                                        LR 0.100000    Time 0.170801    
+2024-04-22 16:13:30,853 - Epoch: [19][  140/  267]    Overall Loss 2.150200    Objective Loss 2.150200                                        LR 0.100000    Time 0.167513    
+2024-04-22 16:13:32,508 - Epoch: [19][  150/  267]    Overall Loss 2.151023    Objective Loss 2.151023                                        LR 0.100000    Time 0.167357    
+2024-04-22 16:13:33,772 - Epoch: [19][  160/  267]    Overall Loss 2.151636    Objective Loss 2.151636                                        LR 0.100000    Time 0.164777    
+2024-04-22 16:13:35,694 - Epoch: [19][  170/  267]    Overall Loss 2.148490    Objective Loss 2.148490                                        LR 0.100000    Time 0.166371    
+2024-04-22 16:13:36,628 - Epoch: [19][  180/  267]    Overall Loss 2.146078    Objective Loss 2.146078                                        LR 0.100000    Time 0.162307    
+2024-04-22 16:13:37,857 - Epoch: [19][  190/  267]    Overall Loss 2.144709    Objective Loss 2.144709                                        LR 0.100000    Time 0.160218    
+2024-04-22 16:13:39,022 - Epoch: [19][  200/  267]    Overall Loss 2.144677    Objective Loss 2.144677                                        LR 0.100000    Time 0.158019    
+2024-04-22 16:13:39,141 - Epoch: [12][  200/  296]    Overall Loss 1.732132    Objective Loss 1.732132                                        LR 0.001000    Time 0.161186    
+2024-04-22 16:13:40,465 - Epoch: [19][  210/  267]    Overall Loss 2.143223    Objective Loss 2.143223                                        LR 0.100000    Time 0.157354    
+2024-04-22 16:13:41,813 - Epoch: [19][  220/  267]    Overall Loss 2.143424    Objective Loss 2.143424                                        LR 0.100000    Time 0.156320    
+2024-04-22 16:13:43,299 - Epoch: [19][  230/  267]    Overall Loss 2.139695    Objective Loss 2.139695                                        LR 0.100000    Time 0.155973    
+2024-04-22 16:13:44,175 - Epoch: [19][  240/  267]    Overall Loss 2.140287    Objective Loss 2.140287                                        LR 0.100000    Time 0.153116    
+2024-04-22 16:13:45,840 - Epoch: [19][  250/  267]    Overall Loss 2.138177    Objective Loss 2.138177                                        LR 0.100000    Time 0.153641    
+2024-04-22 16:13:46,966 - Epoch: [19][  260/  267]    Overall Loss 2.137314    Objective Loss 2.137314                                        LR 0.100000    Time 0.152050    
+2024-04-22 16:13:47,921 - Epoch: [19][  267/  267]    Overall Loss 2.138104    Objective Loss 2.138104    Top1 9.302326    Top5 65.116279    LR 0.100000    Time 0.151631    
+2024-04-22 16:13:48,142 - --- validate (epoch=19)-----------
+2024-04-22 16:13:48,143 - 946 samples (32 per mini-batch)
+2024-04-22 16:13:50,426 - Epoch: [19][   10/   30]    Loss 2.152086    Top1 17.812500    Top5 63.750000    
+2024-04-22 16:13:51,674 - Epoch: [19][   20/   30]    Loss 2.164345    Top1 17.656250    Top5 64.218750    
+2024-04-22 16:13:52,460 - Epoch: [19][   30/   30]    Loss 2.148971    Top1 19.767442    Top5 65.116279    
+2024-04-22 16:13:52,534 - Epoch: [12][  296/  296]    Overall Loss 1.716511    Objective Loss 1.716511    Top1 39.344262    Top5 88.524590    LR 0.001000    Time 0.154095    
+2024-04-22 16:13:52,635 - ==> Top1: 19.767    Top5: 65.116    Loss: 2.149
+
+2024-04-22 16:13:52,637 - ==> Confusion:
+[[67  1  1  0  0  0 17  0  1  0]
+ [64  9  9  0  1  0  8  0  4  3]
+ [51  6  7  0  2  0 21  0  9  3]
+ [39  8  6  0  0  0 17  0  8  2]
+ [38  3  4  0 11  0 28  0  5  4]
+ [71  5  3  0  0  0  9  0  6  1]
+ [37  6  8  0  7  0 41  0  5  0]
+ [55  8  6  0  1  0 19  0  3  1]
+ [46  5  4  0  1  0 26  0  9  6]
+ [14  3  8  0  4  0 11  0 17 43]]
+
+2024-04-22 16:13:52,640 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:13:52,640 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:13:52,651 - 
+
+2024-04-22 16:13:52,652 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:13:52,750 - --- validate (epoch=12)-----------
+2024-04-22 16:13:52,751 - 3925 samples (32 per mini-batch)
+2024-04-22 16:13:54,436 - Epoch: [20][   10/  267]    Overall Loss 2.137502    Objective Loss 2.137502                                        LR 0.100000    Time 0.178123    
+2024-04-22 16:13:55,746 - Epoch: [20][   20/  267]    Overall Loss 2.143364    Objective Loss 2.143364                                        LR 0.100000    Time 0.154391    
+2024-04-22 16:13:57,504 - Epoch: [20][   30/  267]    Overall Loss 2.150705    Objective Loss 2.150705                                        LR 0.100000    Time 0.161444    
+2024-04-22 16:13:58,542 - Epoch: [20][   40/  267]    Overall Loss 2.130233    Objective Loss 2.130233                                        LR 0.100000    Time 0.146947    
+2024-04-22 16:13:59,949 - Epoch: [20][   50/  267]    Overall Loss 2.123745    Objective Loss 2.123745                                        LR 0.100000    Time 0.145648    
+2024-04-22 16:14:01,152 - Epoch: [20][   60/  267]    Overall Loss 2.124312    Objective Loss 2.124312                                        LR 0.100000    Time 0.141379    
+2024-04-22 16:14:02,818 - Epoch: [20][   70/  267]    Overall Loss 2.125745    Objective Loss 2.125745                                        LR 0.100000    Time 0.144937    
+2024-04-22 16:14:04,184 - Epoch: [20][   80/  267]    Overall Loss 2.120990    Objective Loss 2.120990                                        LR 0.100000    Time 0.143857    
+2024-04-22 16:14:05,558 - Epoch: [20][   90/  267]    Overall Loss 2.115449    Objective Loss 2.115449                                        LR 0.100000    Time 0.143113    
+2024-04-22 16:14:06,850 - Epoch: [20][  100/  267]    Overall Loss 2.122327    Objective Loss 2.122327                                        LR 0.100000    Time 0.141691    
+2024-04-22 16:14:08,300 - Epoch: [20][  110/  267]    Overall Loss 2.121607    Objective Loss 2.121607                                        LR 0.100000    Time 0.141959    
+2024-04-22 16:14:09,535 - Epoch: [20][  120/  267]    Overall Loss 2.122733    Objective Loss 2.122733                                        LR 0.100000    Time 0.140382    
+2024-04-22 16:14:09,625 - Epoch: [12][  100/  123]    Loss 1.635512    Top1 43.031250    Top5 87.500000    
+2024-04-22 16:14:11,212 - Epoch: [20][  130/  267]    Overall Loss 2.122527    Objective Loss 2.122527                                        LR 0.100000    Time 0.142464    
+2024-04-22 16:14:12,506 - Epoch: [20][  140/  267]    Overall Loss 2.127455    Objective Loss 2.127455                                        LR 0.100000    Time 0.141505    
+2024-04-22 16:14:13,235 - Epoch: [12][  123/  123]    Loss 1.620806    Top1 44.076433    Top5 87.592357    
+2024-04-22 16:14:13,498 - ==> Top1: 44.076    Top5: 87.592    Loss: 1.621
+
+2024-04-22 16:14:13,514 - ==> Best [Top1: 44.076   Top5: 87.592   Sparsity:0.00   Params: 4040008 on epoch: 12]
+2024-04-22 16:14:13,515 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:14:13,870 - Epoch: [20][  150/  267]    Overall Loss 2.128643    Objective Loss 2.128643                                        LR 0.100000    Time 0.141145    
+2024-04-22 16:14:13,971 - 
+
+2024-04-22 16:14:13,972 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:14:14,916 - Epoch: [20][  160/  267]    Overall Loss 2.132198    Objective Loss 2.132198                                        LR 0.100000    Time 0.138841    
+2024-04-22 16:14:16,563 - Epoch: [20][  170/  267]    Overall Loss 2.139253    Objective Loss 2.139253                                        LR 0.100000    Time 0.140342    
+2024-04-22 16:14:17,885 - Epoch: [20][  180/  267]    Overall Loss 2.144440    Objective Loss 2.144440                                        LR 0.100000    Time 0.139877    
+2024-04-22 16:14:19,512 - Epoch: [20][  190/  267]    Overall Loss 2.148079    Objective Loss 2.148079                                        LR 0.100000    Time 0.141062    
+2024-04-22 16:14:20,667 - Epoch: [20][  200/  267]    Overall Loss 2.149501    Objective Loss 2.149501                                        LR 0.100000    Time 0.139770    
+2024-04-22 16:14:22,218 - Epoch: [20][  210/  267]    Overall Loss 2.150877    Objective Loss 2.150877                                        LR 0.100000    Time 0.140483    
+2024-04-22 16:14:23,445 - Epoch: [20][  220/  267]    Overall Loss 2.150812    Objective Loss 2.150812                                        LR 0.100000    Time 0.139665    
+2024-04-22 16:14:25,083 - Epoch: [20][  230/  267]    Overall Loss 2.151886    Objective Loss 2.151886                                        LR 0.100000    Time 0.140702    
+2024-04-22 16:14:26,282 - Epoch: [20][  240/  267]    Overall Loss 2.153487    Objective Loss 2.153487                                        LR 0.100000    Time 0.139819    
+2024-04-22 16:14:27,424 - Epoch: [20][  250/  267]    Overall Loss 2.153872    Objective Loss 2.153872                                        LR 0.100000    Time 0.138784    
+2024-04-22 16:14:28,341 - Epoch: [20][  260/  267]    Overall Loss 2.152333    Objective Loss 2.152333                                        LR 0.100000    Time 0.136960    
+2024-04-22 16:14:29,111 - Epoch: [20][  267/  267]    Overall Loss 2.152871    Objective Loss 2.152871    Top1 16.279070    Top5 65.116279    LR 0.100000    Time 0.136245    
+2024-04-22 16:14:29,339 - --- validate (epoch=20)-----------
+2024-04-22 16:14:29,340 - 946 samples (32 per mini-batch)
+2024-04-22 16:14:29,615 - Epoch: [13][  100/  296]    Overall Loss 1.682012    Objective Loss 1.682012                                        LR 0.001000    Time 0.156210    
+2024-04-22 16:14:32,858 - Epoch: [20][   10/   30]    Loss 2.101708    Top1 20.312500    Top5 67.500000    
+2024-04-22 16:14:34,604 - Epoch: [20][   20/   30]    Loss 2.095324    Top1 21.718750    Top5 70.156250    
+2024-04-22 16:14:36,261 - Epoch: [20][   30/   30]    Loss 2.101653    Top1 21.141649    Top5 70.190275    
+2024-04-22 16:14:36,516 - ==> Top1: 21.142    Top5: 70.190    Loss: 2.102
+
+2024-04-22 16:14:36,518 - ==> Confusion:
+[[ 0 74  1  0  3  0  4  0  0  5]
+ [ 0 80  1  0  5  0  3  0  2  7]
+ [ 0 65  6  0 12  0  1  0  3 12]
+ [ 0 57  3  0  7  0  4  0  2  7]
+ [ 0 41  1  0 31  0  7  0  1 12]
+ [ 0 89  0  0  3  0  2  0  1  0]
+ [ 0 44  5  0 31  0 10  0  3 11]
+ [ 0 74  3  0 12  0  0  0  0  4]
+ [ 0 55  3  0 20  0  1  0  1 17]
+ [ 0 14  2  0 10  0  0  0  2 72]]
+
+2024-04-22 16:14:36,524 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:14:36,525 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:14:36,540 - 
+
+2024-04-22 16:14:36,541 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:14:38,858 - Epoch: [13][  200/  296]    Overall Loss 1.696326    Objective Loss 1.696326                                        LR 0.001000    Time 0.124236    
+2024-04-22 16:14:40,033 - Epoch: [21][   10/  267]    Overall Loss 2.171578    Objective Loss 2.171578                                        LR 0.100000    Time 0.348733    
+2024-04-22 16:14:41,600 - Epoch: [21][   20/  267]    Overall Loss 2.158965    Objective Loss 2.158965                                        LR 0.100000    Time 0.252474    
+2024-04-22 16:14:44,021 - Epoch: [21][   30/  267]    Overall Loss 2.148645    Objective Loss 2.148645                                        LR 0.100000    Time 0.248916    
+2024-04-22 16:14:45,295 - Epoch: [21][   40/  267]    Overall Loss 2.150250    Objective Loss 2.150250                                        LR 0.100000    Time 0.218472    
+2024-04-22 16:14:47,010 - Epoch: [21][   50/  267]    Overall Loss 2.151274    Objective Loss 2.151274                                        LR 0.100000    Time 0.209015    
+2024-04-22 16:14:48,188 - Epoch: [21][   60/  267]    Overall Loss 2.152648    Objective Loss 2.152648                                        LR 0.100000    Time 0.193754    
+2024-04-22 16:14:50,113 - Epoch: [21][   70/  267]    Overall Loss 2.148209    Objective Loss 2.148209                                        LR 0.100000    Time 0.193539    
+2024-04-22 16:14:51,043 - Epoch: [21][   80/  267]    Overall Loss 2.159382    Objective Loss 2.159382                                        LR 0.100000    Time 0.180936    
+2024-04-22 16:14:51,051 - Epoch: [13][  296/  296]    Overall Loss 1.685026    Objective Loss 1.685026    Top1 45.901639    Top5 73.770492    LR 0.001000    Time 0.125074    
+2024-04-22 16:14:51,305 - --- validate (epoch=13)-----------
+2024-04-22 16:14:51,307 - 3925 samples (32 per mini-batch)
+2024-04-22 16:14:52,166 - Epoch: [21][   90/  267]    Overall Loss 2.158906    Objective Loss 2.158906                                        LR 0.100000    Time 0.173277    
+2024-04-22 16:14:54,028 - Epoch: [21][  100/  267]    Overall Loss 2.157493    Objective Loss 2.157493                                        LR 0.100000    Time 0.174536    
+2024-04-22 16:14:55,316 - Epoch: [21][  110/  267]    Overall Loss 2.154737    Objective Loss 2.154737                                        LR 0.100000    Time 0.170344    
+2024-04-22 16:14:56,954 - Epoch: [21][  120/  267]    Overall Loss 2.158409    Objective Loss 2.158409                                        LR 0.100000    Time 0.169777    
+2024-04-22 16:14:58,004 - Epoch: [21][  130/  267]    Overall Loss 2.158215    Objective Loss 2.158215                                        LR 0.100000    Time 0.164773    
+2024-04-22 16:14:59,734 - Epoch: [21][  140/  267]    Overall Loss 2.155006    Objective Loss 2.155006                                        LR 0.100000    Time 0.165335    
+2024-04-22 16:15:00,936 - Epoch: [21][  150/  267]    Overall Loss 2.151618    Objective Loss 2.151618                                        LR 0.100000    Time 0.162307    
+2024-04-22 16:15:02,505 - Epoch: [21][  160/  267]    Overall Loss 2.151378    Objective Loss 2.151378                                        LR 0.100000    Time 0.161957    
+2024-04-22 16:15:03,787 - Epoch: [21][  170/  267]    Overall Loss 2.149711    Objective Loss 2.149711                                        LR 0.100000    Time 0.159956    
+2024-04-22 16:15:05,220 - Epoch: [21][  180/  267]    Overall Loss 2.155322    Objective Loss 2.155322                                        LR 0.100000    Time 0.159012    
+2024-04-22 16:15:06,926 - Epoch: [21][  190/  267]    Overall Loss 2.153037    Objective Loss 2.153037                                        LR 0.100000    Time 0.159604    
+2024-04-22 16:15:08,216 - Epoch: [13][  100/  123]    Loss 1.603364    Top1 45.156250    Top5 88.218750    
+2024-04-22 16:15:08,294 - Epoch: [21][  200/  267]    Overall Loss 2.150179    Objective Loss 2.150179                                        LR 0.100000    Time 0.158449    
+2024-04-22 16:15:09,862 - Epoch: [21][  210/  267]    Overall Loss 2.148714    Objective Loss 2.148714                                        LR 0.100000    Time 0.158354    
+2024-04-22 16:15:11,310 - Epoch: [21][  220/  267]    Overall Loss 2.148291    Objective Loss 2.148291                                        LR 0.100000    Time 0.157723    
+2024-04-22 16:15:11,804 - Epoch: [13][  123/  123]    Loss 1.604633    Top1 44.891720    Top5 88.382166    
+2024-04-22 16:15:12,038 - ==> Top1: 44.892    Top5: 88.382    Loss: 1.605
+
+2024-04-22 16:15:12,053 - ==> Best [Top1: 44.892   Top5: 88.382   Sparsity:0.00   Params: 4040008 on epoch: 13]
+2024-04-22 16:15:12,054 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:15:12,302 - Epoch: [21][  230/  267]    Overall Loss 2.147321    Objective Loss 2.147321                                        LR 0.100000    Time 0.155166    
+2024-04-22 16:15:12,468 - 
+
+2024-04-22 16:15:12,469 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:15:13,398 - Epoch: [21][  240/  267]    Overall Loss 2.149001    Objective Loss 2.149001                                        LR 0.100000    Time 0.153258    
+2024-04-22 16:15:14,647 - Epoch: [21][  250/  267]    Overall Loss 2.149395    Objective Loss 2.149395                                        LR 0.100000    Time 0.152110    
+2024-04-22 16:15:16,004 - Epoch: [21][  260/  267]    Overall Loss 2.151058    Objective Loss 2.151058                                        LR 0.100000    Time 0.151470    
+2024-04-22 16:15:16,339 - Epoch: [21][  267/  267]    Overall Loss 2.152248    Objective Loss 2.152248    Top1 18.604651    Top5 79.069767    LR 0.100000    Time 0.148745    
+2024-04-22 16:15:16,514 - --- validate (epoch=21)-----------
+2024-04-22 16:15:16,515 - 946 samples (32 per mini-batch)
+2024-04-22 16:15:19,242 - Epoch: [21][   10/   30]    Loss 2.178520    Top1 16.875000    Top5 65.625000    
+2024-04-22 16:15:20,631 - Epoch: [21][   20/   30]    Loss 2.161768    Top1 19.531250    Top5 65.625000    
+2024-04-22 16:15:22,522 - Epoch: [21][   30/   30]    Loss 2.156079    Top1 20.613108    Top5 66.067653    
+2024-04-22 16:15:22,721 - ==> Top1: 20.613    Top5: 66.068    Loss: 2.156
+
+2024-04-22 16:15:22,723 - ==> Confusion:
+[[ 0 77  1  0  1  0  5  3  0  0]
+ [ 0 79  3  3  2  0  1  4  0  6]
+ [ 0 63  7  2  2  0  7  9  1  8]
+ [ 0 54  6  3  2  0  5  6  1  3]
+ [ 0 42  1  0 13  0 18 14  1  4]
+ [ 0 80  2  1  1  0  2  8  0  1]
+ [ 0 46  2  1  9  0 32  8  2  4]
+ [ 0 75  5  1  1  0  4  4  0  3]
+ [ 0 60  3  1  8  0  6  6  2 11]
+ [ 0 17  2  1 10  0 11  2  2 55]]
+
+2024-04-22 16:15:22,728 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:15:22,728 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:15:22,743 - 
+
+2024-04-22 16:15:22,744 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:15:23,559 - Epoch: [14][  100/  296]    Overall Loss 1.656897    Objective Loss 1.656897                                        LR 0.001000    Time 0.110710    
+2024-04-22 16:15:25,216 - Epoch: [22][   10/  267]    Overall Loss 2.193759    Objective Loss 2.193759                                        LR 0.100000    Time 0.246768    
+2024-04-22 16:15:26,933 - Epoch: [22][   20/  267]    Overall Loss 2.218274    Objective Loss 2.218274                                        LR 0.100000    Time 0.209091    
+2024-04-22 16:15:28,706 - Epoch: [22][   30/  267]    Overall Loss 2.200288    Objective Loss 2.200288                                        LR 0.100000    Time 0.198402    
+2024-04-22 16:15:29,945 - Epoch: [22][   40/  267]    Overall Loss 2.185408    Objective Loss 2.185408                                        LR 0.100000    Time 0.179710    
+2024-04-22 16:15:31,641 - Epoch: [22][   50/  267]    Overall Loss 2.169315    Objective Loss 2.169315                                        LR 0.100000    Time 0.177637    
+2024-04-22 16:15:33,036 - Epoch: [22][   60/  267]    Overall Loss 2.159777    Objective Loss 2.159777                                        LR 0.100000    Time 0.171225    
+2024-04-22 16:15:34,606 - Epoch: [22][   70/  267]    Overall Loss 2.153799    Objective Loss 2.153799                                        LR 0.100000    Time 0.169148    
+2024-04-22 16:15:35,782 - Epoch: [22][   80/  267]    Overall Loss 2.147263    Objective Loss 2.147263                                        LR 0.100000    Time 0.162666    
+2024-04-22 16:15:37,597 - Epoch: [14][  200/  296]    Overall Loss 1.648133    Objective Loss 1.648133                                        LR 0.001000    Time 0.125447    
+2024-04-22 16:15:37,724 - Epoch: [22][   90/  267]    Overall Loss 2.153333    Objective Loss 2.153333                                        LR 0.100000    Time 0.166140    
+2024-04-22 16:15:38,828 - Epoch: [22][  100/  267]    Overall Loss 2.154811    Objective Loss 2.154811                                        LR 0.100000    Time 0.160539    
+2024-04-22 16:15:40,442 - Epoch: [22][  110/  267]    Overall Loss 2.160937    Objective Loss 2.160937                                        LR 0.100000    Time 0.160592    
+2024-04-22 16:15:41,841 - Epoch: [22][  120/  267]    Overall Loss 2.165517    Objective Loss 2.165517                                        LR 0.100000    Time 0.158842    
+2024-04-22 16:15:43,740 - Epoch: [22][  130/  267]    Overall Loss 2.164804    Objective Loss 2.164804                                        LR 0.100000    Time 0.161205    
+2024-04-22 16:15:45,031 - Epoch: [22][  140/  267]    Overall Loss 2.159592    Objective Loss 2.159592                                        LR 0.100000    Time 0.158884    
+2024-04-22 16:15:46,491 - Epoch: [22][  150/  267]    Overall Loss 2.157070    Objective Loss 2.157070                                        LR 0.100000    Time 0.158009    
+2024-04-22 16:15:47,772 - Epoch: [22][  160/  267]    Overall Loss 2.155049    Objective Loss 2.155049                                        LR 0.100000    Time 0.156123    
+2024-04-22 16:15:49,458 - Epoch: [22][  170/  267]    Overall Loss 2.153928    Objective Loss 2.153928                                        LR 0.100000    Time 0.156838    
+2024-04-22 16:15:50,352 - Epoch: [14][  296/  296]    Overall Loss 1.656699    Objective Loss 1.656699    Top1 36.065574    Top5 78.688525    LR 0.001000    Time 0.127786    
+2024-04-22 16:15:50,643 - --- validate (epoch=14)-----------
+2024-04-22 16:15:50,644 - 3925 samples (32 per mini-batch)
+2024-04-22 16:15:50,915 - Epoch: [22][  180/  267]    Overall Loss 2.151778    Objective Loss 2.151778                                        LR 0.100000    Time 0.156205    
+2024-04-22 16:15:52,723 - Epoch: [22][  190/  267]    Overall Loss 2.149038    Objective Loss 2.149038                                        LR 0.100000    Time 0.157488    
+2024-04-22 16:15:54,311 - Epoch: [22][  200/  267]    Overall Loss 2.147454    Objective Loss 2.147454                                        LR 0.100000    Time 0.157535    
+2024-04-22 16:15:55,977 - Epoch: [22][  210/  267]    Overall Loss 2.144373    Objective Loss 2.144373                                        LR 0.100000    Time 0.157956    
+2024-04-22 16:15:57,052 - Epoch: [22][  220/  267]    Overall Loss 2.142427    Objective Loss 2.142427                                        LR 0.100000    Time 0.155651    
+2024-04-22 16:15:58,285 - Epoch: [22][  230/  267]    Overall Loss 2.144982    Objective Loss 2.144982                                        LR 0.100000    Time 0.154227    
+2024-04-22 16:15:59,532 - Epoch: [22][  240/  267]    Overall Loss 2.146170    Objective Loss 2.146170                                        LR 0.100000    Time 0.152985    
+2024-04-22 16:16:01,403 - Epoch: [22][  250/  267]    Overall Loss 2.144547    Objective Loss 2.144547                                        LR 0.100000    Time 0.154338    
+2024-04-22 16:16:03,213 - Epoch: [22][  260/  267]    Overall Loss 2.145616    Objective Loss 2.145616                                        LR 0.100000    Time 0.155352    
+2024-04-22 16:16:03,850 - Epoch: [22][  267/  267]    Overall Loss 2.145156    Objective Loss 2.145156    Top1 23.255814    Top5 65.116279    LR 0.100000    Time 0.153659    
+2024-04-22 16:16:04,070 - --- validate (epoch=22)-----------
+2024-04-22 16:16:04,070 - 946 samples (32 per mini-batch)
+2024-04-22 16:16:06,273 - Epoch: [14][  100/  123]    Loss 1.589630    Top1 45.593750    Top5 88.062500    
+2024-04-22 16:16:06,733 - Epoch: [22][   10/   30]    Loss 2.183123    Top1 16.562500    Top5 63.437500    
+2024-04-22 16:16:08,037 - Epoch: [22][   20/   30]    Loss 2.198187    Top1 16.562500    Top5 63.593750    
+2024-04-22 16:16:09,435 - Epoch: [14][  123/  123]    Loss 1.583978    Top1 45.350318    Top5 88.331210    
+2024-04-22 16:16:09,549 - Epoch: [22][   30/   30]    Loss 2.196844    Top1 16.701903    Top5 64.904863    
+2024-04-22 16:16:09,672 - ==> Top1: 45.350    Top5: 88.331    Loss: 1.584
+
+2024-04-22 16:16:09,685 - ==> Best [Top1: 45.350   Top5: 88.331   Sparsity:0.00   Params: 4040008 on epoch: 14]
+2024-04-22 16:16:09,686 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:16:09,771 - ==> Top1: 16.702    Top5: 64.905    Loss: 2.197
+
+2024-04-22 16:16:09,773 - ==> Confusion:
+[[70  5  0  0  4  0  4  3  1  0]
+ [67 11  4  2  2  0  3  4  4  1]
+ [56 10 13  0  7  0  5  2  3  3]
+ [57  8  5  0  1  0  4  4  1  0]
+ [49  2  2  0 17  0  9  5  4  5]
+ [79  8  0  1  3  0  0  4  0  0]
+ [45  8  8  1 25  0  4  6  5  2]
+ [63 10  2  1  2  0  5  2  6  2]
+ [57  7 10  0  7  0  3  4  6  3]
+ [14  1 25  3 10  0  1  2  9 35]]
+
+2024-04-22 16:16:09,777 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:16:09,778 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:16:09,792 - 
+
+2024-04-22 16:16:09,793 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:16:09,926 - 
+
+2024-04-22 16:16:09,927 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:16:12,816 - Epoch: [23][   10/  267]    Overall Loss 2.222685    Objective Loss 2.222685                                        LR 0.100000    Time 0.301958    
+2024-04-22 16:16:14,204 - Epoch: [23][   20/  267]    Overall Loss 2.213735    Objective Loss 2.213735                                        LR 0.100000    Time 0.220192    
+2024-04-22 16:16:16,071 - Epoch: [23][   30/  267]    Overall Loss 2.201138    Objective Loss 2.201138                                        LR 0.100000    Time 0.208931    
+2024-04-22 16:16:17,572 - Epoch: [23][   40/  267]    Overall Loss 2.189295    Objective Loss 2.189295                                        LR 0.100000    Time 0.194146    
+2024-04-22 16:16:19,219 - Epoch: [23][   50/  267]    Overall Loss 2.177171    Objective Loss 2.177171                                        LR 0.100000    Time 0.188213    
+2024-04-22 16:16:20,427 - Epoch: [23][   60/  267]    Overall Loss 2.162811    Objective Loss 2.162811                                        LR 0.100000    Time 0.176936    
+2024-04-22 16:16:22,117 - Epoch: [23][   70/  267]    Overall Loss 2.162445    Objective Loss 2.162445                                        LR 0.100000    Time 0.175754    
+2024-04-22 16:16:23,432 - Epoch: [23][   80/  267]    Overall Loss 2.163987    Objective Loss 2.163987                                        LR 0.100000    Time 0.170185    
+2024-04-22 16:16:24,918 - Epoch: [15][  100/  296]    Overall Loss 1.652375    Objective Loss 1.652375                                        LR 0.001000    Time 0.149701    
+2024-04-22 16:16:25,415 - Epoch: [23][   90/  267]    Overall Loss 2.163174    Objective Loss 2.163174                                        LR 0.100000    Time 0.173277    
+2024-04-22 16:16:26,905 - Epoch: [23][  100/  267]    Overall Loss 2.156543    Objective Loss 2.156543                                        LR 0.100000    Time 0.170820    
+2024-04-22 16:16:28,783 - Epoch: [23][  110/  267]    Overall Loss 2.153433    Objective Loss 2.153433                                        LR 0.100000    Time 0.172339    
+2024-04-22 16:16:30,011 - Epoch: [23][  120/  267]    Overall Loss 2.157017    Objective Loss 2.157017                                        LR 0.100000    Time 0.168180    
+2024-04-22 16:16:32,055 - Epoch: [23][  130/  267]    Overall Loss 2.151906    Objective Loss 2.151906                                        LR 0.100000    Time 0.170944    
+2024-04-22 16:16:33,422 - Epoch: [23][  140/  267]    Overall Loss 2.153756    Objective Loss 2.153756                                        LR 0.100000    Time 0.168471    
+2024-04-22 16:16:35,282 - Epoch: [23][  150/  267]    Overall Loss 2.154972    Objective Loss 2.154972                                        LR 0.100000    Time 0.169620    
+2024-04-22 16:16:36,484 - Epoch: [23][  160/  267]    Overall Loss 2.159185    Objective Loss 2.159185                                        LR 0.100000    Time 0.166513    
+2024-04-22 16:16:37,647 - Epoch: [15][  200/  296]    Overall Loss 1.651834    Objective Loss 1.651834                                        LR 0.001000    Time 0.138395    
+2024-04-22 16:16:38,001 - Epoch: [23][  170/  267]    Overall Loss 2.158696    Objective Loss 2.158696                                        LR 0.100000    Time 0.165628    
+2024-04-22 16:16:39,255 - Epoch: [23][  180/  267]    Overall Loss 2.157510    Objective Loss 2.157510                                        LR 0.100000    Time 0.163376    
+2024-04-22 16:16:41,144 - Epoch: [23][  190/  267]    Overall Loss 2.154324    Objective Loss 2.154324                                        LR 0.100000    Time 0.164700    
+2024-04-22 16:16:42,403 - Epoch: [23][  200/  267]    Overall Loss 2.153891    Objective Loss 2.153891                                        LR 0.100000    Time 0.162745    
+2024-04-22 16:16:43,901 - Epoch: [23][  210/  267]    Overall Loss 2.153978    Objective Loss 2.153978                                        LR 0.100000    Time 0.162116    
+2024-04-22 16:16:45,399 - Epoch: [23][  220/  267]    Overall Loss 2.154234    Objective Loss 2.154234                                        LR 0.100000    Time 0.161543    
+2024-04-22 16:16:47,142 - Epoch: [23][  230/  267]    Overall Loss 2.152142    Objective Loss 2.152142                                        LR 0.100000    Time 0.162089    
+2024-04-22 16:16:48,456 - Epoch: [23][  240/  267]    Overall Loss 2.149018    Objective Loss 2.149018                                        LR 0.100000    Time 0.160799    
+2024-04-22 16:16:49,797 - Epoch: [15][  296/  296]    Overall Loss 1.644761    Objective Loss 1.644761    Top1 49.180328    Top5 86.885246    LR 0.001000    Time 0.134503    
+2024-04-22 16:16:50,013 - --- validate (epoch=15)-----------
+2024-04-22 16:16:50,014 - 3925 samples (32 per mini-batch)
+2024-04-22 16:16:50,451 - Epoch: [23][  250/  267]    Overall Loss 2.148568    Objective Loss 2.148568                                        LR 0.100000    Time 0.162335    
+2024-04-22 16:16:51,672 - Epoch: [23][  260/  267]    Overall Loss 2.150367    Objective Loss 2.150367                                        LR 0.100000    Time 0.160780    
+2024-04-22 16:16:52,467 - Epoch: [23][  267/  267]    Overall Loss 2.149855    Objective Loss 2.149855    Top1 25.581395    Top5 69.767442    LR 0.100000    Time 0.159536    
+2024-04-22 16:16:52,727 - --- validate (epoch=23)-----------
+2024-04-22 16:16:52,729 - 946 samples (32 per mini-batch)
+2024-04-22 16:16:55,638 - Epoch: [23][   10/   30]    Loss 2.118339    Top1 18.125000    Top5 64.062500    
+2024-04-22 16:16:57,132 - Epoch: [23][   20/   30]    Loss 2.122253    Top1 19.375000    Top5 65.625000    
+2024-04-22 16:16:58,333 - Epoch: [23][   30/   30]    Loss 2.139114    Top1 19.238901    Top5 65.116279    
+2024-04-22 16:16:58,568 - ==> Top1: 19.239    Top5: 65.116    Loss: 2.139
+
+2024-04-22 16:16:58,570 - ==> Confusion:
+[[66  4  1  0  8  0  6  0  1  1]
+ [60 13  7  0  7  0  6  0  1  4]
+ [50 12 11  0  7  0 11  0  2  6]
+ [47  7 10  0  5  0  7  0  0  4]
+ [45  1  2  0 29  0  7  0  0  9]
+ [77  5  2  0  5  0  5  0  1  0]
+ [38  7  9  0 32  0 11  0  2  5]
+ [49 16  9  0 11  0  6  0  0  2]
+ [52  9  3  0 13  0  8  0  3  9]
+ [12  4 10  0 12  0  7  0  6 49]]
+
+2024-04-22 16:16:58,572 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:16:58,573 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:16:58,579 - 
+
+2024-04-22 16:16:58,580 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:17:01,503 - Epoch: [24][   10/  267]    Overall Loss 2.138407    Objective Loss 2.138407                                        LR 0.100000    Time 0.291989    
+2024-04-22 16:17:02,806 - Epoch: [24][   20/  267]    Overall Loss 2.137445    Objective Loss 2.137445                                        LR 0.100000    Time 0.210995    
+2024-04-22 16:17:04,503 - Epoch: [24][   30/  267]    Overall Loss 2.141023    Objective Loss 2.141023                                        LR 0.100000    Time 0.197118    
+2024-04-22 16:17:05,862 - Epoch: [24][   40/  267]    Overall Loss 2.141423    Objective Loss 2.141423                                        LR 0.100000    Time 0.181748    
+2024-04-22 16:17:06,557 - Epoch: [15][  100/  123]    Loss 1.593523    Top1 45.218750    Top5 87.781250    
+2024-04-22 16:17:07,573 - Epoch: [24][   50/  267]    Overall Loss 2.141816    Objective Loss 2.141816                                        LR 0.100000    Time 0.179545    
+2024-04-22 16:17:09,186 - Epoch: [24][   60/  267]    Overall Loss 2.144049    Objective Loss 2.144049                                        LR 0.100000    Time 0.176444    
+2024-04-22 16:17:09,855 - Epoch: [15][  123/  123]    Loss 1.598775    Top1 44.611465    Top5 88.152866    
+2024-04-22 16:17:10,094 - ==> Top1: 44.611    Top5: 88.153    Loss: 1.599
+
+2024-04-22 16:17:10,110 - ==> Best [Top1: 45.350   Top5: 88.331   Sparsity:0.00   Params: 4040008 on epoch: 14]
+2024-04-22 16:17:10,111 - Saving checkpoint to: logs/2024.04.22-160058/checkpoint.pth.tar
+2024-04-22 16:17:10,422 - 
+
+2024-04-22 16:17:10,423 - Training epoch: 9469 samples (32 per mini-batch)
+2024-04-22 16:17:10,687 - Epoch: [24][   70/  267]    Overall Loss 2.140285    Objective Loss 2.140285                                        LR 0.100000    Time 0.172648    
+2024-04-22 16:17:12,280 - Epoch: [24][   80/  267]    Overall Loss 2.146309    Objective Loss 2.146309                                        LR 0.100000    Time 0.170937    
+2024-04-22 16:17:13,743 - Epoch: [24][   90/  267]    Overall Loss 2.144862    Objective Loss 2.144862                                        LR 0.100000    Time 0.168171    
+2024-04-22 16:17:15,263 - Epoch: [24][  100/  267]    Overall Loss 2.146489    Objective Loss 2.146489                                        LR 0.100000    Time 0.166526    
+2024-04-22 16:17:16,730 - Epoch: [24][  110/  267]    Overall Loss 2.142557    Objective Loss 2.142557                                        LR 0.100000    Time 0.164692    
+2024-04-22 16:17:18,231 - Epoch: [24][  120/  267]    Overall Loss 2.146338    Objective Loss 2.146338                                        LR 0.100000    Time 0.163449    
+2024-04-22 16:17:19,863 - Epoch: [24][  130/  267]    Overall Loss 2.147890    Objective Loss 2.147890                                        LR 0.100000    Time 0.163400    
+2024-04-22 16:17:21,302 - Epoch: [24][  140/  267]    Overall Loss 2.150017    Objective Loss 2.150017                                        LR 0.100000    Time 0.161988    
+2024-04-22 16:17:23,215 - Epoch: [24][  150/  267]    Overall Loss 2.153375    Objective Loss 2.153375                                        LR 0.100000    Time 0.163919    
+2024-04-22 16:17:24,481 - Epoch: [24][  160/  267]    Overall Loss 2.154064    Objective Loss 2.154064                                        LR 0.100000    Time 0.161570    
+2024-04-22 16:17:26,374 - Epoch: [24][  170/  267]    Overall Loss 2.154213    Objective Loss 2.154213                                        LR 0.100000    Time 0.163184    
+2024-04-22 16:17:26,552 - Epoch: [16][  100/  296]    Overall Loss 1.607624    Objective Loss 1.607624                                        LR 0.001000    Time 0.161059    
+2024-04-22 16:17:27,676 - Epoch: [24][  180/  267]    Overall Loss 2.152058    Objective Loss 2.152058                                        LR 0.100000    Time 0.161340    
+2024-04-22 16:17:29,389 - Epoch: [24][  190/  267]    Overall Loss 2.151666    Objective Loss 2.151666                                        LR 0.100000    Time 0.161850    
+2024-04-22 16:17:30,643 - Epoch: [24][  200/  267]    Overall Loss 2.157913    Objective Loss 2.157913                                        LR 0.100000    Time 0.160013    
+2024-04-22 16:17:32,341 - Epoch: [24][  210/  267]    Overall Loss 2.159629    Objective Loss 2.159629                                        LR 0.100000    Time 0.160467    
+2024-04-22 16:17:33,635 - Epoch: [24][  220/  267]    Overall Loss 2.159991    Objective Loss 2.159991                                        LR 0.100000    Time 0.159039    
+2024-04-22 16:17:35,481 - Epoch: [24][  230/  267]    Overall Loss 2.161791    Objective Loss 2.161791                                        LR 0.100000    Time 0.160138    
+2024-04-22 16:17:36,844 - Epoch: [24][  240/  267]    Overall Loss 2.159719    Objective Loss 2.159719                                        LR 0.100000    Time 0.159134    
+2024-04-22 16:17:38,601 - Epoch: [24][  250/  267]    Overall Loss 2.160860    Objective Loss 2.160860                                        LR 0.100000    Time 0.159787    
+2024-04-22 16:17:38,967 - Epoch: [16][  200/  296]    Overall Loss 1.618995    Objective Loss 1.618995                                        LR 0.001000    Time 0.142511    
+2024-04-22 16:17:39,752 - Epoch: [24][  260/  267]    Overall Loss 2.161369    Objective Loss 2.161369                                        LR 0.100000    Time 0.158058    
+2024-04-22 16:17:40,696 - Epoch: [24][  267/  267]    Overall Loss 2.162420    Objective Loss 2.162420    Top1 30.232558    Top5 65.116279    LR 0.100000    Time 0.157437    
+2024-04-22 16:17:40,967 - --- validate (epoch=24)-----------
+2024-04-22 16:17:40,968 - 946 samples (32 per mini-batch)
+2024-04-22 16:17:43,443 - Epoch: [24][   10/   30]    Loss 2.196051    Top1 17.187500    Top5 62.500000    
+2024-04-22 16:17:44,938 - Epoch: [24][   20/   30]    Loss 2.202627    Top1 17.500000    Top5 62.187500    
+2024-04-22 16:17:46,413 - Epoch: [24][   30/   30]    Loss 2.203876    Top1 18.181818    Top5 61.839323    
+2024-04-22 16:17:46,694 - ==> Top1: 18.182    Top5: 61.839    Loss: 2.204
+
+2024-04-22 16:17:46,696 - ==> Confusion:
+[[ 0  0  5  0  0 78  2  0  0  2]
+ [ 0  0  4  0  1 90  2  0  0  1]
+ [ 0  0 16  0  1 76  2  0  0  4]
+ [ 0  0  8  0  0 69  1  0  0  2]
+ [ 0  0 13  0  8 55  7  0  0 10]
+ [ 0  0  2  0  0 89  3  0  0  1]
+ [ 0  0 15  0  7 69  9  0  0  4]
+ [ 0  0  2  0  0 82  6  0  0  3]
+ [ 0  0  7  0  2 78  5  0  0  5]
+ [ 0  0 14  0  4 22 10  0  0 50]]
+
+2024-04-22 16:17:46,700 - ==> Best [Top1: 23.467   Top5: 67.548   Sparsity:0.00   Params: 72228 on epoch: 13]
+2024-04-22 16:17:46,701 - Saving checkpoint to: logs/2024.04.22-160058/qat_checkpoint.pth.tar
+2024-04-22 16:17:46,713 - 
+
+2024-04-22 16:17:46,715 - Training epoch: 8523 samples (32 per mini-batch)
+2024-04-22 16:17:49,189 - Epoch: [25][   10/  267]    Overall Loss 2.218356    Objective Loss 2.218356                                        LR 0.100000    Time 0.246982    
+2024-04-22 16:17:50,780 - Epoch: [25][   20/  267]    Overall Loss 2.215996    Objective Loss 2.215996                                        LR 0.100000    Time 0.202888    
+2024-04-22 16:17:52,173 - Epoch: [25][   30/  267]    Overall Loss 2.197129    Objective Loss 2.197129                                        LR 0.100000    Time 0.181612    
+2024-04-22 16:17:52,623 - Epoch: [16][  296/  296]    Overall Loss 1.613350    Objective Loss 1.613350    Top1 49.180328    Top5 91.803279    LR 0.001000    Time 0.142363    
+2024-04-22 16:17:52,890 - --- validate (epoch=16)-----------
+2024-04-22 16:17:52,890 - 3925 samples (32 per mini-batch)
+2024-04-22 16:17:54,027 - Epoch: [25][   40/  267]    Overall Loss 2.190472    Objective Loss 2.190472                                        LR 0.100000    Time 0.182473    
+2024-04-22 16:17:54,966 - Epoch: [25][   50/  267]    Overall Loss 2.186552    Objective Loss 2.186552                                        LR 0.100000    Time 0.164693    
+2024-04-22 16:17:56,746 - Epoch: [25][   60/  267]    Overall Loss 2.185268    Objective Loss 2.185268                                        LR 0.100000    Time 0.166864    

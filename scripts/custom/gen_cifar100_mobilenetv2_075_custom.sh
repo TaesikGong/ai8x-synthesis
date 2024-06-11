@@ -11,7 +11,7 @@ device="MAX78000"
 input_dir=${dir}/${prefix}_full/sample_inputs/LAYER
 
 sp_st=0
-sp_end=32
+sp_end=21
 
 #sp_st=32
 #sp_end=42

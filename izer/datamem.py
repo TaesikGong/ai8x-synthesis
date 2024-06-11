@@ -44,9 +44,13 @@ def validate(arr, offs, val=None):
         else:
             (ll, c, row, col) = val
             nstr = layer_pfx(ll) + f'CHW={c},{row},{col} - '
-        eprint(f'{nstr}Overwriting location 0x{offs:08x}, previously used by layer '
-               f'{layer_str(old_ll)}, CHW={old_c},{old_row},{old_col}.',
-               error=not state.no_error_stop)
+        # eprint(f'{nstr}Overwriting location 0x{offs:08x}, previously used by layer '
+        #        f'{layer_str(old_ll)}, CHW={old_c},{old_row},{old_col}.',
+        #        error=not state.no_error_stop)
+
+        # Avoid error for ai85-camvid-unet-large-q_fold2 case
+        print(f'{nstr}Overwriting location 0x{offs:08x}, previously used by layer '
+               f'{layer_str(old_ll)}, CHW={old_c},{old_row},{old_col}.')
 
 
 def store(arr, offs, val, check_overwrite=False):

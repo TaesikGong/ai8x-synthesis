@@ -1,0 +1,1428 @@
+2024-05-03 23:09:57,254 - Log file for this run: /home/taesik/git/ai8x-training/logs/2024.05.03-230957/2024.05.03-230957.log
+2024-05-03 23:10:02,142 - Optimizer Type: <class 'torch.optim.sgd.SGD'>
+2024-05-03 23:10:02,143 - Optimizer Args: {'lr': 0.1, 'momentum': 0.9, 'dampening': 0, 'weight_decay': 0.0001, 'nesterov': False}
+2024-05-03 23:10:02,347 - Dataset sizes:
+	training=6941
+	validation=1736
+	test=1736
+2024-05-03 23:10:02,348 - Reading compression schedule from: policies/schedule-cifar100-mobilenetv2.yaml
+2024-05-03 23:10:02,364 - 
+
+2024-05-03 23:10:02,365 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:11:01,351 - Epoch: [0][   55/   55]    Overall Loss 3.931714    Objective Loss 3.931714    Top1 24.840764    Top5 39.490446    LR 0.100000    Time 1.072306    
+2024-05-03 23:11:01,771 - --- validate (epoch=0)-----------
+2024-05-03 23:11:01,772 - 1736 samples (128 per mini-batch)
+2024-05-03 23:11:18,736 - Epoch: [0][   14/   14]    Loss 4.575264    Top1 1.958525    Top5 23.732719    
+2024-05-03 23:11:19,064 - ==> Top1: 1.959    Top5: 23.733    Loss: 4.575
+
+2024-05-03 23:11:19,077 - ==> Best [Top1: 1.959   Top5: 23.733   Sparsity:0.00   Params: 1346160 on epoch: 0]
+2024-05-03 23:11:19,077 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-03 23:11:19,204 - 
+
+2024-05-03 23:11:19,205 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:12:21,678 - Epoch: [1][   55/   55]    Overall Loss 3.439669    Objective Loss 3.439669    Top1 34.394904    Top5 47.770701    LR 0.100000    Time 1.135697    
+2024-05-03 23:12:21,988 - 
+
+2024-05-03 23:12:21,989 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:13:26,583 - Epoch: [2][   55/   55]    Overall Loss 3.191480    Objective Loss 3.191480    Top1 35.031847    Top5 43.949045    LR 0.100000    Time 1.174234    
+2024-05-03 23:13:26,793 - 
+
+2024-05-03 23:13:26,793 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:14:28,733 - Epoch: [3][   55/   55]    Overall Loss 3.054349    Objective Loss 3.054349    Top1 26.751592    Top5 41.401274    LR 0.100000    Time 1.125996    
+2024-05-03 23:14:29,219 - 
+
+2024-05-03 23:14:29,222 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:15:26,854 - Epoch: [4][   55/   55]    Overall Loss 2.905119    Objective Loss 2.905119    Top1 36.942675    Top5 49.044586    LR 0.100000    Time 1.047610    
+2024-05-03 23:15:27,095 - 
+
+2024-05-03 23:15:27,096 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:16:24,496 - Epoch: [5][   55/   55]    Overall Loss 2.795892    Objective Loss 2.795892    Top1 43.312102    Top5 57.324841    LR 0.100000    Time 1.043454    
+2024-05-03 23:16:24,693 - 
+
+2024-05-03 23:16:24,694 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:17:26,447 - Epoch: [6][   55/   55]    Overall Loss 2.658065    Objective Loss 2.658065    Top1 33.757962    Top5 52.866242    LR 0.100000    Time 1.122573    
+2024-05-03 23:17:26,659 - 
+
+2024-05-03 23:17:26,660 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:18:29,154 - Epoch: [7][   55/   55]    Overall Loss 2.598479    Objective Loss 2.598479    Top1 46.496815    Top5 63.057325    LR 0.100000    Time 1.136104    
+2024-05-03 23:18:29,344 - 
+
+2024-05-03 23:18:29,345 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:19:31,846 - Epoch: [8][   55/   55]    Overall Loss 2.524290    Objective Loss 2.524290    Top1 36.305732    Top5 56.687898    LR 0.100000    Time 1.136200    
+2024-05-03 23:19:32,015 - 
+
+2024-05-03 23:19:32,015 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:20:33,692 - Epoch: [9][   55/   55]    Overall Loss 2.413245    Objective Loss 2.413245    Top1 38.216561    Top5 52.229299    LR 0.100000    Time 1.121245    
+2024-05-03 23:20:34,240 - 
+
+2024-05-03 23:20:34,240 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:21:33,485 - Epoch: [10][   55/   55]    Overall Loss 2.307882    Objective Loss 2.307882    Top1 45.222930    Top5 66.878981    LR 0.100000    Time 1.077022    
+2024-05-03 23:21:33,658 - --- validate (epoch=10)-----------
+2024-05-03 23:21:33,659 - 1736 samples (128 per mini-batch)
+2024-05-03 23:21:51,245 - Epoch: [10][   14/   14]    Loss 2.765550    Top1 37.615207    Top5 55.069124    
+2024-05-03 23:21:51,492 - ==> Top1: 37.615    Top5: 55.069    Loss: 2.766
+
+2024-05-03 23:21:51,508 - ==> Best [Top1: 37.615   Top5: 55.069   Sparsity:0.00   Params: 1346160 on epoch: 10]
+2024-05-03 23:21:51,508 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-03 23:21:51,615 - 
+
+2024-05-03 23:21:51,616 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:22:52,227 - Epoch: [11][   55/   55]    Overall Loss 2.243590    Objective Loss 2.243590    Top1 43.949045    Top5 63.057325    LR 0.100000    Time 1.101814    
+2024-05-03 23:22:52,650 - 
+
+2024-05-03 23:22:52,651 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:23:53,015 - Epoch: [12][   55/   55]    Overall Loss 2.198055    Objective Loss 2.198055    Top1 45.859873    Top5 61.783439    LR 0.100000    Time 1.097355    
+2024-05-03 23:23:53,433 - 
+
+2024-05-03 23:23:53,434 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:24:48,869 - Epoch: [13][   55/   55]    Overall Loss 2.127120    Objective Loss 2.127120    Top1 54.777070    Top5 69.426752    LR 0.100000    Time 1.007725    
+2024-05-03 23:24:49,084 - 
+
+2024-05-03 23:24:49,086 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:25:48,617 - Epoch: [14][   55/   55]    Overall Loss 2.014448    Objective Loss 2.014448    Top1 40.127389    Top5 61.146497    LR 0.100000    Time 1.082236    
+2024-05-03 23:25:49,061 - 
+
+2024-05-03 23:25:49,063 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:26:47,977 - Epoch: [15][   55/   55]    Overall Loss 1.908292    Objective Loss 1.908292    Top1 47.133758    Top5 66.242038    LR 0.100000    Time 1.070958    
+2024-05-03 23:26:48,582 - 
+
+2024-05-03 23:26:48,583 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:27:46,699 - Epoch: [16][   55/   55]    Overall Loss 1.860410    Objective Loss 1.860410    Top1 54.777070    Top5 70.700637    LR 0.100000    Time 1.056462    
+2024-05-03 23:27:46,968 - 
+
+2024-05-03 23:27:46,969 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:28:45,507 - Epoch: [17][   55/   55]    Overall Loss 1.741723    Objective Loss 1.741723    Top1 54.140127    Top5 75.159236    LR 0.100000    Time 1.064151    
+2024-05-03 23:28:45,930 - 
+
+2024-05-03 23:28:45,931 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:29:45,519 - Epoch: [18][   55/   55]    Overall Loss 1.732226    Objective Loss 1.732226    Top1 46.496815    Top5 70.063694    LR 0.100000    Time 1.083207    
+2024-05-03 23:29:46,307 - 
+
+2024-05-03 23:29:46,308 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:30:47,265 - Epoch: [19][   55/   55]    Overall Loss 1.630090    Objective Loss 1.630090    Top1 55.414013    Top5 77.070064    LR 0.100000    Time 1.108123    
+2024-05-03 23:30:47,763 - 
+
+2024-05-03 23:30:47,764 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:31:46,961 - Epoch: [20][   55/   55]    Overall Loss 1.587069    Objective Loss 1.587069    Top1 53.503185    Top5 75.159236    LR 0.100000    Time 1.076139    
+2024-05-03 23:31:47,467 - --- validate (epoch=20)-----------
+2024-05-03 23:31:47,468 - 1736 samples (128 per mini-batch)
+2024-05-03 23:32:05,872 - Epoch: [20][   14/   14]    Loss 2.698856    Top1 43.548387    Top5 61.232719    
+2024-05-03 23:32:06,234 - ==> Top1: 43.548    Top5: 61.233    Loss: 2.699
+
+2024-05-03 23:32:06,249 - ==> Best [Top1: 43.548   Top5: 61.233   Sparsity:0.00   Params: 1346160 on epoch: 20]
+2024-05-03 23:32:06,250 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-03 23:32:06,405 - 
+
+2024-05-03 23:32:06,406 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:33:06,863 - Epoch: [21][   55/   55]    Overall Loss 1.514742    Objective Loss 1.514742    Top1 56.687898    Top5 85.987261    LR 0.100000    Time 1.099033    
+2024-05-03 23:33:07,266 - 
+
+2024-05-03 23:33:07,267 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:34:08,974 - Epoch: [22][   55/   55]    Overall Loss 1.433970    Objective Loss 1.433970    Top1 56.050955    Top5 76.433121    LR 0.100000    Time 1.121760    
+2024-05-03 23:34:09,416 - 
+
+2024-05-03 23:34:09,418 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:35:07,537 - Epoch: [23][   55/   55]    Overall Loss 1.330709    Objective Loss 1.330709    Top1 59.872611    Top5 84.713376    LR 0.100000    Time 1.056465    
+2024-05-03 23:35:07,888 - 
+
+2024-05-03 23:35:07,890 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:36:07,451 - Epoch: [24][   55/   55]    Overall Loss 1.293405    Objective Loss 1.293405    Top1 66.878981    Top5 89.171975    LR 0.100000    Time 1.082701    
+2024-05-03 23:36:07,640 - 
+
+2024-05-03 23:36:07,641 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:37:03,360 - Epoch: [25][   55/   55]    Overall Loss 1.249262    Objective Loss 1.249262    Top1 62.420382    Top5 87.261146    LR 0.100000    Time 1.012854    
+2024-05-03 23:37:03,533 - 
+
+2024-05-03 23:37:03,534 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:38:00,155 - Epoch: [26][   55/   55]    Overall Loss 1.176766    Objective Loss 1.176766    Top1 62.420382    Top5 87.261146    LR 0.100000    Time 1.029313    
+2024-05-03 23:38:00,372 - 
+
+2024-05-03 23:38:00,373 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:39:01,337 - Epoch: [27][   55/   55]    Overall Loss 1.176094    Objective Loss 1.176094    Top1 71.337580    Top5 91.719745    LR 0.100000    Time 1.108257    
+2024-05-03 23:39:02,234 - 
+
+2024-05-03 23:39:02,237 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:40:02,412 - Epoch: [28][   55/   55]    Overall Loss 1.012213    Objective Loss 1.012213    Top1 66.878981    Top5 87.898089    LR 0.100000    Time 1.093853    
+2024-05-03 23:40:03,098 - 
+
+2024-05-03 23:40:03,100 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:41:01,799 - Epoch: [29][   55/   55]    Overall Loss 1.127120    Objective Loss 1.127120    Top1 75.159236    Top5 92.356688    LR 0.100000    Time 1.067068    
+2024-05-03 23:41:02,277 - 
+
+2024-05-03 23:41:02,277 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:42:00,034 - Epoch: [30][   55/   55]    Overall Loss 0.983370    Objective Loss 0.983370    Top1 73.885350    Top5 92.993631    LR 0.100000    Time 1.049950    
+2024-05-03 23:42:00,701 - --- validate (epoch=30)-----------
+2024-05-03 23:42:00,702 - 1736 samples (128 per mini-batch)
+2024-05-03 23:42:21,466 - Epoch: [30][   14/   14]    Loss 3.125510    Top1 43.087558    Top5 61.463134    
+2024-05-03 23:42:21,689 - ==> Top1: 43.088    Top5: 61.463    Loss: 3.126
+
+2024-05-03 23:42:21,705 - ==> Best [Top1: 43.548   Top5: 61.233   Sparsity:0.00   Params: 1346160 on epoch: 20]
+2024-05-03 23:42:21,705 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-03 23:42:21,832 - 
+
+2024-05-03 23:42:21,833 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:43:18,677 - Epoch: [31][   55/   55]    Overall Loss 0.984695    Objective Loss 0.984695    Top1 72.611465    Top5 92.993631    LR 0.100000    Time 1.033361    
+2024-05-03 23:43:19,256 - 
+
+2024-05-03 23:43:19,257 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:44:14,946 - Epoch: [32][   55/   55]    Overall Loss 0.946456    Objective Loss 0.946456    Top1 73.885350    Top5 93.630573    LR 0.100000    Time 1.012357    
+2024-05-03 23:44:15,791 - 
+
+2024-05-03 23:44:15,791 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:45:07,690 - Epoch: [33][   55/   55]    Overall Loss 0.765685    Objective Loss 0.765685    Top1 75.796178    Top5 94.904459    LR 0.100000    Time 0.943451    
+2024-05-03 23:45:07,920 - 
+
+2024-05-03 23:45:07,921 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:46:07,249 - Epoch: [34][   55/   55]    Overall Loss 0.796688    Objective Loss 0.796688    Top1 75.159236    Top5 96.815287    LR 0.100000    Time 1.078533    
+2024-05-03 23:46:07,593 - 
+
+2024-05-03 23:46:07,594 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:47:10,311 - Epoch: [35][   55/   55]    Overall Loss 0.776808    Objective Loss 0.776808    Top1 76.433121    Top5 92.356688    LR 0.100000    Time 1.140142    
+2024-05-03 23:47:10,852 - 
+
+2024-05-03 23:47:10,853 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:48:06,888 - Epoch: [36][   55/   55]    Overall Loss 0.779215    Objective Loss 0.779215    Top1 69.426752    Top5 92.356688    LR 0.100000    Time 1.018624    
+2024-05-03 23:48:07,096 - 
+
+2024-05-03 23:48:07,097 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:49:04,524 - Epoch: [37][   55/   55]    Overall Loss 0.860720    Objective Loss 0.860720    Top1 73.248408    Top5 91.719745    LR 0.100000    Time 1.043971    
+2024-05-03 23:49:04,773 - 
+
+2024-05-03 23:49:04,774 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:49:56,465 - Epoch: [38][   55/   55]    Overall Loss 0.713949    Objective Loss 0.713949    Top1 82.165605    Top5 96.178344    LR 0.100000    Time 0.939648    
+2024-05-03 23:49:57,059 - 
+
+2024-05-03 23:49:57,060 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:50:54,961 - Epoch: [39][   55/   55]    Overall Loss 0.567341    Objective Loss 0.567341    Top1 78.343949    Top5 96.178344    LR 0.100000    Time 1.052581    
+2024-05-03 23:50:55,277 - 
+
+2024-05-03 23:50:55,278 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:51:53,653 - Epoch: [40][   55/   55]    Overall Loss 0.570035    Objective Loss 0.570035    Top1 84.713376    Top5 98.089172    LR 0.100000    Time 1.061208    
+2024-05-03 23:51:53,838 - --- validate (epoch=40)-----------
+2024-05-03 23:51:53,840 - 1736 samples (128 per mini-batch)
+2024-05-03 23:52:11,444 - Epoch: [40][   14/   14]    Loss 3.638546    Top1 45.276498    Top5 63.940092    
+2024-05-03 23:52:11,592 - ==> Top1: 45.276    Top5: 63.940    Loss: 3.639
+
+2024-05-03 23:52:11,614 - ==> Best [Top1: 45.276   Top5: 63.940   Sparsity:0.00   Params: 1346160 on epoch: 40]
+2024-05-03 23:52:11,614 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-03 23:52:11,738 - 
+
+2024-05-03 23:52:11,738 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:53:06,779 - Epoch: [41][   55/   55]    Overall Loss 0.617510    Objective Loss 0.617510    Top1 76.433121    Top5 96.178344    LR 0.100000    Time 1.000567    
+2024-05-03 23:53:07,078 - 
+
+2024-05-03 23:53:07,079 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:53:59,703 - Epoch: [42][   55/   55]    Overall Loss 0.532581    Objective Loss 0.532581    Top1 83.439490    Top5 97.452229    LR 0.100000    Time 0.956640    
+2024-05-03 23:53:59,922 - 
+
+2024-05-03 23:53:59,923 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:54:59,000 - Epoch: [43][   55/   55]    Overall Loss 0.454352    Objective Loss 0.454352    Top1 86.624204    Top5 98.726115    LR 0.100000    Time 1.073963    
+2024-05-03 23:54:59,322 - 
+
+2024-05-03 23:54:59,323 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:55:57,363 - Epoch: [44][   55/   55]    Overall Loss 0.658509    Objective Loss 0.658509    Top1 78.343949    Top5 97.452229    LR 0.100000    Time 1.055124    
+2024-05-03 23:55:57,643 - 
+
+2024-05-03 23:55:57,645 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:56:52,399 - Epoch: [45][   55/   55]    Overall Loss 0.572483    Objective Loss 0.572483    Top1 80.891720    Top5 96.815287    LR 0.100000    Time 0.995266    
+2024-05-03 23:56:52,686 - 
+
+2024-05-03 23:56:52,687 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:57:50,030 - Epoch: [46][   55/   55]    Overall Loss 0.421424    Objective Loss 0.421424    Top1 78.343949    Top5 98.089172    LR 0.100000    Time 1.042444    
+2024-05-03 23:57:50,274 - 
+
+2024-05-03 23:57:50,274 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:58:43,852 - Epoch: [47][   55/   55]    Overall Loss 0.378033    Objective Loss 0.378033    Top1 82.165605    Top5 98.726115    LR 0.100000    Time 0.973945    
+2024-05-03 23:58:44,319 - 
+
+2024-05-03 23:58:44,320 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-03 23:59:37,401 - Epoch: [48][   55/   55]    Overall Loss 0.338176    Objective Loss 0.338176    Top1 86.624204    Top5 98.089172    LR 0.100000    Time 0.964919    
+2024-05-03 23:59:37,818 - 
+
+2024-05-03 23:59:37,820 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:00:35,180 - Epoch: [49][   55/   55]    Overall Loss 0.348472    Objective Loss 0.348472    Top1 85.987261    Top5 99.363057    LR 0.100000    Time 1.042714    
+2024-05-04 00:00:35,383 - 
+
+2024-05-04 00:00:35,384 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:01:33,451 - Epoch: [50][   55/   55]    Overall Loss 0.409427    Objective Loss 0.409427    Top1 89.808917    Top5 97.452229    LR 0.100000    Time 1.055608    
+2024-05-04 00:01:33,659 - --- validate (epoch=50)-----------
+2024-05-04 00:01:33,660 - 1736 samples (128 per mini-batch)
+2024-05-04 00:01:50,286 - Epoch: [50][   14/   14]    Loss 3.453981    Top1 48.905530    Top5 67.050691    
+2024-05-04 00:01:50,831 - ==> Top1: 48.906    Top5: 67.051    Loss: 3.454
+
+2024-05-04 00:01:50,844 - ==> Best [Top1: 48.906   Top5: 67.051   Sparsity:0.00   Params: 1346160 on epoch: 50]
+2024-05-04 00:01:50,844 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 00:01:50,955 - 
+
+2024-05-04 00:01:50,956 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:02:49,748 - Epoch: [51][   55/   55]    Overall Loss 0.374887    Objective Loss 0.374887    Top1 85.350318    Top5 98.089172    LR 0.100000    Time 1.068749    
+2024-05-04 00:02:49,921 - 
+
+2024-05-04 00:02:49,922 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:03:46,313 - Epoch: [52][   55/   55]    Overall Loss 0.414945    Objective Loss 0.414945    Top1 78.980892    Top5 96.178344    LR 0.100000    Time 1.025129    
+2024-05-04 00:03:46,917 - 
+
+2024-05-04 00:03:46,918 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:04:44,761 - Epoch: [53][   55/   55]    Overall Loss 0.414126    Objective Loss 0.414126    Top1 92.356688    Top5 99.363057    LR 0.100000    Time 1.051517    
+2024-05-04 00:04:45,009 - 
+
+2024-05-04 00:04:45,010 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:05:41,475 - Epoch: [54][   55/   55]    Overall Loss 0.276896    Objective Loss 0.276896    Top1 92.356688    Top5 98.726115    LR 0.100000    Time 1.026441    
+2024-05-04 00:05:41,643 - 
+
+2024-05-04 00:05:41,645 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:06:40,854 - Epoch: [55][   55/   55]    Overall Loss 0.252739    Objective Loss 0.252739    Top1 87.898089    Top5 99.363057    LR 0.100000    Time 1.076322    
+2024-05-04 00:06:41,373 - 
+
+2024-05-04 00:06:41,375 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:07:37,725 - Epoch: [56][   55/   55]    Overall Loss 0.261855    Objective Loss 0.261855    Top1 91.719745    Top5 99.363057    LR 0.100000    Time 1.024286    
+2024-05-04 00:07:37,924 - 
+
+2024-05-04 00:07:37,925 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:08:33,643 - Epoch: [57][   55/   55]    Overall Loss 0.319417    Objective Loss 0.319417    Top1 87.261146    Top5 98.726115    LR 0.100000    Time 1.012907    
+2024-05-04 00:08:34,239 - 
+
+2024-05-04 00:08:34,240 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:09:28,740 - Epoch: [58][   55/   55]    Overall Loss 0.360950    Objective Loss 0.360950    Top1 85.987261    Top5 100.000000    LR 0.100000    Time 0.990744    
+2024-05-04 00:09:29,445 - 
+
+2024-05-04 00:09:29,446 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:10:33,034 - Epoch: [59][   55/   55]    Overall Loss 0.317905    Objective Loss 0.317905    Top1 94.267516    Top5 100.000000    LR 0.100000    Time 1.155961    
+2024-05-04 00:10:33,313 - 
+
+2024-05-04 00:10:33,314 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:11:32,727 - Epoch: [60][   55/   55]    Overall Loss 0.201292    Objective Loss 0.201292    Top1 91.719745    Top5 99.363057    LR 0.100000    Time 1.080086    
+2024-05-04 00:11:33,069 - --- validate (epoch=60)-----------
+2024-05-04 00:11:33,069 - 1736 samples (128 per mini-batch)
+2024-05-04 00:11:50,971 - Epoch: [60][   14/   14]    Loss 3.417162    Top1 50.230415    Top5 67.857143    
+2024-05-04 00:11:51,230 - ==> Top1: 50.230    Top5: 67.857    Loss: 3.417
+
+2024-05-04 00:11:51,240 - ==> Best [Top1: 50.230   Top5: 67.857   Sparsity:0.00   Params: 1346160 on epoch: 60]
+2024-05-04 00:11:51,240 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 00:11:51,352 - 
+
+2024-05-04 00:11:51,352 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:12:47,200 - Epoch: [61][   55/   55]    Overall Loss 0.166150    Objective Loss 0.166150    Top1 94.267516    Top5 100.000000    LR 0.100000    Time 1.015251    
+2024-05-04 00:12:47,960 - 
+
+2024-05-04 00:12:47,960 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:13:42,246 - Epoch: [62][   55/   55]    Overall Loss 0.140729    Objective Loss 0.140729    Top1 95.541401    Top5 100.000000    LR 0.100000    Time 0.986858    
+2024-05-04 00:13:42,616 - 
+
+2024-05-04 00:13:42,616 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:14:35,693 - Epoch: [63][   55/   55]    Overall Loss 0.111885    Objective Loss 0.111885    Top1 96.178344    Top5 100.000000    LR 0.100000    Time 0.964861    
+2024-05-04 00:14:36,535 - 
+
+2024-05-04 00:14:36,536 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:15:39,361 - Epoch: [64][   55/   55]    Overall Loss 0.100377    Objective Loss 0.100377    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.142126    
+2024-05-04 00:15:40,123 - 
+
+2024-05-04 00:15:40,123 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:16:44,007 - Epoch: [65][   55/   55]    Overall Loss 0.078656    Objective Loss 0.078656    Top1 95.541401    Top5 99.363057    LR 0.100000    Time 1.161341    
+2024-05-04 00:16:44,422 - 
+
+2024-05-04 00:16:44,423 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:17:43,546 - Epoch: [66][   55/   55]    Overall Loss 0.117626    Objective Loss 0.117626    Top1 96.815287    Top5 99.363057    LR 0.100000    Time 1.074812    
+2024-05-04 00:17:44,391 - 
+
+2024-05-04 00:17:44,392 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:18:45,013 - Epoch: [67][   55/   55]    Overall Loss 0.092934    Objective Loss 0.092934    Top1 96.815287    Top5 100.000000    LR 0.100000    Time 1.102053    
+2024-05-04 00:18:45,212 - 
+
+2024-05-04 00:18:45,213 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:19:43,703 - Epoch: [68][   55/   55]    Overall Loss 0.089095    Objective Loss 0.089095    Top1 98.726115    Top5 100.000000    LR 0.100000    Time 1.063247    
+2024-05-04 00:19:44,095 - 
+
+2024-05-04 00:19:44,096 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:20:37,229 - Epoch: [69][   55/   55]    Overall Loss 0.056539    Objective Loss 0.056539    Top1 98.726115    Top5 100.000000    LR 0.100000    Time 0.965864    
+2024-05-04 00:20:37,455 - 
+
+2024-05-04 00:20:37,455 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:21:41,447 - Epoch: [70][   55/   55]    Overall Loss 0.070189    Objective Loss 0.070189    Top1 97.452229    Top5 100.000000    LR 0.100000    Time 1.163309    
+2024-05-04 00:21:42,304 - --- validate (epoch=70)-----------
+2024-05-04 00:21:42,305 - 1736 samples (128 per mini-batch)
+2024-05-04 00:22:02,791 - Epoch: [70][   14/   14]    Loss 3.674549    Top1 51.728111    Top5 69.354839    
+2024-05-04 00:22:03,277 - ==> Top1: 51.728    Top5: 69.355    Loss: 3.675
+
+2024-05-04 00:22:03,289 - ==> Best [Top1: 51.728   Top5: 69.355   Sparsity:0.00   Params: 1346160 on epoch: 70]
+2024-05-04 00:22:03,290 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 00:22:03,446 - 
+
+2024-05-04 00:22:03,447 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:22:58,005 - Epoch: [71][   55/   55]    Overall Loss 0.080166    Objective Loss 0.080166    Top1 97.452229    Top5 98.726115    LR 0.100000    Time 0.991788    
+2024-05-04 00:22:58,285 - 
+
+2024-05-04 00:22:58,286 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:23:57,995 - Epoch: [72][   55/   55]    Overall Loss 0.057986    Objective Loss 0.057986    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.085431    
+2024-05-04 00:23:58,185 - 
+
+2024-05-04 00:23:58,186 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:24:58,018 - Epoch: [73][   55/   55]    Overall Loss 0.036606    Objective Loss 0.036606    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.087708    
+2024-05-04 00:24:58,239 - 
+
+2024-05-04 00:24:58,240 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:25:54,464 - Epoch: [74][   55/   55]    Overall Loss 0.032480    Objective Loss 0.032480    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.022096    
+2024-05-04 00:25:54,645 - 
+
+2024-05-04 00:25:54,645 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:26:55,184 - Epoch: [75][   55/   55]    Overall Loss 0.026214    Objective Loss 0.026214    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.100543    
+2024-05-04 00:26:55,942 - 
+
+2024-05-04 00:26:55,943 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:27:53,367 - Epoch: [76][   55/   55]    Overall Loss 0.017799    Objective Loss 0.017799    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.043891    
+2024-05-04 00:27:53,798 - 
+
+2024-05-04 00:27:53,800 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:28:49,119 - Epoch: [77][   55/   55]    Overall Loss 0.027367    Objective Loss 0.027367    Top1 98.726115    Top5 99.363057    LR 0.100000    Time 1.005589    
+2024-05-04 00:28:49,310 - 
+
+2024-05-04 00:28:49,311 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:29:45,957 - Epoch: [78][   55/   55]    Overall Loss 0.037325    Objective Loss 0.037325    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.029787    
+2024-05-04 00:29:46,146 - 
+
+2024-05-04 00:29:46,147 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:30:41,343 - Epoch: [79][   55/   55]    Overall Loss 0.029451    Objective Loss 0.029451    Top1 98.089172    Top5 100.000000    LR 0.100000    Time 1.003405    
+2024-05-04 00:30:41,762 - 
+
+2024-05-04 00:30:41,763 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:31:39,197 - Epoch: [80][   55/   55]    Overall Loss 0.022526    Objective Loss 0.022526    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.044083    
+2024-05-04 00:31:39,723 - --- validate (epoch=80)-----------
+2024-05-04 00:31:39,724 - 1736 samples (128 per mini-batch)
+2024-05-04 00:31:56,596 - Epoch: [80][   14/   14]    Loss 3.469388    Top1 53.513825    Top5 70.449309    
+2024-05-04 00:31:57,216 - ==> Top1: 53.514    Top5: 70.449    Loss: 3.469
+
+2024-05-04 00:31:57,228 - ==> Best [Top1: 53.514   Top5: 70.449   Sparsity:0.00   Params: 1346160 on epoch: 80]
+2024-05-04 00:31:57,229 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 00:31:57,361 - 
+
+2024-05-04 00:31:57,363 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:32:58,720 - Epoch: [81][   55/   55]    Overall Loss 0.019250    Objective Loss 0.019250    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.115289    
+2024-05-04 00:32:58,889 - 
+
+2024-05-04 00:32:58,890 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:33:53,706 - Epoch: [82][   55/   55]    Overall Loss 0.012312    Objective Loss 0.012312    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 0.996459    
+2024-05-04 00:33:53,876 - 
+
+2024-05-04 00:33:53,876 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:34:49,638 - Epoch: [83][   55/   55]    Overall Loss 0.006828    Objective Loss 0.006828    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.013696    
+2024-05-04 00:34:49,798 - 
+
+2024-05-04 00:34:49,800 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:35:47,218 - Epoch: [84][   55/   55]    Overall Loss 0.007110    Objective Loss 0.007110    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.043796    
+2024-05-04 00:35:47,436 - 
+
+2024-05-04 00:35:47,437 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:36:44,362 - Epoch: [85][   55/   55]    Overall Loss 0.006139    Objective Loss 0.006139    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.034691    
+2024-05-04 00:36:45,002 - 
+
+2024-05-04 00:36:45,003 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:37:41,756 - Epoch: [86][   55/   55]    Overall Loss 0.005469    Objective Loss 0.005469    Top1 98.726115    Top5 100.000000    LR 0.100000    Time 1.031725    
+2024-05-04 00:37:42,642 - 
+
+2024-05-04 00:37:42,643 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:38:39,229 - Epoch: [87][   55/   55]    Overall Loss 0.005936    Objective Loss 0.005936    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.028644    
+2024-05-04 00:38:39,413 - 
+
+2024-05-04 00:38:39,415 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:39:41,513 - Epoch: [88][   55/   55]    Overall Loss 0.004157    Objective Loss 0.004157    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.128888    
+2024-05-04 00:39:42,310 - 
+
+2024-05-04 00:39:42,311 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:40:41,986 - Epoch: [89][   55/   55]    Overall Loss 0.004157    Objective Loss 0.004157    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.084812    
+2024-05-04 00:40:42,246 - 
+
+2024-05-04 00:40:42,247 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:41:40,328 - Epoch: [90][   55/   55]    Overall Loss 0.004096    Objective Loss 0.004096    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.055844    
+2024-05-04 00:41:40,587 - --- validate (epoch=90)-----------
+2024-05-04 00:41:40,588 - 1736 samples (128 per mini-batch)
+2024-05-04 00:41:59,006 - Epoch: [90][   14/   14]    Loss 3.178939    Top1 54.089862    Top5 71.428571    
+2024-05-04 00:41:59,200 - ==> Top1: 54.090    Top5: 71.429    Loss: 3.179
+
+2024-05-04 00:41:59,209 - ==> Best [Top1: 54.090   Top5: 71.429   Sparsity:0.00   Params: 1346160 on epoch: 90]
+2024-05-04 00:41:59,209 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 00:41:59,318 - 
+
+2024-05-04 00:41:59,319 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:42:58,712 - Epoch: [91][   55/   55]    Overall Loss 0.004139    Objective Loss 0.004139    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.079705    
+2024-05-04 00:42:59,018 - 
+
+2024-05-04 00:42:59,018 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:43:57,509 - Epoch: [92][   55/   55]    Overall Loss 0.005095    Objective Loss 0.005095    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.063292    
+2024-05-04 00:43:57,792 - 
+
+2024-05-04 00:43:57,793 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:44:55,671 - Epoch: [93][   55/   55]    Overall Loss 0.004491    Objective Loss 0.004491    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.052160    
+2024-05-04 00:44:55,868 - 
+
+2024-05-04 00:44:55,868 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:45:50,916 - Epoch: [94][   55/   55]    Overall Loss 0.003453    Objective Loss 0.003453    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.000755    
+2024-05-04 00:45:51,407 - 
+
+2024-05-04 00:45:51,409 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:46:50,136 - Epoch: [95][   55/   55]    Overall Loss 0.003891    Objective Loss 0.003891    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.067595    
+2024-05-04 00:46:50,318 - 
+
+2024-05-04 00:46:50,319 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:47:44,772 - Epoch: [96][   55/   55]    Overall Loss 0.003280    Objective Loss 0.003280    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 0.989873    
+2024-05-04 00:47:45,467 - 
+
+2024-05-04 00:47:45,468 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:48:42,318 - Epoch: [97][   55/   55]    Overall Loss 0.003895    Objective Loss 0.003895    Top1 99.363057    Top5 100.000000    LR 0.100000    Time 1.033470    
+2024-05-04 00:48:42,502 - 
+
+2024-05-04 00:48:42,503 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:49:43,369 - Epoch: [98][   55/   55]    Overall Loss 0.003730    Objective Loss 0.003730    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.106501    
+2024-05-04 00:49:43,590 - 
+
+2024-05-04 00:49:43,591 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:50:50,952 - Epoch: [99][   55/   55]    Overall Loss 0.003027    Objective Loss 0.003027    Top1 100.000000    Top5 100.000000    LR 0.100000    Time 1.224578    
+2024-05-04 00:50:51,498 - 
+
+2024-05-04 00:50:51,499 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:51:48,689 - Epoch: [100][   55/   55]    Overall Loss 0.003564    Objective Loss 0.003564    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.039669    
+2024-05-04 00:51:48,867 - --- validate (epoch=100)-----------
+2024-05-04 00:51:48,868 - 1736 samples (128 per mini-batch)
+2024-05-04 00:52:06,964 - Epoch: [100][   14/   14]    Loss 3.020725    Top1 54.262673    Top5 71.370968    
+2024-05-04 00:52:07,937 - ==> Top1: 54.263    Top5: 71.371    Loss: 3.021
+
+2024-05-04 00:52:07,954 - ==> Best [Top1: 54.263   Top5: 71.371   Sparsity:0.00   Params: 1346160 on epoch: 100]
+2024-05-04 00:52:07,955 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 00:52:08,097 - 
+
+2024-05-04 00:52:08,098 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:53:06,956 - Epoch: [101][   55/   55]    Overall Loss 0.002869    Objective Loss 0.002869    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.069917    
+2024-05-04 00:53:07,280 - 
+
+2024-05-04 00:53:07,280 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:54:02,694 - Epoch: [102][   55/   55]    Overall Loss 0.002806    Objective Loss 0.002806    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.007367    
+2024-05-04 00:54:02,920 - 
+
+2024-05-04 00:54:02,921 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:54:59,037 - Epoch: [103][   55/   55]    Overall Loss 0.003130    Objective Loss 0.003130    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.020132    
+2024-05-04 00:54:59,319 - 
+
+2024-05-04 00:54:59,320 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:55:57,625 - Epoch: [104][   55/   55]    Overall Loss 0.002800    Objective Loss 0.002800    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.059927    
+2024-05-04 00:55:58,386 - 
+
+2024-05-04 00:55:58,387 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:56:53,839 - Epoch: [105][   55/   55]    Overall Loss 0.002938    Objective Loss 0.002938    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.008061    
+2024-05-04 00:56:54,792 - 
+
+2024-05-04 00:56:54,793 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:57:53,584 - Epoch: [106][   55/   55]    Overall Loss 0.002942    Objective Loss 0.002942    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.068774    
+2024-05-04 00:57:53,897 - 
+
+2024-05-04 00:57:53,899 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:58:47,165 - Epoch: [107][   55/   55]    Overall Loss 0.003136    Objective Loss 0.003136    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.968310    
+2024-05-04 00:58:47,859 - 
+
+2024-05-04 00:58:47,860 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 00:59:50,170 - Epoch: [108][   55/   55]    Overall Loss 0.002967    Objective Loss 0.002967    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.132741    
+2024-05-04 00:59:50,712 - 
+
+2024-05-04 00:59:50,713 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:00:50,365 - Epoch: [109][   55/   55]    Overall Loss 0.002972    Objective Loss 0.002972    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.084395    
+2024-05-04 01:00:50,586 - 
+
+2024-05-04 01:00:50,587 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:01:45,451 - Epoch: [110][   55/   55]    Overall Loss 0.002751    Objective Loss 0.002751    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.997383    
+2024-05-04 01:01:46,183 - --- validate (epoch=110)-----------
+2024-05-04 01:01:46,184 - 1736 samples (128 per mini-batch)
+2024-05-04 01:02:03,020 - Epoch: [110][   14/   14]    Loss 2.954067    Top1 54.550691    Top5 71.947005    
+2024-05-04 01:02:03,226 - ==> Top1: 54.551    Top5: 71.947    Loss: 2.954
+
+2024-05-04 01:02:03,236 - ==> Best [Top1: 54.551   Top5: 71.947   Sparsity:0.00   Params: 1346160 on epoch: 110]
+2024-05-04 01:02:03,236 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 01:02:03,335 - 
+
+2024-05-04 01:02:03,335 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:02:55,376 - Epoch: [111][   55/   55]    Overall Loss 0.003195    Objective Loss 0.003195    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.946047    
+2024-05-04 01:02:55,594 - 
+
+2024-05-04 01:02:55,595 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:03:52,927 - Epoch: [112][   55/   55]    Overall Loss 0.002755    Objective Loss 0.002755    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.042211    
+2024-05-04 01:03:53,146 - 
+
+2024-05-04 01:03:53,146 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:04:45,715 - Epoch: [113][   55/   55]    Overall Loss 0.002972    Objective Loss 0.002972    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.955623    
+2024-05-04 01:04:45,996 - 
+
+2024-05-04 01:04:45,997 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:05:49,057 - Epoch: [114][   55/   55]    Overall Loss 0.002864    Objective Loss 0.002864    Top1 99.363057    Top5 100.000000    LR 0.023500    Time 1.146387    
+2024-05-04 01:05:49,711 - 
+
+2024-05-04 01:05:49,711 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:06:45,092 - Epoch: [115][   55/   55]    Overall Loss 0.002949    Objective Loss 0.002949    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.006779    
+2024-05-04 01:06:45,712 - 
+
+2024-05-04 01:06:45,713 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:07:45,908 - Epoch: [116][   55/   55]    Overall Loss 0.002877    Objective Loss 0.002877    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.094307    
+2024-05-04 01:07:46,233 - 
+
+2024-05-04 01:07:46,234 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:08:47,917 - Epoch: [117][   55/   55]    Overall Loss 0.002780    Objective Loss 0.002780    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.121353    
+2024-05-04 01:08:48,114 - 
+
+2024-05-04 01:08:48,116 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:09:47,891 - Epoch: [118][   55/   55]    Overall Loss 0.002667    Objective Loss 0.002667    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.086659    
+2024-05-04 01:09:48,076 - 
+
+2024-05-04 01:09:48,076 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:10:46,679 - Epoch: [119][   55/   55]    Overall Loss 0.002730    Objective Loss 0.002730    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.065377    
+2024-05-04 01:10:47,164 - 
+
+2024-05-04 01:10:47,165 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:11:48,511 - Epoch: [120][   55/   55]    Overall Loss 0.002759    Objective Loss 0.002759    Top1 99.363057    Top5 100.000000    LR 0.023500    Time 1.115181    
+2024-05-04 01:11:48,783 - --- validate (epoch=120)-----------
+2024-05-04 01:11:48,784 - 1736 samples (128 per mini-batch)
+2024-05-04 01:12:04,540 - Epoch: [120][   14/   14]    Loss 2.961589    Top1 54.493088    Top5 71.658986    
+2024-05-04 01:12:04,755 - ==> Top1: 54.493    Top5: 71.659    Loss: 2.962
+
+2024-05-04 01:12:04,767 - ==> Best [Top1: 54.551   Top5: 71.947   Sparsity:0.00   Params: 1346160 on epoch: 110]
+2024-05-04 01:12:04,767 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 01:12:04,835 - 
+
+2024-05-04 01:12:04,836 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:13:04,107 - Epoch: [121][   55/   55]    Overall Loss 0.002869    Objective Loss 0.002869    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.077500    
+2024-05-04 01:13:04,568 - 
+
+2024-05-04 01:13:04,569 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:14:01,822 - Epoch: [122][   55/   55]    Overall Loss 0.003147    Objective Loss 0.003147    Top1 99.363057    Top5 100.000000    LR 0.023500    Time 1.040826    
+2024-05-04 01:14:02,164 - 
+
+2024-05-04 01:14:02,164 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:14:58,530 - Epoch: [123][   55/   55]    Overall Loss 0.002825    Objective Loss 0.002825    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.024689    
+2024-05-04 01:14:59,231 - 
+
+2024-05-04 01:14:59,233 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:15:59,399 - Epoch: [124][   55/   55]    Overall Loss 0.002962    Objective Loss 0.002962    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.093757    
+2024-05-04 01:15:59,601 - 
+
+2024-05-04 01:15:59,602 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:16:55,899 - Epoch: [125][   55/   55]    Overall Loss 0.003179    Objective Loss 0.003179    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.023424    
+2024-05-04 01:16:56,092 - 
+
+2024-05-04 01:16:56,093 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:17:55,178 - Epoch: [126][   55/   55]    Overall Loss 0.003024    Objective Loss 0.003024    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.074093    
+2024-05-04 01:17:55,351 - 
+
+2024-05-04 01:17:55,352 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:18:55,255 - Epoch: [127][   55/   55]    Overall Loss 0.002842    Objective Loss 0.002842    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.089009    
+2024-05-04 01:18:55,643 - 
+
+2024-05-04 01:18:55,644 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:19:55,245 - Epoch: [128][   55/   55]    Overall Loss 0.002759    Objective Loss 0.002759    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.083494    
+2024-05-04 01:19:55,534 - 
+
+2024-05-04 01:19:55,535 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:20:53,255 - Epoch: [129][   55/   55]    Overall Loss 0.002762    Objective Loss 0.002762    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.049283    
+2024-05-04 01:20:53,625 - 
+
+2024-05-04 01:20:53,626 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:21:50,914 - Epoch: [130][   55/   55]    Overall Loss 0.002869    Objective Loss 0.002869    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.041451    
+2024-05-04 01:21:51,222 - --- validate (epoch=130)-----------
+2024-05-04 01:21:51,223 - 1736 samples (128 per mini-batch)
+2024-05-04 01:22:10,626 - Epoch: [130][   14/   14]    Loss 2.923300    Top1 54.550691    Top5 71.255760    
+2024-05-04 01:22:10,770 - ==> Top1: 54.551    Top5: 71.256    Loss: 2.923
+
+2024-05-04 01:22:10,783 - ==> Best [Top1: 54.551   Top5: 71.947   Sparsity:0.00   Params: 1346160 on epoch: 110]
+2024-05-04 01:22:10,784 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 01:22:10,901 - 
+
+2024-05-04 01:22:10,901 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:23:06,639 - Epoch: [131][   55/   55]    Overall Loss 0.002916    Objective Loss 0.002916    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.013259    
+2024-05-04 01:23:06,912 - 
+
+2024-05-04 01:23:06,913 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:24:04,965 - Epoch: [132][   55/   55]    Overall Loss 0.002892    Objective Loss 0.002892    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.055309    
+2024-05-04 01:24:05,502 - 
+
+2024-05-04 01:24:05,503 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:25:02,185 - Epoch: [133][   55/   55]    Overall Loss 0.002844    Objective Loss 0.002844    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.030420    
+2024-05-04 01:25:02,330 - 
+
+2024-05-04 01:25:02,331 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:26:02,163 - Epoch: [134][   55/   55]    Overall Loss 0.003081    Objective Loss 0.003081    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.087648    
+2024-05-04 01:26:02,337 - 
+
+2024-05-04 01:26:02,337 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:26:59,650 - Epoch: [135][   55/   55]    Overall Loss 0.002871    Objective Loss 0.002871    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.041908    
+2024-05-04 01:26:59,798 - 
+
+2024-05-04 01:26:59,799 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:27:54,216 - Epoch: [136][   55/   55]    Overall Loss 0.003259    Objective Loss 0.003259    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.989264    
+2024-05-04 01:27:55,014 - 
+
+2024-05-04 01:27:55,015 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:28:51,984 - Epoch: [137][   55/   55]    Overall Loss 0.003236    Objective Loss 0.003236    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.035608    
+2024-05-04 01:28:52,194 - 
+
+2024-05-04 01:28:52,195 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:29:50,269 - Epoch: [138][   55/   55]    Overall Loss 0.002837    Objective Loss 0.002837    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.055721    
+2024-05-04 01:29:50,451 - 
+
+2024-05-04 01:29:50,452 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:30:48,926 - Epoch: [139][   55/   55]    Overall Loss 0.002894    Objective Loss 0.002894    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.063040    
+2024-05-04 01:30:49,150 - 
+
+2024-05-04 01:30:49,151 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:31:45,653 - Epoch: [140][   55/   55]    Overall Loss 0.002835    Objective Loss 0.002835    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.027125    
+2024-05-04 01:31:45,871 - --- validate (epoch=140)-----------
+2024-05-04 01:31:45,872 - 1736 samples (128 per mini-batch)
+2024-05-04 01:32:04,278 - Epoch: [140][   14/   14]    Loss 2.874870    Top1 54.723502    Top5 71.774194    
+2024-05-04 01:32:04,532 - ==> Top1: 54.724    Top5: 71.774    Loss: 2.875
+
+2024-05-04 01:32:04,547 - ==> Best [Top1: 54.724   Top5: 71.774   Sparsity:0.00   Params: 1346160 on epoch: 140]
+2024-05-04 01:32:04,548 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 01:32:04,704 - 
+
+2024-05-04 01:32:04,705 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:33:04,483 - Epoch: [141][   55/   55]    Overall Loss 0.002913    Objective Loss 0.002913    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.086744    
+2024-05-04 01:33:04,815 - 
+
+2024-05-04 01:33:04,816 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:34:04,965 - Epoch: [142][   55/   55]    Overall Loss 0.002880    Objective Loss 0.002880    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.093428    
+2024-05-04 01:34:05,130 - 
+
+2024-05-04 01:34:05,131 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:35:06,829 - Epoch: [143][   55/   55]    Overall Loss 0.003146    Objective Loss 0.003146    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.121614    
+2024-05-04 01:35:07,168 - 
+
+2024-05-04 01:35:07,169 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:35:58,593 - Epoch: [144][   55/   55]    Overall Loss 0.002902    Objective Loss 0.002902    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.934779    
+2024-05-04 01:35:58,775 - 
+
+2024-05-04 01:35:58,775 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:36:52,097 - Epoch: [145][   55/   55]    Overall Loss 0.002818    Objective Loss 0.002818    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.969330    
+2024-05-04 01:36:52,611 - 
+
+2024-05-04 01:36:52,613 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:37:52,812 - Epoch: [146][   55/   55]    Overall Loss 0.002929    Objective Loss 0.002929    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.094328    
+2024-05-04 01:37:53,077 - 
+
+2024-05-04 01:37:53,077 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:38:45,403 - Epoch: [147][   55/   55]    Overall Loss 0.002995    Objective Loss 0.002995    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 0.951231    
+2024-05-04 01:38:46,428 - 
+
+2024-05-04 01:38:46,429 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:39:53,223 - Epoch: [148][   55/   55]    Overall Loss 0.002829    Objective Loss 0.002829    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.214269    
+2024-05-04 01:39:53,429 - 
+
+2024-05-04 01:39:53,430 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:40:59,398 - Epoch: [149][   55/   55]    Overall Loss 0.002906    Objective Loss 0.002906    Top1 100.000000    Top5 100.000000    LR 0.023500    Time 1.199248    
+2024-05-04 01:40:59,665 - 
+
+2024-05-04 01:40:59,666 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:41:53,718 - Epoch: [150][   55/   55]    Overall Loss 0.002938    Objective Loss 0.002938    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 0.982619    
+2024-05-04 01:41:53,918 - --- validate (epoch=150)-----------
+2024-05-04 01:41:53,919 - 1736 samples (128 per mini-batch)
+2024-05-04 01:42:11,249 - Epoch: [150][   14/   14]    Loss 2.827270    Top1 54.608295    Top5 71.658986    
+2024-05-04 01:42:11,454 - ==> Top1: 54.608    Top5: 71.659    Loss: 2.827
+
+2024-05-04 01:42:11,476 - ==> Best [Top1: 54.724   Top5: 71.774   Sparsity:0.00   Params: 1346160 on epoch: 140]
+2024-05-04 01:42:11,477 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 01:42:11,593 - 
+
+2024-05-04 01:42:11,594 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:43:06,628 - Epoch: [151][   55/   55]    Overall Loss 0.002883    Objective Loss 0.002883    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.000474    
+2024-05-04 01:43:06,831 - 
+
+2024-05-04 01:43:06,832 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:44:08,134 - Epoch: [152][   55/   55]    Overall Loss 0.002865    Objective Loss 0.002865    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.114432    
+2024-05-04 01:44:08,900 - 
+
+2024-05-04 01:44:08,901 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:45:06,044 - Epoch: [153][   55/   55]    Overall Loss 0.002793    Objective Loss 0.002793    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.038809    
+2024-05-04 01:45:06,451 - 
+
+2024-05-04 01:45:06,451 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:46:02,683 - Epoch: [154][   55/   55]    Overall Loss 0.002833    Objective Loss 0.002833    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.022240    
+2024-05-04 01:46:03,105 - 
+
+2024-05-04 01:46:03,106 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:46:59,592 - Epoch: [155][   55/   55]    Overall Loss 0.005017    Objective Loss 0.005017    Top1 98.726115    Top5 100.000000    LR 0.005522    Time 1.026856    
+2024-05-04 01:46:59,794 - 
+
+2024-05-04 01:46:59,795 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:48:04,168 - Epoch: [156][   55/   55]    Overall Loss 0.002842    Objective Loss 0.002842    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.170251    
+2024-05-04 01:48:04,433 - 
+
+2024-05-04 01:48:04,434 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:49:06,089 - Epoch: [157][   55/   55]    Overall Loss 0.002934    Objective Loss 0.002934    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.120835    
+2024-05-04 01:49:06,279 - 
+
+2024-05-04 01:49:06,280 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:50:07,781 - Epoch: [158][   55/   55]    Overall Loss 0.003004    Objective Loss 0.003004    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.117988    
+2024-05-04 01:50:07,995 - 
+
+2024-05-04 01:50:07,996 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:51:09,624 - Epoch: [159][   55/   55]    Overall Loss 0.002896    Objective Loss 0.002896    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.120365    
+2024-05-04 01:51:09,768 - 
+
+2024-05-04 01:51:09,768 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:52:05,223 - Epoch: [160][   55/   55]    Overall Loss 0.003052    Objective Loss 0.003052    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.008117    
+2024-05-04 01:52:05,454 - --- validate (epoch=160)-----------
+2024-05-04 01:52:05,454 - 1736 samples (128 per mini-batch)
+2024-05-04 01:52:21,539 - Epoch: [160][   14/   14]    Loss 2.845143    Top1 54.723502    Top5 71.716590    
+2024-05-04 01:52:21,751 - ==> Top1: 54.724    Top5: 71.717    Loss: 2.845
+
+2024-05-04 01:52:21,765 - ==> Best [Top1: 54.724   Top5: 71.774   Sparsity:0.00   Params: 1346160 on epoch: 140]
+2024-05-04 01:52:21,766 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 01:52:21,882 - 
+
+2024-05-04 01:52:21,883 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:53:18,618 - Epoch: [161][   55/   55]    Overall Loss 0.003599    Objective Loss 0.003599    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.031361    
+2024-05-04 01:53:19,070 - 
+
+2024-05-04 01:53:19,072 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:54:13,840 - Epoch: [162][   55/   55]    Overall Loss 0.003112    Objective Loss 0.003112    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 0.995599    
+2024-05-04 01:54:14,541 - 
+
+2024-05-04 01:54:14,542 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:55:12,257 - Epoch: [163][   55/   55]    Overall Loss 0.002810    Objective Loss 0.002810    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.049189    
+2024-05-04 01:55:12,552 - 
+
+2024-05-04 01:55:12,553 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:56:11,793 - Epoch: [164][   55/   55]    Overall Loss 0.002881    Objective Loss 0.002881    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.076923    
+2024-05-04 01:56:12,036 - 
+
+2024-05-04 01:56:12,037 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:57:12,810 - Epoch: [165][   55/   55]    Overall Loss 0.002879    Objective Loss 0.002879    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.104726    
+2024-05-04 01:57:12,966 - 
+
+2024-05-04 01:57:12,967 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:58:12,702 - Epoch: [166][   55/   55]    Overall Loss 0.003023    Objective Loss 0.003023    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.085972    
+2024-05-04 01:58:12,977 - 
+
+2024-05-04 01:58:12,978 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 01:59:16,423 - Epoch: [167][   55/   55]    Overall Loss 0.003157    Objective Loss 0.003157    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.153368    
+2024-05-04 01:59:16,717 - 
+
+2024-05-04 01:59:16,718 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:00:19,056 - Epoch: [168][   55/   55]    Overall Loss 0.003058    Objective Loss 0.003058    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.133300    
+2024-05-04 02:00:19,236 - 
+
+2024-05-04 02:00:19,237 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:01:18,237 - Epoch: [169][   55/   55]    Overall Loss 0.003033    Objective Loss 0.003033    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.072513    
+2024-05-04 02:01:18,552 - 
+
+2024-05-04 02:01:18,553 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:02:21,096 - Epoch: [170][   55/   55]    Overall Loss 0.002918    Objective Loss 0.002918    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.136915    
+2024-05-04 02:02:21,324 - --- validate (epoch=170)-----------
+2024-05-04 02:02:21,325 - 1736 samples (128 per mini-batch)
+2024-05-04 02:02:38,790 - Epoch: [170][   14/   14]    Loss 2.858760    Top1 55.011521    Top5 71.543779    
+2024-05-04 02:02:39,268 - ==> Top1: 55.012    Top5: 71.544    Loss: 2.859
+
+2024-05-04 02:02:39,283 - ==> Best [Top1: 55.012   Top5: 71.544   Sparsity:0.00   Params: 1346160 on epoch: 170]
+2024-05-04 02:02:39,284 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 02:02:39,438 - 
+
+2024-05-04 02:02:39,439 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:03:37,847 - Epoch: [171][   55/   55]    Overall Loss 0.002938    Objective Loss 0.002938    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.061764    
+2024-05-04 02:03:38,133 - 
+
+2024-05-04 02:03:38,134 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:04:36,994 - Epoch: [172][   55/   55]    Overall Loss 0.002962    Objective Loss 0.002962    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.070030    
+2024-05-04 02:04:37,229 - 
+
+2024-05-04 02:04:37,230 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:05:38,584 - Epoch: [173][   55/   55]    Overall Loss 0.002823    Objective Loss 0.002823    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.115153    
+2024-05-04 02:05:39,174 - 
+
+2024-05-04 02:05:39,174 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:06:36,332 - Epoch: [174][   55/   55]    Overall Loss 0.002974    Objective Loss 0.002974    Top1 100.000000    Top5 100.000000    LR 0.005522    Time 1.039065    
+2024-05-04 02:06:36,525 - 
+
+2024-05-04 02:06:36,526 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:07:40,419 - Epoch: [175][   55/   55]    Overall Loss 0.002975    Objective Loss 0.002975    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.161534    
+2024-05-04 02:07:41,010 - 
+
+2024-05-04 02:07:41,011 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:08:40,556 - Epoch: [176][   55/   55]    Overall Loss 0.003070    Objective Loss 0.003070    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.082483    
+2024-05-04 02:08:40,854 - 
+
+2024-05-04 02:08:40,855 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:09:39,066 - Epoch: [177][   55/   55]    Overall Loss 0.002810    Objective Loss 0.002810    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.058213    
+2024-05-04 02:09:39,495 - 
+
+2024-05-04 02:09:39,497 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:10:41,765 - Epoch: [178][   55/   55]    Overall Loss 0.003013    Objective Loss 0.003013    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.131987    
+2024-05-04 02:10:41,968 - 
+
+2024-05-04 02:10:41,969 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:11:41,211 - Epoch: [179][   55/   55]    Overall Loss 0.003531    Objective Loss 0.003531    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.076837    
+2024-05-04 02:11:41,511 - 
+
+2024-05-04 02:11:41,512 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:12:42,687 - Epoch: [180][   55/   55]    Overall Loss 0.002809    Objective Loss 0.002809    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.112105    
+2024-05-04 02:12:42,885 - --- validate (epoch=180)-----------
+2024-05-04 02:12:42,885 - 1736 samples (128 per mini-batch)
+2024-05-04 02:13:01,031 - Epoch: [180][   14/   14]    Loss 2.847259    Top1 54.781106    Top5 71.198157    
+2024-05-04 02:13:01,616 - ==> Top1: 54.781    Top5: 71.198    Loss: 2.847
+
+2024-05-04 02:13:01,630 - ==> Best [Top1: 55.012   Top5: 71.544   Sparsity:0.00   Params: 1346160 on epoch: 170]
+2024-05-04 02:13:01,630 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 02:13:01,743 - 
+
+2024-05-04 02:13:01,743 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:13:59,030 - Epoch: [181][   55/   55]    Overall Loss 0.002898    Objective Loss 0.002898    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.041435    
+2024-05-04 02:13:59,228 - 
+
+2024-05-04 02:13:59,229 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:14:58,489 - Epoch: [182][   55/   55]    Overall Loss 0.003042    Objective Loss 0.003042    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.077301    
+2024-05-04 02:14:58,702 - 
+
+2024-05-04 02:14:58,702 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:15:55,813 - Epoch: [183][   55/   55]    Overall Loss 0.003151    Objective Loss 0.003151    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.038192    
+2024-05-04 02:15:56,240 - 
+
+2024-05-04 02:15:56,241 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:16:54,643 - Epoch: [184][   55/   55]    Overall Loss 0.002875    Objective Loss 0.002875    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.061618    
+2024-05-04 02:16:54,803 - 
+
+2024-05-04 02:16:54,803 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:17:50,682 - Epoch: [185][   55/   55]    Overall Loss 0.003138    Objective Loss 0.003138    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.015790    
+2024-05-04 02:17:50,856 - 
+
+2024-05-04 02:17:50,857 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:18:48,566 - Epoch: [186][   55/   55]    Overall Loss 0.002740    Objective Loss 0.002740    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.049057    
+2024-05-04 02:18:48,799 - 
+
+2024-05-04 02:18:48,801 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:19:44,829 - Epoch: [187][   55/   55]    Overall Loss 0.002970    Objective Loss 0.002970    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.018449    
+2024-05-04 02:19:45,049 - 
+
+2024-05-04 02:19:45,050 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:20:45,432 - Epoch: [188][   55/   55]    Overall Loss 0.003050    Objective Loss 0.003050    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.097686    
+2024-05-04 02:20:46,202 - 
+
+2024-05-04 02:20:46,203 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:21:42,864 - Epoch: [189][   55/   55]    Overall Loss 0.002984    Objective Loss 0.002984    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.030052    
+2024-05-04 02:21:43,193 - 
+
+2024-05-04 02:21:43,194 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:22:38,929 - Epoch: [190][   55/   55]    Overall Loss 0.002941    Objective Loss 0.002941    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.013209    
+2024-05-04 02:22:39,116 - --- validate (epoch=190)-----------
+2024-05-04 02:22:39,117 - 1736 samples (128 per mini-batch)
+2024-05-04 02:22:56,091 - Epoch: [190][   14/   14]    Loss 2.849638    Top1 54.781106    Top5 71.601382    
+2024-05-04 02:22:56,283 - ==> Top1: 54.781    Top5: 71.601    Loss: 2.850
+
+2024-05-04 02:22:56,298 - ==> Best [Top1: 55.012   Top5: 71.544   Sparsity:0.00   Params: 1346160 on epoch: 170]
+2024-05-04 02:22:56,299 - Saving checkpoint to: logs/2024.05.03-230957/checkpoint.pth.tar
+2024-05-04 02:22:56,412 - 
+
+2024-05-04 02:22:56,413 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:23:53,944 - Epoch: [191][   55/   55]    Overall Loss 0.002946    Objective Loss 0.002946    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.045871    
+2024-05-04 02:23:54,271 - 
+
+2024-05-04 02:23:54,272 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:24:45,133 - Epoch: [192][   55/   55]    Overall Loss 0.003012    Objective Loss 0.003012    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.924540    
+2024-05-04 02:24:45,306 - 
+
+2024-05-04 02:24:45,307 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:25:38,204 - Epoch: [193][   55/   55]    Overall Loss 0.003654    Objective Loss 0.003654    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 0.961598    
+2024-05-04 02:25:38,440 - 
+
+2024-05-04 02:25:38,440 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:26:33,494 - Epoch: [194][   55/   55]    Overall Loss 0.002820    Objective Loss 0.002820    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.000823    
+2024-05-04 02:26:33,679 - 
+
+2024-05-04 02:26:33,680 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:27:33,788 - Epoch: [195][   55/   55]    Overall Loss 0.002930    Objective Loss 0.002930    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.092751    
+2024-05-04 02:27:34,006 - 
+
+2024-05-04 02:27:34,007 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:28:34,877 - Epoch: [196][   55/   55]    Overall Loss 0.003002    Objective Loss 0.003002    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.106563    
+2024-05-04 02:28:35,121 - 
+
+2024-05-04 02:28:35,121 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:29:36,614 - Epoch: [197][   55/   55]    Overall Loss 0.002943    Objective Loss 0.002943    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.117838    
+2024-05-04 02:29:36,778 - 
+
+2024-05-04 02:29:36,778 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:30:34,152 - Epoch: [198][   55/   55]    Overall Loss 0.003016    Objective Loss 0.003016    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.042981    
+2024-05-04 02:30:34,322 - 
+
+2024-05-04 02:30:34,323 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:31:34,339 - Epoch: [199][   55/   55]    Overall Loss 0.002847    Objective Loss 0.002847    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.091043    
+2024-05-04 02:31:34,530 - 
+
+2024-05-04 02:31:34,531 - Initiating quantization aware training (QAT)...
+2024-05-04 02:31:34,642 - 
+
+2024-05-04 02:31:34,643 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:32:29,943 - Epoch: [200][   55/   55]    Overall Loss 0.000555    Objective Loss 0.000555    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.005320    
+2024-05-04 02:32:30,526 - --- validate (epoch=200)-----------
+2024-05-04 02:32:30,527 - 1736 samples (128 per mini-batch)
+2024-05-04 02:32:50,898 - Epoch: [200][   14/   14]    Loss 5.236401    Top1 54.493088    Top5 71.486175    
+2024-05-04 02:32:51,421 - ==> Top1: 54.493    Top5: 71.486    Loss: 5.236
+
+2024-05-04 02:32:51,439 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 02:32:51,440 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 02:32:51,518 - 
+
+2024-05-04 02:32:51,519 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:33:49,654 - Epoch: [201][   55/   55]    Overall Loss 0.000477    Objective Loss 0.000477    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.056847    
+2024-05-04 02:33:50,239 - 
+
+2024-05-04 02:33:50,240 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:34:51,423 - Epoch: [202][   55/   55]    Overall Loss 0.000553    Objective Loss 0.000553    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.112274    
+2024-05-04 02:34:51,632 - 
+
+2024-05-04 02:34:51,633 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:35:48,187 - Epoch: [203][   55/   55]    Overall Loss 0.000464    Objective Loss 0.000464    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.028056    
+2024-05-04 02:35:48,483 - 
+
+2024-05-04 02:35:48,484 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:36:47,342 - Epoch: [204][   55/   55]    Overall Loss 0.000567    Objective Loss 0.000567    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.069972    
+2024-05-04 02:36:48,181 - 
+
+2024-05-04 02:36:48,182 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:37:42,634 - Epoch: [205][   55/   55]    Overall Loss 0.000561    Objective Loss 0.000561    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 0.989829    
+2024-05-04 02:37:42,854 - 
+
+2024-05-04 02:37:42,855 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:38:40,537 - Epoch: [206][   55/   55]    Overall Loss 0.000585    Objective Loss 0.000585    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.048587    
+2024-05-04 02:38:40,829 - 
+
+2024-05-04 02:38:40,830 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:39:40,442 - Epoch: [207][   55/   55]    Overall Loss 0.000473    Objective Loss 0.000473    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.083648    
+2024-05-04 02:39:40,663 - 
+
+2024-05-04 02:39:40,664 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:40:38,752 - Epoch: [208][   55/   55]    Overall Loss 0.000482    Objective Loss 0.000482    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.055970    
+2024-05-04 02:40:39,247 - 
+
+2024-05-04 02:40:39,248 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:41:41,571 - Epoch: [209][   55/   55]    Overall Loss 0.000464    Objective Loss 0.000464    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.132968    
+2024-05-04 02:41:41,893 - 
+
+2024-05-04 02:41:41,896 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:42:40,564 - Epoch: [210][   55/   55]    Overall Loss 0.000463    Objective Loss 0.000463    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.066404    
+2024-05-04 02:42:41,064 - --- validate (epoch=210)-----------
+2024-05-04 02:42:41,064 - 1736 samples (128 per mini-batch)
+2024-05-04 02:43:01,407 - Epoch: [210][   14/   14]    Loss 5.202412    Top1 54.089862    Top5 71.025346    
+2024-05-04 02:43:01,712 - ==> Top1: 54.090    Top5: 71.025    Loss: 5.202
+
+2024-05-04 02:43:01,729 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 02:43:01,729 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 02:43:01,838 - 
+
+2024-05-04 02:43:01,840 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:43:57,038 - Epoch: [211][   55/   55]    Overall Loss 0.000505    Objective Loss 0.000505    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.003360    
+2024-05-04 02:43:57,295 - 
+
+2024-05-04 02:43:57,297 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:44:55,899 - Epoch: [212][   55/   55]    Overall Loss 0.000537    Objective Loss 0.000537    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.065314    
+2024-05-04 02:44:56,165 - 
+
+2024-05-04 02:44:56,167 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:45:52,781 - Epoch: [213][   55/   55]    Overall Loss 0.000545    Objective Loss 0.000545    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.029087    
+2024-05-04 02:45:53,053 - 
+
+2024-05-04 02:45:53,054 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:46:55,763 - Epoch: [214][   55/   55]    Overall Loss 0.000566    Objective Loss 0.000566    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.139974    
+2024-05-04 02:46:56,542 - 
+
+2024-05-04 02:46:56,544 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:47:54,504 - Epoch: [215][   55/   55]    Overall Loss 0.000489    Objective Loss 0.000489    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.053614    
+2024-05-04 02:47:54,908 - 
+
+2024-05-04 02:47:54,909 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:48:47,712 - Epoch: [216][   55/   55]    Overall Loss 0.000484    Objective Loss 0.000484    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.959794    
+2024-05-04 02:48:48,119 - 
+
+2024-05-04 02:48:48,120 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:49:45,855 - Epoch: [217][   55/   55]    Overall Loss 0.000545    Objective Loss 0.000545    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.049509    
+2024-05-04 02:49:46,110 - 
+
+2024-05-04 02:49:46,110 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:50:48,531 - Epoch: [218][   55/   55]    Overall Loss 0.000536    Objective Loss 0.000536    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.134787    
+2024-05-04 02:50:49,015 - 
+
+2024-05-04 02:50:49,016 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:51:52,396 - Epoch: [219][   55/   55]    Overall Loss 0.000526    Objective Loss 0.000526    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.152177    
+2024-05-04 02:51:52,642 - 
+
+2024-05-04 02:51:52,643 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:52:56,463 - Epoch: [220][   55/   55]    Overall Loss 0.000502    Objective Loss 0.000502    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.160174    
+2024-05-04 02:52:56,831 - --- validate (epoch=220)-----------
+2024-05-04 02:52:56,832 - 1736 samples (128 per mini-batch)
+2024-05-04 02:53:15,163 - Epoch: [220][   14/   14]    Loss 5.155261    Top1 54.032258    Top5 71.428571    
+2024-05-04 02:53:15,454 - ==> Top1: 54.032    Top5: 71.429    Loss: 5.155
+
+2024-05-04 02:53:15,468 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 02:53:15,468 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 02:53:15,563 - 
+
+2024-05-04 02:53:15,563 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:54:11,263 - Epoch: [221][   55/   55]    Overall Loss 0.000549    Objective Loss 0.000549    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.012515    
+2024-05-04 02:54:11,508 - 
+
+2024-05-04 02:54:11,509 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:55:07,881 - Epoch: [222][   55/   55]    Overall Loss 0.000831    Objective Loss 0.000831    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.024750    
+2024-05-04 02:55:08,169 - 
+
+2024-05-04 02:55:08,171 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:56:02,484 - Epoch: [223][   55/   55]    Overall Loss 0.000506    Objective Loss 0.000506    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.987283    
+2024-05-04 02:56:02,679 - 
+
+2024-05-04 02:56:02,680 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:57:05,799 - Epoch: [224][   55/   55]    Overall Loss 0.000589    Objective Loss 0.000589    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.147436    
+2024-05-04 02:57:06,123 - 
+
+2024-05-04 02:57:06,124 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:58:07,396 - Epoch: [225][   55/   55]    Overall Loss 0.000582    Objective Loss 0.000582    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.113829    
+2024-05-04 02:58:07,698 - 
+
+2024-05-04 02:58:07,699 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 02:59:06,892 - Epoch: [226][   55/   55]    Overall Loss 0.000496    Objective Loss 0.000496    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.076055    
+2024-05-04 02:59:07,196 - 
+
+2024-05-04 02:59:07,197 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:00:10,060 - Epoch: [227][   55/   55]    Overall Loss 0.000490    Objective Loss 0.000490    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.142743    
+2024-05-04 03:00:10,479 - 
+
+2024-05-04 03:00:10,480 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:01:18,902 - Epoch: [228][   55/   55]    Overall Loss 0.000453    Objective Loss 0.000453    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.243853    
+2024-05-04 03:01:19,522 - 
+
+2024-05-04 03:01:19,523 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:02:20,255 - Epoch: [229][   55/   55]    Overall Loss 0.000495    Objective Loss 0.000495    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.104033    
+2024-05-04 03:02:20,525 - 
+
+2024-05-04 03:02:20,526 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:03:14,325 - Epoch: [230][   55/   55]    Overall Loss 0.000523    Objective Loss 0.000523    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.977953    
+2024-05-04 03:03:14,916 - --- validate (epoch=230)-----------
+2024-05-04 03:03:14,916 - 1736 samples (128 per mini-batch)
+2024-05-04 03:03:35,904 - Epoch: [230][   14/   14]    Loss 5.156270    Top1 53.456221    Top5 71.889401    
+2024-05-04 03:03:36,520 - ==> Top1: 53.456    Top5: 71.889    Loss: 5.156
+
+2024-05-04 03:03:36,533 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 03:03:36,534 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 03:03:36,625 - 
+
+2024-05-04 03:03:36,626 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:04:36,389 - Epoch: [231][   55/   55]    Overall Loss 0.000486    Objective Loss 0.000486    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.086405    
+2024-05-04 03:04:36,797 - 
+
+2024-05-04 03:04:36,798 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:05:40,127 - Epoch: [232][   55/   55]    Overall Loss 0.000514    Objective Loss 0.000514    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.151225    
+2024-05-04 03:05:40,389 - 
+
+2024-05-04 03:05:40,390 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:06:39,284 - Epoch: [233][   55/   55]    Overall Loss 0.000462    Objective Loss 0.000462    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.070635    
+2024-05-04 03:06:40,060 - 
+
+2024-05-04 03:06:40,061 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:07:43,821 - Epoch: [234][   55/   55]    Overall Loss 0.000489    Objective Loss 0.000489    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.159083    
+2024-05-04 03:07:44,558 - 
+
+2024-05-04 03:07:44,559 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:08:44,083 - Epoch: [235][   55/   55]    Overall Loss 0.000490    Objective Loss 0.000490    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.082077    
+2024-05-04 03:08:44,484 - 
+
+2024-05-04 03:08:44,485 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:09:45,656 - Epoch: [236][   55/   55]    Overall Loss 0.000533    Objective Loss 0.000533    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.112010    
+2024-05-04 03:09:45,932 - 
+
+2024-05-04 03:09:45,934 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:10:49,134 - Epoch: [237][   55/   55]    Overall Loss 0.000495    Objective Loss 0.000495    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.148876    
+2024-05-04 03:10:49,703 - 
+
+2024-05-04 03:10:49,705 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:11:49,424 - Epoch: [238][   55/   55]    Overall Loss 0.000464    Objective Loss 0.000464    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.085566    
+2024-05-04 03:11:49,676 - 
+
+2024-05-04 03:11:49,678 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:12:52,136 - Epoch: [239][   55/   55]    Overall Loss 0.000482    Objective Loss 0.000482    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.135361    
+2024-05-04 03:12:52,629 - 
+
+2024-05-04 03:12:52,631 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:14:02,302 - Epoch: [240][   55/   55]    Overall Loss 0.000453    Objective Loss 0.000453    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.266507    
+2024-05-04 03:14:02,567 - --- validate (epoch=240)-----------
+2024-05-04 03:14:02,568 - 1736 samples (128 per mini-batch)
+2024-05-04 03:14:23,200 - Epoch: [240][   14/   14]    Loss 5.214064    Top1 54.205069    Top5 71.486175    
+2024-05-04 03:14:23,477 - ==> Top1: 54.205    Top5: 71.486    Loss: 5.214
+
+2024-05-04 03:14:23,495 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 03:14:23,496 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 03:14:23,599 - 
+
+2024-05-04 03:14:23,599 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:15:22,827 - Epoch: [241][   55/   55]    Overall Loss 0.000483    Objective Loss 0.000483    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.076658    
+2024-05-04 03:15:23,051 - 
+
+2024-05-04 03:15:23,052 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:16:22,437 - Epoch: [242][   55/   55]    Overall Loss 0.000458    Objective Loss 0.000458    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.079592    
+2024-05-04 03:16:22,680 - 
+
+2024-05-04 03:16:22,681 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:17:25,284 - Epoch: [243][   55/   55]    Overall Loss 0.000456    Objective Loss 0.000456    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.138029    
+2024-05-04 03:17:25,653 - 
+
+2024-05-04 03:17:25,655 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:18:27,419 - Epoch: [244][   55/   55]    Overall Loss 0.000519    Objective Loss 0.000519    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.122766    
+2024-05-04 03:18:27,698 - 
+
+2024-05-04 03:18:27,699 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:19:29,856 - Epoch: [245][   55/   55]    Overall Loss 0.000467    Objective Loss 0.000467    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.129890    
+2024-05-04 03:19:30,079 - 
+
+2024-05-04 03:19:30,080 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:20:34,453 - Epoch: [246][   55/   55]    Overall Loss 0.000437    Objective Loss 0.000437    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.170251    
+2024-05-04 03:20:34,664 - 
+
+2024-05-04 03:20:34,666 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:21:34,571 - Epoch: [247][   55/   55]    Overall Loss 0.000460    Objective Loss 0.000460    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.089001    
+2024-05-04 03:21:34,824 - 
+
+2024-05-04 03:21:34,825 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:22:32,954 - Epoch: [248][   55/   55]    Overall Loss 0.000687    Objective Loss 0.000687    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.056722    
+2024-05-04 03:22:33,217 - 
+
+2024-05-04 03:22:33,218 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:23:34,170 - Epoch: [249][   55/   55]    Overall Loss 0.000490    Objective Loss 0.000490    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.108027    
+2024-05-04 03:23:34,419 - 
+
+2024-05-04 03:23:34,421 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:24:34,964 - Epoch: [250][   55/   55]    Overall Loss 0.000536    Objective Loss 0.000536    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.100599    
+2024-05-04 03:24:35,395 - --- validate (epoch=250)-----------
+2024-05-04 03:24:35,396 - 1736 samples (128 per mini-batch)
+2024-05-04 03:24:56,240 - Epoch: [250][   14/   14]    Loss 5.170176    Top1 54.147465    Top5 71.658986    
+2024-05-04 03:24:56,546 - ==> Top1: 54.147    Top5: 71.659    Loss: 5.170
+
+2024-05-04 03:24:56,560 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 03:24:56,561 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 03:24:56,649 - 
+
+2024-05-04 03:24:56,649 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:25:56,700 - Epoch: [251][   55/   55]    Overall Loss 0.000480    Objective Loss 0.000480    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.091645    
+2024-05-04 03:25:56,869 - 
+
+2024-05-04 03:25:56,869 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:26:54,373 - Epoch: [252][   55/   55]    Overall Loss 0.000459    Objective Loss 0.000459    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.045349    
+2024-05-04 03:26:54,934 - 
+
+2024-05-04 03:26:54,935 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:27:59,263 - Epoch: [253][   55/   55]    Overall Loss 0.000483    Objective Loss 0.000483    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.169398    
+2024-05-04 03:27:59,862 - 
+
+2024-05-04 03:27:59,864 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:29:01,466 - Epoch: [254][   55/   55]    Overall Loss 0.000543    Objective Loss 0.000543    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.119814    
+2024-05-04 03:29:01,937 - 
+
+2024-05-04 03:29:01,938 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:29:58,955 - Epoch: [255][   55/   55]    Overall Loss 0.000595    Objective Loss 0.000595    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.036460    
+2024-05-04 03:29:59,265 - 
+
+2024-05-04 03:29:59,267 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:31:03,062 - Epoch: [256][   55/   55]    Overall Loss 0.000497    Objective Loss 0.000497    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.159697    
+2024-05-04 03:31:03,350 - 
+
+2024-05-04 03:31:03,352 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:32:00,498 - Epoch: [257][   55/   55]    Overall Loss 0.000475    Objective Loss 0.000475    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.038627    
+2024-05-04 03:32:00,722 - 
+
+2024-05-04 03:32:00,723 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:33:03,415 - Epoch: [258][   55/   55]    Overall Loss 0.000478    Objective Loss 0.000478    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.139708    
+2024-05-04 03:33:03,654 - 
+
+2024-05-04 03:33:03,655 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:34:05,827 - Epoch: [259][   55/   55]    Overall Loss 0.000441    Objective Loss 0.000441    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.130253    
+2024-05-04 03:34:06,086 - 
+
+2024-05-04 03:34:06,086 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:35:07,297 - Epoch: [260][   55/   55]    Overall Loss 0.000449    Objective Loss 0.000449    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.112751    
+2024-05-04 03:35:07,788 - --- validate (epoch=260)-----------
+2024-05-04 03:35:07,789 - 1736 samples (128 per mini-batch)
+2024-05-04 03:35:28,734 - Epoch: [260][   14/   14]    Loss 5.142524    Top1 53.859447    Top5 71.428571    
+2024-05-04 03:35:29,494 - ==> Top1: 53.859    Top5: 71.429    Loss: 5.143
+
+2024-05-04 03:35:29,511 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 03:35:29,512 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 03:35:29,618 - 
+
+2024-05-04 03:35:29,619 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:36:35,695 - Epoch: [261][   55/   55]    Overall Loss 0.000506    Objective Loss 0.000506    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.201186    
+2024-05-04 03:36:36,481 - 
+
+2024-05-04 03:36:36,483 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:37:42,086 - Epoch: [262][   55/   55]    Overall Loss 0.000552    Objective Loss 0.000552    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.192615    
+2024-05-04 03:37:42,845 - 
+
+2024-05-04 03:37:42,846 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:38:37,753 - Epoch: [263][   55/   55]    Overall Loss 0.000506    Objective Loss 0.000506    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.998078    
+2024-05-04 03:38:38,199 - 
+
+2024-05-04 03:38:38,200 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:39:36,099 - Epoch: [264][   55/   55]    Overall Loss 0.000471    Objective Loss 0.000471    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.052482    
+2024-05-04 03:39:36,495 - 
+
+2024-05-04 03:39:36,497 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:40:36,678 - Epoch: [265][   55/   55]    Overall Loss 0.000486    Objective Loss 0.000486    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.094027    
+2024-05-04 03:40:36,921 - 
+
+2024-05-04 03:40:36,922 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:41:35,318 - Epoch: [266][   55/   55]    Overall Loss 0.000498    Objective Loss 0.000498    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.061568    
+2024-05-04 03:41:35,533 - 
+
+2024-05-04 03:41:35,534 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:42:39,200 - Epoch: [267][   55/   55]    Overall Loss 0.000519    Objective Loss 0.000519    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.157381    
+2024-05-04 03:42:39,466 - 
+
+2024-05-04 03:42:39,467 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:43:41,800 - Epoch: [268][   55/   55]    Overall Loss 0.000467    Objective Loss 0.000467    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.133143    
+2024-05-04 03:43:42,024 - 
+
+2024-05-04 03:43:42,025 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:44:40,415 - Epoch: [269][   55/   55]    Overall Loss 0.000489    Objective Loss 0.000489    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.061458    
+2024-05-04 03:44:40,716 - 
+
+2024-05-04 03:44:40,716 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:45:43,927 - Epoch: [270][   55/   55]    Overall Loss 0.000542    Objective Loss 0.000542    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.149141    
+2024-05-04 03:45:44,129 - --- validate (epoch=270)-----------
+2024-05-04 03:45:44,130 - 1736 samples (128 per mini-batch)
+2024-05-04 03:46:01,491 - Epoch: [270][   14/   14]    Loss 5.110902    Top1 53.859447    Top5 71.543779    
+2024-05-04 03:46:01,741 - ==> Top1: 53.859    Top5: 71.544    Loss: 5.111
+
+2024-05-04 03:46:01,755 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 03:46:01,755 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 03:46:01,856 - 
+
+2024-05-04 03:46:01,857 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:47:01,284 - Epoch: [271][   55/   55]    Overall Loss 0.000566    Objective Loss 0.000566    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.080268    
+2024-05-04 03:47:01,549 - 
+
+2024-05-04 03:47:01,550 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:48:03,062 - Epoch: [272][   55/   55]    Overall Loss 0.000555    Objective Loss 0.000555    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.118208    
+2024-05-04 03:48:03,612 - 
+
+2024-05-04 03:48:03,613 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:49:08,731 - Epoch: [273][   55/   55]    Overall Loss 0.000494    Objective Loss 0.000494    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.183774    
+2024-05-04 03:49:09,541 - 
+
+2024-05-04 03:49:09,542 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:50:09,848 - Epoch: [274][   55/   55]    Overall Loss 0.000486    Objective Loss 0.000486    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.096294    
+2024-05-04 03:50:10,241 - 
+
+2024-05-04 03:50:10,242 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:51:09,083 - Epoch: [275][   55/   55]    Overall Loss 0.000469    Objective Loss 0.000469    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.069666    
+2024-05-04 03:51:09,649 - 
+
+2024-05-04 03:51:09,650 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:52:12,329 - Epoch: [276][   55/   55]    Overall Loss 0.000475    Objective Loss 0.000475    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.139389    
+2024-05-04 03:52:12,647 - 
+
+2024-05-04 03:52:12,648 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:53:11,333 - Epoch: [277][   55/   55]    Overall Loss 0.000452    Objective Loss 0.000452    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.066840    
+2024-05-04 03:53:11,754 - 
+
+2024-05-04 03:53:11,756 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:54:07,386 - Epoch: [278][   55/   55]    Overall Loss 0.000480    Objective Loss 0.000480    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 1.011237    
+2024-05-04 03:54:07,585 - 
+
+2024-05-04 03:54:07,586 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:55:06,313 - Epoch: [279][   55/   55]    Overall Loss 0.000464    Objective Loss 0.000464    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.067576    
+2024-05-04 03:55:06,522 - 
+
+2024-05-04 03:55:06,523 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:56:08,003 - Epoch: [280][   55/   55]    Overall Loss 0.000471    Objective Loss 0.000471    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.117605    
+2024-05-04 03:56:08,180 - --- validate (epoch=280)-----------
+2024-05-04 03:56:08,181 - 1736 samples (128 per mini-batch)
+2024-05-04 03:56:27,475 - Epoch: [280][   14/   14]    Loss 5.064168    Top1 53.283410    Top5 71.774194    
+2024-05-04 03:56:28,194 - ==> Top1: 53.283    Top5: 71.774    Loss: 5.064
+
+2024-05-04 03:56:28,210 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 03:56:28,210 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 03:56:28,312 - 
+
+2024-05-04 03:56:28,313 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:57:33,408 - Epoch: [281][   55/   55]    Overall Loss 0.000511    Objective Loss 0.000511    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.183349    
+2024-05-04 03:57:33,592 - 
+
+2024-05-04 03:57:33,593 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:58:30,338 - Epoch: [282][   55/   55]    Overall Loss 0.000456    Objective Loss 0.000456    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.031532    
+2024-05-04 03:58:31,259 - 
+
+2024-05-04 03:58:31,260 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 03:59:33,619 - Epoch: [283][   55/   55]    Overall Loss 0.000447    Objective Loss 0.000447    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.133502    
+2024-05-04 03:59:34,233 - 
+
+2024-05-04 03:59:34,235 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:00:32,490 - Epoch: [284][   55/   55]    Overall Loss 0.000422    Objective Loss 0.000422    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.058970    
+2024-05-04 04:00:32,929 - 
+
+2024-05-04 04:00:32,930 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:01:30,433 - Epoch: [285][   55/   55]    Overall Loss 0.000475    Objective Loss 0.000475    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.045303    
+2024-05-04 04:01:30,694 - 
+
+2024-05-04 04:01:30,695 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:02:20,911 - Epoch: [286][   55/   55]    Overall Loss 0.000453    Objective Loss 0.000453    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.912834    
+2024-05-04 04:02:21,492 - 
+
+2024-05-04 04:02:21,494 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:03:10,601 - Epoch: [287][   55/   55]    Overall Loss 0.000493    Objective Loss 0.000493    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.892646    
+2024-05-04 04:03:11,222 - 
+
+2024-05-04 04:03:11,223 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:04:04,003 - Epoch: [288][   55/   55]    Overall Loss 0.000485    Objective Loss 0.000485    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.959433    
+2024-05-04 04:04:04,439 - 
+
+2024-05-04 04:04:04,440 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:04:55,848 - Epoch: [289][   55/   55]    Overall Loss 0.000483    Objective Loss 0.000483    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 0.934516    
+2024-05-04 04:04:56,464 - 
+
+2024-05-04 04:04:56,465 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:05:53,857 - Epoch: [290][   55/   55]    Overall Loss 0.000449    Objective Loss 0.000449    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.043306    
+2024-05-04 04:05:54,634 - --- validate (epoch=290)-----------
+2024-05-04 04:05:54,635 - 1736 samples (128 per mini-batch)
+2024-05-04 04:06:10,278 - Epoch: [290][   14/   14]    Loss 5.017949    Top1 53.744240    Top5 71.370968    
+2024-05-04 04:06:10,514 - ==> Top1: 53.744    Top5: 71.371    Loss: 5.018
+
+2024-05-04 04:06:10,527 - ==> Best [Top1: 54.493   Top5: 71.486   Sparsity:0.00   Params: 1346160 on epoch: 200]
+2024-05-04 04:06:10,528 - Saving checkpoint to: logs/2024.05.03-230957/qat_checkpoint.pth.tar
+2024-05-04 04:06:10,628 - 
+
+2024-05-04 04:06:10,628 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:07:00,880 - Epoch: [291][   55/   55]    Overall Loss 0.000482    Objective Loss 0.000482    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.913508    
+2024-05-04 04:07:01,236 - 
+
+2024-05-04 04:07:01,236 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:07:55,999 - Epoch: [292][   55/   55]    Overall Loss 0.000417    Objective Loss 0.000417    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.995519    
+2024-05-04 04:07:56,234 - 
+
+2024-05-04 04:07:56,236 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:08:45,789 - Epoch: [293][   55/   55]    Overall Loss 0.000916    Objective Loss 0.000916    Top1 99.363057    Top5 100.000000    LR 0.001298    Time 0.900805    
+2024-05-04 04:08:45,976 - 
+
+2024-05-04 04:08:45,977 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:09:43,178 - Epoch: [294][   55/   55]    Overall Loss 0.000473    Objective Loss 0.000473    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 1.039837    
+2024-05-04 04:09:43,351 - 
+
+2024-05-04 04:09:43,352 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:10:29,792 - Epoch: [295][   55/   55]    Overall Loss 0.000463    Objective Loss 0.000463    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.844230    
+2024-05-04 04:10:30,064 - 
+
+2024-05-04 04:10:30,065 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:11:20,738 - Epoch: [296][   55/   55]    Overall Loss 0.000462    Objective Loss 0.000462    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.921152    
+2024-05-04 04:11:21,057 - 
+
+2024-05-04 04:11:21,058 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:12:10,201 - Epoch: [297][   55/   55]    Overall Loss 0.000452    Objective Loss 0.000452    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.893299    
+2024-05-04 04:12:10,732 - 
+
+2024-05-04 04:12:10,732 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:12:59,388 - Epoch: [298][   55/   55]    Overall Loss 0.000439    Objective Loss 0.000439    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.884470    
+2024-05-04 04:12:59,842 - 
+
+2024-05-04 04:12:59,843 - Training epoch: 6941 samples (128 per mini-batch)
+2024-05-04 04:13:43,120 - Epoch: [299][   55/   55]    Overall Loss 0.000486    Objective Loss 0.000486    Top1 100.000000    Top5 100.000000    LR 0.001298    Time 0.786682    
+2024-05-04 04:13:43,413 - --- test ---------------------
+2024-05-04 04:13:43,414 - 1736 samples (128 per mini-batch)
+2024-05-04 04:13:55,375 - Test: [   14/   14]    Loss 4.977945    Top1 53.110599    Top5 71.543779    
+2024-05-04 04:13:55,503 - ==> Top1: 53.111    Top5: 71.544    Loss: 4.978
+
+2024-05-04 04:13:55,517 - 
+2024-05-04 04:13:55,518 - Log file for this run: /home/taesik/git/ai8x-training/logs/2024.05.03-230957/2024.05.03-230957.log

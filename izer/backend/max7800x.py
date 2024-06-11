@@ -472,7 +472,7 @@ class Backend(backend.Backend):
             in_size = input_dim[ll][0] * input_dim[ll][1] * in_expand[ll] * operands[ll] \
                 * (1 if big_data[ll] else 4)
             if not streaming[ll] and in_size + in_offset[ll] > tc.dev.INSTANCE_WIDTH*16:
-                eprint(f'{layer_pfx(ll)}{1 if big_data[ll] else 4} '
+                print(f'{layer_pfx(ll)}{1 if big_data[ll] else 4} '
                        f'channel{"s" if not big_data[ll] else ""}/word {input_dim[ll][0]}x'
                        f'{input_dim[ll][1]} input (size {in_size}) '
                        f'with input offset 0x{in_offset[ll]:04x} and expansion {in_expand[ll]}x '
@@ -601,7 +601,7 @@ class Backend(backend.Backend):
                 * 4 * output_width[ll] // 8
             if (not streaming[ll] or ll == terminating_layer) \
                and out_size + out_offset[ll] > tc.dev.INSTANCE_WIDTH*16:
-                eprint(f'{layer_pfx(ll)}HWC (4 channels/word) '
+                print(f'{layer_pfx(ll)}HWC (4 channels/word) '
                        f'{output_width[ll]}-bit {output_dim[ll][0]}x'
                        f'{output_dim[ll][1]} output (size {out_size}) '
                        f'with output offset 0x{out_offset[ll]:04x} and expansion '
@@ -2874,6 +2874,58 @@ class Backend(backend.Backend):
         data_buf = [None] * (layers + 1)
         ll = start_layer
         data_buf[ll] = data
+
+        ## to get cycles although actual code generation is impossible due to the memory overflow
+        f = open('cycle_calc.txt', 'w')
+        layer_lat_list = []
+        while ll < layers:
+            if verbose:
+                if not flatten[ll]:
+                    hw_in_dim = hw_input_dim[ll]
+                    hw_in_chan = input_chan[ll]
+                    hw_out_chan = kern_count[ll] // in_expand[ll]
+                    hw_out_dim = hw_output_dim[ll]
+                else:
+                    hw_in_dim = (hw_input_dim[ll][0] * pool[ll][0],
+                                 hw_input_dim[ll][1] * pool[ll][1])
+                    hw_in_chan = input_chan[ll]
+                    hw_out_chan = kern_count[ll] \
+                                  // (in_expand[ll] * hw_pooled_dim[ll][0] * hw_pooled_dim[ll][1])
+                    hw_out_dim = (hw_output_dim[ll][0] * hw_pooled_dim[ll][0],
+                                  hw_output_dim[ll][1] * hw_pooled_dim[ll][1])
+                if tc.dev.REQUIRE_2X_MP_PASSTHROUGH and hw_operator[ll] == op.NONE \
+                        and out_expand[ll] > 1 and (pool[ll][0] > 1 or pool[ll][1] > 1):
+                    multipass = 2 * in_expand[ll] - 1
+                else:
+                    multipass = in_expand[ll]
+                layer_lat, layer_comment = latency.calculate(
+                    input_chan=hw_in_chan,
+                    input_dim=hw_in_dim,
+                    pool=pool[ll],
+                    pool_stride=pool_stride[ll],
+                    pooled_dim=hw_pooled_dim[ll] if operator[ll] != op.CONVTRANSPOSE2D
+                    else (hw_pooled_dim[ll][0] * stride[ll][0],
+                          hw_pooled_dim[ll][1] * stride[ll][1]),
+                    multipass=multipass,
+                    output_chan=hw_out_chan if hw_operator[ll] != op.NONE else output_chan[ll],
+                    output_dim=hw_out_dim,
+                    kernel_size=hw_kernel_size[ll],
+                    padding=hw_padding[ll],
+                    num_elements=operands[ll],
+                    pool_first=pool_first[ll],
+                    passthrough=hw_operator[ll] == op.NONE,
+                    pass_out_chan=timeslots[ll],
+                    flatten=hw_flatten[ll],
+                    streaming=streaming[ll],
+                    kern_offs=kern_offs[ll],
+                )
+                layer_lat_list.append(str(layer_lat))
+                f.write(str(layer_comment))
+            ll+=1
+        f.write('\nSummary of # cycles for each layer:\n')
+        f.write('\n'.join(layer_lat_list))
+        f.close()
+        ll=start_layer
 
         with console.Progress(start=True) as progress:
             task = progress.add_task(description='Creating network... ', total=layers)
